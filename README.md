@@ -11,6 +11,7 @@
 ## 목차
 
 - [개요 (Overview)](#개요-overview)
+- [RED 단계에서 해야 할 일](#red-단계에서-해야-할-일)
 - [빠른 시작 (Quick Start)](#빠른-시작-quick-start)
 - [지원 단위 및 비율](#지원-단위-및-비율)
 - [입력 형식 계약](#입력-형식-계약)
@@ -44,6 +45,108 @@
 ### PRD와의 연결
 
 요구·인수·회귀 규칙의 **단일 정본**은 [docs/PRD.md](docs/PRD.md) v1.0 입니다. 작업 우선순위·마일스톤은 [docs/TODO.md](docs/TODO.md) 를 따릅니다. 레거시 실습 요구 초안은 [docs/requirment.md](docs/requirment.md) 에 있습니다.
+
+---
+
+## RED 단계에서 해야 할 일
+
+RED 단계의 목표는 기능을 먼저 완성하는 것이 아니라, **README·PRD의 요구사항을 실패하는 테스트로 고정**하는 것입니다. 이 단계가 끝났을 때 테스트는 실패해야 하며, 실패 이유가 “아직 구현되지 않은 요구 계약”을 정확히 가리켜야 합니다.
+
+### 1. README와 PRD 계약 정합성 확인
+
+- `meter`, `feet`, `yard` 기본 단위와 비율을 하나의 의미로 고정합니다.
+- `1 meter = 3.28084 feet`, `1 meter = 1.09361 yard` 기준으로 테스트 기대값을 작성합니다.
+- 출력 표시값은 **HALF_UP 소수 4자리**, Domain 내부 비교는 **ε = 1e-9**로 분리합니다.
+- README 예시, [docs/PRD.md](docs/PRD.md), [docs/TODO.md](docs/TODO.md)의 수치·에러 문구가 서로 다르면 RED 전에 먼저 정리합니다.
+
+### 2. 테스트 실행 골격 만들기
+
+아직 GREEN 구현을 시작하지 말고, 먼저 테스트가 실행될 수 있는 최소 구조를 만듭니다.
+
+- `CMakeLists.txt` 추가
+- 실행 타깃 `UnitConverter`와 테스트 타깃 분리
+- Catch2 기반 테스트 디렉터리 추가
+- `ctest --test-dir build --output-on-failure`로 실패 테스트를 볼 수 있게 구성
+
+권장 테스트 파일:
+
+```text
+tests/
+  domain_tests.cpp
+  boundary_tests.cpp
+  integration_tests.cpp
+```
+
+### 3. Domain 실패 테스트 작성
+
+Domain 테스트는 콘솔 입출력 없이 순수 계산 규칙만 검증합니다.
+
+- 기본 Registry에 `meter`, `feet`, `yard`가 등록되어야 함
+- `1 meter`는 `3.28084 feet`, `1.09361 yard`로 환산되어야 함
+- `feet`↔`yard` 환산은 직접 비율이 아니라 **meter 허브**를 경유해야 함
+- `ConvertAll` 결과 개수는 Registry에 등록된 단위 수와 같아야 함
+- `0`, 음수, NaN, Inf 값은 거부되어야 함
+- 새 단위가 추가되어도 변환 핵심 알고리즘을 수정하지 않는 구조를 전제로 테스트를 작성함
+
+예상 태그:
+
+```text
+[ratio] [domain] [registry] [quantity]
+```
+
+### 4. Boundary 실패 테스트 작성
+
+Boundary 테스트는 파싱, 출력 포맷, 에러 문구처럼 외부 계약을 고정합니다.
+
+- `meter:2.5` 파싱 성공
+- `meter2.5` → `ERR-INPUT-001`
+- `mile:1` → `ERR-INPUT-002`
+- `meter:-1` → `ERR-INPUT-003`
+- `meter:abc` → `ERR-INPUT-004`
+- `1meter:2.5` 또는 빈 단위명 → `ERR-INPUT-005`
+- 실패 시 stdout 변환 결과 0줄, stderr prefix 고정, exit 1
+- 성공 시 stderr 비어 있음, exit 0
+
+예상 태그:
+
+```text
+[parse] [boundary] [error-contract] [table]
+```
+
+### 5. 통합 실패 테스트 작성
+
+통합 테스트는 사용자가 실제로 기대하는 CLI 동작을 고정합니다.
+
+- 입력 `meter:2.5`
+- exit code `0`
+- stderr 비어 있음
+- table 출력 3줄
+- 기대 출력:
+
+```text
+2.5 meter = 2.5000 meter
+2.5 meter = 8.2021 feet
+2.5 meter = 2.7340 yard
+```
+
+실패 경로:
+
+```text
+meter2.5 -> Invalid format. Use unit:value (ex: meter:2.5), exit 1
+mile:1   -> Unknown unit: mile, exit 1
+```
+
+### 6. RED 완료 기준
+
+RED 단계는 아래 조건을 만족하면 완료입니다.
+
+- README/PRD/TODO의 핵심 계약이 서로 충돌하지 않음
+- CMake와 Catch2 테스트 실행 골격이 있음
+- Domain, Boundary, Integration 테스트가 작성되어 있음
+- 테스트 실행 결과가 **실패(RED)** 하며, 실패 이유가 미구현 기능 때문임
+- 이 단계에서는 기존 [UnitConverter.cpp](UnitConverter.cpp)를 무리하게 고치지 않음
+
+> RED의 산출물은 “동작하는 기능”이 아니라 “구현해야 할 계약을 정확히 설명하는 실패 테스트”입니다.
 
 ---
 
