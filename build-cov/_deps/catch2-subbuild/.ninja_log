@@ -1,0 +1,21 @@
+# ninja log v7
+3	206	8010438970629295	catch2-populate-prefix/src/catch2-populate-stamp/catch2-populate-mkdir	fc5d1d28a8dc6e35
+3	206	8010438970629295	C:/DEV/UnitConverter_08/build-cov/_deps/catch2-subbuild/catch2-populate-prefix/src/catch2-populate-stamp/catch2-populate-mkdir	fc5d1d28a8dc6e35
+207	14124	8010439109800549	catch2-populate-prefix/src/catch2-populate-stamp/catch2-populate-download	65f9581bfab3f0cc
+207	14124	8010439109800549	C:/DEV/UnitConverter_08/build-cov/_deps/catch2-subbuild/catch2-populate-prefix/src/catch2-populate-stamp/catch2-populate-download	65f9581bfab3f0cc
+14124	17549	8010439109935902	catch2-populate-prefix/src/catch2-populate-stamp/catch2-populate-update	cb4045fd7329c31d
+14124	17549	8010439109935902	C:/DEV/UnitConverter_08/build-cov/_deps/catch2-subbuild/catch2-populate-prefix/src/catch2-populate-stamp/catch2-populate-update	cb4045fd7329c31d
+17551	17742	8010439146000268	catch2-populate-prefix/src/catch2-populate-stamp/catch2-populate-patch	25de01507aa3c970
+17551	17742	8010439146000268	C:/DEV/UnitConverter_08/build-cov/_deps/catch2-subbuild/catch2-populate-prefix/src/catch2-populate-stamp/catch2-populate-patch	25de01507aa3c970
+17743	17928	8010439147859879	catch2-populate-prefix/src/catch2-populate-stamp/catch2-populate-configure	6468aca05a1e431c
+17743	17928	8010439147859879	C:/DEV/UnitConverter_08/build-cov/_deps/catch2-subbuild/catch2-populate-prefix/src/catch2-populate-stamp/catch2-populate-configure	6468aca05a1e431c
+17928	18114	8010439149713389	catch2-populate-prefix/src/catch2-populate-stamp/catch2-populate-build	41a6a1fa6b4f9942
+17928	18114	8010439149713389	C:/DEV/UnitConverter_08/build-cov/_deps/catch2-subbuild/catch2-populate-prefix/src/catch2-populate-stamp/catch2-populate-build	41a6a1fa6b4f9942
+18114	18298	8010439151549151	catch2-populate-prefix/src/catch2-populate-stamp/catch2-populate-install	991528ea228a4aff
+18114	18298	8010439151549151	C:/DEV/UnitConverter_08/build-cov/_deps/catch2-subbuild/catch2-populate-prefix/src/catch2-populate-stamp/catch2-populate-install	991528ea228a4aff
+18298	18478	8010439153359501	catch2-populate-prefix/src/catch2-populate-stamp/catch2-populate-test	374814766c894a6e
+18298	18478	8010439153359501	C:/DEV/UnitConverter_08/build-cov/_deps/catch2-subbuild/catch2-populate-prefix/src/catch2-populate-stamp/catch2-populate-test	374814766c894a6e
+18479	18707	8010439155631636	CMakeFiles/catch2-populate-complete	3015df2aad155cde
+18479	18707	8010439155631636	catch2-populate-prefix/src/catch2-populate-stamp/catch2-populate-done	3015df2aad155cde
+18479	18707	8010439155631636	C:/DEV/UnitConverter_08/build-cov/_deps/catch2-subbuild/CMakeFiles/catch2-populate-complete	3015df2aad155cde
+18479	18707	8010439155631636	C:/DEV/UnitConverter_08/build-cov/_deps/catch2-subbuild/catch2-populate-prefix/src/catch2-populate-stamp/catch2-populate-done	3015df2aad155cde

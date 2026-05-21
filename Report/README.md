@@ -14,5 +14,6 @@
 | [07_REFECTORING_Golden_Master_Test_Code_Report.md](07_REFECTORING_Golden_Master_Test_Code_Report.md) | Golden Master 구현·산출물·GM-TC-01~04 실행 결과 (RPT-GM-002) |
 | [08_REFACTORING_README_Checklist_Report.md](08_REFACTORING_README_Checklist_Report.md) | README GM-01~09 체크리스트·진행·갭 분석 (RPT-GM-003) |
 | [09_REFACTORING_OutputFormatter_DualTrack_Report.md](09_REFACTORING_OutputFormatter_DualTrack_Report.md) | Dual-Track REFACTOR R-U3 OutputFormatter 추출·52/52 GREEN (RPT-REF-001) |
-| `coverage_baseline/` | (생성 예정) UnitConverter.cpp lcov HTML |
-| `coverage_v1/` | (생성 예정) Domain·Boundary lcov HTML |
+| [10_REFACTORING_Final_Verification_Report.md](10_REFACTORING_Final_Verification_Report.md) | 리팩토링 최종 검증·52/52 PASS·lcov Domain 95%/Boundary 94% (RPT-VERIFY-001) |
+| `coverage_baseline/` | (생성 예정) UnitConverter.cpp lcov HTML — `build-cov/coverage_unitconverter.info` 참고 |
+| `coverage_v1/` | (생성 예정) Domain·Boundary lcov HTML — `build-cov/coverage_domain.info`, `coverage_boundary.info` 참고 |

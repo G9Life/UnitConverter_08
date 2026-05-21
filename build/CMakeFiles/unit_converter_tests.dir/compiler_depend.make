@@ -44,6 +44,7 @@ CMakeFiles/unit_converter_tests.dir/tests/boundary_tests.cpp.obj: C:/DEV/UnitCon
   _deps/catch2-src/src/catch2/internal/catch_unique_ptr.hpp \
   _deps/catch2-src/src/catch2/internal/catch_void_type.hpp \
   C:/DEV/UnitConverter_08/include/boundary/InputParser.hpp \
+  C:/DEV/UnitConverter_08/include/boundary/OutputFormatter.hpp \
   C:/DEV/UnitConverter_08/include/domain/Converter.hpp \
   C:/DEV/UnitConverter_08/include/domain/UnitRegistry.hpp \
   C:/mingw64/include/c++/15.2.0/backward/binders.h \
@@ -933,6 +934,8 @@ C:/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/basic_file.h:
 
 C:/mingw64/include/c++/15.2.0/fstream:
 
+C:/mingw64/include/c++/15.2.0/tr1/special_function_util.h:
+
 C:/mingw64/include/c++/15.2.0/cwchar:
 
 C:/mingw64/include/c++/15.2.0/stdlib.h:
@@ -1211,6 +1214,8 @@ C:/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/ctype_inline.h:
 
 _deps/catch2-src/src/catch2/internal/catch_unique_ptr.hpp:
 
+C:/DEV/UnitConverter_08/include/boundary/OutputFormatter.hpp:
+
 C:/mingw64/include/c++/15.2.0/bits/uses_allocator.h:
 
 C:/mingw64/include/c++/15.2.0/bits/concept_check.h:
@@ -1450,5 +1455,3 @@ C:/mingw64/include/c++/15.2.0/tr1/exp_integral.tcc:
 C:/mingw64/include/c++/15.2.0/tr1/gamma.tcc:
 
 C:/mingw64/include/c++/15.2.0/tr1/riemann_zeta.tcc:
-
-C:/mingw64/include/c++/15.2.0/tr1/special_function_util.h:

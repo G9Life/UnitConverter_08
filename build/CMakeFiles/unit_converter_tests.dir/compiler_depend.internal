@@ -45,6 +45,7 @@ CMakeFiles/unit_converter_tests.dir/tests/boundary_tests.cpp.obj
  C:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/internal/catch_unique_ptr.hpp
  C:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/internal/catch_void_type.hpp
  C:/DEV/UnitConverter_08/include/boundary/InputParser.hpp
+ C:/DEV/UnitConverter_08/include/boundary/OutputFormatter.hpp
  C:/DEV/UnitConverter_08/include/domain/Converter.hpp
  C:/DEV/UnitConverter_08/include/domain/UnitRegistry.hpp
  C:/mingw64/include/c++/15.2.0/backward/binders.h
