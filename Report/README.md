@@ -15,5 +15,7 @@
 | [08_REFACTORING_README_Checklist_Report.md](08_REFACTORING_README_Checklist_Report.md) | README GM-01~09 체크리스트·진행·갭 분석 (RPT-GM-003) |
 | [09_REFACTORING_OutputFormatter_DualTrack_Report.md](09_REFACTORING_OutputFormatter_DualTrack_Report.md) | Dual-Track REFACTOR R-U3 OutputFormatter 추출·52/52 GREEN (RPT-REF-001) |
 | [10_REFACTORING_Final_Verification_Report.md](10_REFACTORING_Final_Verification_Report.md) | 리팩토링 최종 검증·52/52 PASS·lcov Domain 95%/Boundary 94% (RPT-VERIFY-001) |
+| [11_Coverage_Inspection_Report.md](11_Coverage_Inspection_Report.md) | gcov/lcov 점검·Invariant 분기·미커버 테스트 제안 (RPT-COV-001) |
+| [2605211_UnitConverter_C++_Phase6_Report.md](2605211_UnitConverter_C++_Phase6_Report.md) | Phase 6 종합 (RED·GREEN·REFACTOR·커버리지·AI 회고) (RPT-PHASE6-001) |
 | `coverage_baseline/` | (생성 예정) UnitConverter.cpp lcov HTML — `build-cov/coverage_unitconverter.info` 참고 |
 | `coverage_v1/` | (생성 예정) Domain·Boundary lcov HTML — `build-cov/coverage_domain.info`, `coverage_boundary.info` 참고 |
