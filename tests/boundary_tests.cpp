@@ -4,6 +4,7 @@
 #include <string>
 
 #include "boundary/InputParser.hpp"
+#include "boundary/OutputFormatter.hpp"
 #include "domain/Converter.hpp"
 #include "domain/UnitRegistry.hpp"
 
@@ -18,6 +19,25 @@ void requireErrPrefix(const std::exception& ex, const std::string& prefix) {
 }
 
 }  // namespace
+
+// =============================================================================
+// 출력 포맷 (Boundary — R-U3)
+// =============================================================================
+
+TEST_CASE("test_output_round_half_up_4_meter_to_feet", "[format][boundary][red]") {
+    // Given: raw conversion 2.5 meter → 8.202100 feet (before display round)
+    // When: roundHalfUp4
+    // Then: 8.2021 (4 decimal HALF_UP, matches Golden Master)
+    REQUIRE(nearlyEqual(roundHalfUp4(8.202100), 8.2021, 1e-9));
+}
+
+TEST_CASE("test_output_format_conversion_line_meter_to_feet", "[format][boundary][red]") {
+    // Given: source 2.5 meter, converted 8.202100 feet
+    // When: formatConversionLine
+    // Then: "2.5000 meter = 8.2021 feet"
+    const std::string line = formatConversionLine(2.5, "meter", 8.202100, "feet");
+    REQUIRE(line == "2.5000 meter = 8.2021 feet");
+}
 
 // =============================================================================
 // 정상 파싱·변환 연계 (5+) — 1 meter = 3.28084 feet

@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/DEV/UnitConverter_08/build-cov/_deps/catch2-subbuild/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

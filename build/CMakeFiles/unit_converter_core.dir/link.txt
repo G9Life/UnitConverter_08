@@ -1,0 +1,2 @@
+C:\mingw64\bin\ar.exe qc libunit_converter_core.a CMakeFiles/unit_converter_core.dir/src/domain/UnitRegistry.cpp.obj CMakeFiles/unit_converter_core.dir/src/domain/Converter.cpp.obj CMakeFiles/unit_converter_core.dir/src/boundary/InputParser.cpp.obj CMakeFiles/unit_converter_core.dir/src/boundary/OutputFormatter.cpp.obj CMakeFiles/unit_converter_core.dir/src/data/ConfigLoader.cpp.obj
+C:\mingw64\bin\ranlib.exe libunit_converter_core.a
