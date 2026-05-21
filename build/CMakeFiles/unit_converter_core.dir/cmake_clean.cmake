@@ -1,6 +1,14 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/unit_converter_core.dir/tests/red_phase_stubs.cpp.obj"
-  "CMakeFiles/unit_converter_core.dir/tests/red_phase_stubs.cpp.obj.d"
+  "CMakeFiles/unit_converter_core.dir/src/boundary/InputParser.cpp.obj"
+  "CMakeFiles/unit_converter_core.dir/src/boundary/InputParser.cpp.obj.d"
+  "CMakeFiles/unit_converter_core.dir/src/boundary/OutputFormatter.cpp.obj"
+  "CMakeFiles/unit_converter_core.dir/src/boundary/OutputFormatter.cpp.obj.d"
+  "CMakeFiles/unit_converter_core.dir/src/data/ConfigLoader.cpp.obj"
+  "CMakeFiles/unit_converter_core.dir/src/data/ConfigLoader.cpp.obj.d"
+  "CMakeFiles/unit_converter_core.dir/src/domain/Converter.cpp.obj"
+  "CMakeFiles/unit_converter_core.dir/src/domain/Converter.cpp.obj.d"
+  "CMakeFiles/unit_converter_core.dir/src/domain/UnitRegistry.cpp.obj"
+  "CMakeFiles/unit_converter_core.dir/src/domain/UnitRegistry.cpp.obj.d"
   "libunit_converter_core.a"
   "libunit_converter_core.pdb"
 )

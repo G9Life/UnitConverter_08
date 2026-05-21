@@ -24,6 +24,7 @@ else()
         src/domain/UnitRegistry.cpp
         src/domain/Converter.cpp
         src/boundary/InputParser.cpp
+        src/boundary/OutputFormatter.cpp
         src/data/ConfigLoader.cpp
     )
 endif()

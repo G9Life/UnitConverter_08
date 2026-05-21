@@ -8,7 +8,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/DEV/UnitConverter_08/tests/red_phase_stubs.cpp" "CMakeFiles/unit_converter_core.dir/tests/red_phase_stubs.cpp.obj" "gcc" "CMakeFiles/unit_converter_core.dir/tests/red_phase_stubs.cpp.obj.d"
+  "C:/DEV/UnitConverter_08/src/boundary/InputParser.cpp" "CMakeFiles/unit_converter_core.dir/src/boundary/InputParser.cpp.obj" "gcc" "CMakeFiles/unit_converter_core.dir/src/boundary/InputParser.cpp.obj.d"
+  "C:/DEV/UnitConverter_08/src/boundary/OutputFormatter.cpp" "CMakeFiles/unit_converter_core.dir/src/boundary/OutputFormatter.cpp.obj" "gcc" "CMakeFiles/unit_converter_core.dir/src/boundary/OutputFormatter.cpp.obj.d"
+  "C:/DEV/UnitConverter_08/src/data/ConfigLoader.cpp" "CMakeFiles/unit_converter_core.dir/src/data/ConfigLoader.cpp.obj" "gcc" "CMakeFiles/unit_converter_core.dir/src/data/ConfigLoader.cpp.obj.d"
+  "C:/DEV/UnitConverter_08/src/domain/Converter.cpp" "CMakeFiles/unit_converter_core.dir/src/domain/Converter.cpp.obj" "gcc" "CMakeFiles/unit_converter_core.dir/src/domain/Converter.cpp.obj.d"
+  "C:/DEV/UnitConverter_08/src/domain/UnitRegistry.cpp" "CMakeFiles/unit_converter_core.dir/src/domain/UnitRegistry.cpp.obj" "gcc" "CMakeFiles/unit_converter_core.dir/src/domain/UnitRegistry.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

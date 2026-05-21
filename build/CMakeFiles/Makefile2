@@ -162,12 +162,12 @@ _deps/catch2-build/src/clean: _deps/catch2-build/src/CMakeFiles/Catch2WithMain.d
 CMakeFiles/unit_converter_core.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\unit_converter_core.dir\build.make CMakeFiles/unit_converter_core.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\unit_converter_core.dir\build.make CMakeFiles/unit_converter_core.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\DEV\UnitConverter_08\build\CMakeFiles --progress-num=95,96 "Built target unit_converter_core"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\DEV\UnitConverter_08\build\CMakeFiles --progress-num=91,92,93,94,95 "Built target unit_converter_core"
 .PHONY : CMakeFiles/unit_converter_core.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/unit_converter_core.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\DEV\UnitConverter_08\build\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\DEV\UnitConverter_08\build\CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/unit_converter_core.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\DEV\UnitConverter_08\build\CMakeFiles 0
 .PHONY : CMakeFiles/unit_converter_core.dir/rule
@@ -179,7 +179,7 @@ unit_converter_core: CMakeFiles/unit_converter_core.dir/rule
 # codegen rule for target.
 CMakeFiles/unit_converter_core.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\unit_converter_core.dir\build.make CMakeFiles/unit_converter_core.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\DEV\UnitConverter_08\build\CMakeFiles --progress-num=95,96 "Finished codegen for target unit_converter_core"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\DEV\UnitConverter_08\build\CMakeFiles --progress-num=91,92,93,94,95 "Finished codegen for target unit_converter_core"
 .PHONY : CMakeFiles/unit_converter_core.dir/codegen
 
 # clean rule for target.
@@ -194,12 +194,12 @@ CMakeFiles/unit_converter_core.dir/clean:
 CMakeFiles/UnitConverter.dir/all: CMakeFiles/unit_converter_core.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\UnitConverter.dir\build.make CMakeFiles/UnitConverter.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\UnitConverter.dir\build.make CMakeFiles/UnitConverter.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\DEV\UnitConverter_08\build\CMakeFiles --progress-num=94 "Built target UnitConverter"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\DEV\UnitConverter_08\build\CMakeFiles --progress-num=90 "Built target UnitConverter"
 .PHONY : CMakeFiles/UnitConverter.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/UnitConverter.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\DEV\UnitConverter_08\build\CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\DEV\UnitConverter_08\build\CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/UnitConverter.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\DEV\UnitConverter_08\build\CMakeFiles 0
 .PHONY : CMakeFiles/UnitConverter.dir/rule
@@ -211,7 +211,7 @@ UnitConverter: CMakeFiles/UnitConverter.dir/rule
 # codegen rule for target.
 CMakeFiles/UnitConverter.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\UnitConverter.dir\build.make CMakeFiles/UnitConverter.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\DEV\UnitConverter_08\build\CMakeFiles --progress-num=94 "Finished codegen for target UnitConverter"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\DEV\UnitConverter_08\build\CMakeFiles --progress-num=90 "Finished codegen for target UnitConverter"
 .PHONY : CMakeFiles/UnitConverter.dir/codegen
 
 # clean rule for target.
@@ -224,11 +224,11 @@ CMakeFiles/UnitConverter.dir/clean:
 
 # All Build rule for target.
 CMakeFiles/unit_converter_tests.dir/all: CMakeFiles/unit_converter_core.dir/all
-CMakeFiles/unit_converter_tests.dir/all: _deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/all
 CMakeFiles/unit_converter_tests.dir/all: _deps/catch2-build/src/CMakeFiles/Catch2.dir/all
+CMakeFiles/unit_converter_tests.dir/all: _deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\unit_converter_tests.dir\build.make CMakeFiles/unit_converter_tests.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\unit_converter_tests.dir\build.make CMakeFiles/unit_converter_tests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\DEV\UnitConverter_08\build\CMakeFiles --progress-num=97,98,99,100 "Built target unit_converter_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\DEV\UnitConverter_08\build\CMakeFiles --progress-num=96,97,98,99,100 "Built target unit_converter_tests"
 .PHONY : CMakeFiles/unit_converter_tests.dir/all
 
 # Build rule for subdir invocation for target.
@@ -245,7 +245,7 @@ unit_converter_tests: CMakeFiles/unit_converter_tests.dir/rule
 # codegen rule for target.
 CMakeFiles/unit_converter_tests.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\unit_converter_tests.dir\build.make CMakeFiles/unit_converter_tests.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\DEV\UnitConverter_08\build\CMakeFiles --progress-num=97,98,99,100 "Finished codegen for target unit_converter_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\DEV\UnitConverter_08\build\CMakeFiles --progress-num=96,97,98,99,100 "Finished codegen for target unit_converter_tests"
 .PHONY : CMakeFiles/unit_converter_tests.dir/codegen
 
 # clean rule for target.
@@ -1156,12 +1156,12 @@ CMakeFiles/ContinuousSubmit.dir/clean:
 _deps/catch2-build/src/CMakeFiles/Catch2.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps\catch2-build\src\CMakeFiles\Catch2.dir\build.make _deps/catch2-build/src/CMakeFiles/Catch2.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\catch2-build\src\CMakeFiles\Catch2.dir\build.make _deps/catch2-build/src/CMakeFiles/Catch2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\DEV\UnitConverter_08\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91 "Built target Catch2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\DEV\UnitConverter_08\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87 "Built target Catch2"
 .PHONY : _deps/catch2-build/src/CMakeFiles/Catch2.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/catch2-build/src/CMakeFiles/Catch2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\DEV\UnitConverter_08\build\CMakeFiles 91
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\DEV\UnitConverter_08\build\CMakeFiles 87
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/catch2-build/src/CMakeFiles/Catch2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\DEV\UnitConverter_08\build\CMakeFiles 0
 .PHONY : _deps/catch2-build/src/CMakeFiles/Catch2.dir/rule
@@ -1173,7 +1173,7 @@ Catch2: _deps/catch2-build/src/CMakeFiles/Catch2.dir/rule
 # codegen rule for target.
 _deps/catch2-build/src/CMakeFiles/Catch2.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f _deps\catch2-build\src\CMakeFiles\Catch2.dir\build.make _deps/catch2-build/src/CMakeFiles/Catch2.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\DEV\UnitConverter_08\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91 "Finished codegen for target Catch2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\DEV\UnitConverter_08\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87 "Finished codegen for target Catch2"
 .PHONY : _deps/catch2-build/src/CMakeFiles/Catch2.dir/codegen
 
 # clean rule for target.
@@ -1188,12 +1188,12 @@ _deps/catch2-build/src/CMakeFiles/Catch2.dir/clean:
 _deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/all: _deps/catch2-build/src/CMakeFiles/Catch2.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\catch2-build\src\CMakeFiles\Catch2WithMain.dir\build.make _deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\catch2-build\src\CMakeFiles\Catch2WithMain.dir\build.make _deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\DEV\UnitConverter_08\build\CMakeFiles --progress-num=92,93 "Built target Catch2WithMain"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\DEV\UnitConverter_08\build\CMakeFiles --progress-num=88,89 "Built target Catch2WithMain"
 .PHONY : _deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\DEV\UnitConverter_08\build\CMakeFiles 93
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\DEV\UnitConverter_08\build\CMakeFiles 89
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\DEV\UnitConverter_08\build\CMakeFiles 0
 .PHONY : _deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/rule
@@ -1205,7 +1205,7 @@ Catch2WithMain: _deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/rule
 # codegen rule for target.
 _deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f _deps\catch2-build\src\CMakeFiles\Catch2WithMain.dir\build.make _deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\DEV\UnitConverter_08\build\CMakeFiles --progress-num=92,93 "Finished codegen for target Catch2WithMain"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\DEV\UnitConverter_08\build\CMakeFiles --progress-num=88,89 "Finished codegen for target Catch2WithMain"
 .PHONY : _deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/codegen
 
 # clean rule for target.

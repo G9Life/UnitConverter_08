@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/DEV/UnitConverter_08/tests/boundary_tests.cpp" "CMakeFiles/unit_converter_tests.dir/tests/boundary_tests.cpp.obj" "gcc" "CMakeFiles/unit_converter_tests.dir/tests/boundary_tests.cpp.obj.d"
   "C:/DEV/UnitConverter_08/tests/data_tests.cpp" "CMakeFiles/unit_converter_tests.dir/tests/data_tests.cpp.obj" "gcc" "CMakeFiles/unit_converter_tests.dir/tests/data_tests.cpp.obj.d"
   "C:/DEV/UnitConverter_08/tests/domain_tests.cpp" "CMakeFiles/unit_converter_tests.dir/tests/domain_tests.cpp.obj" "gcc" "CMakeFiles/unit_converter_tests.dir/tests/domain_tests.cpp.obj.d"
+  "C:/DEV/UnitConverter_08/tests/test_golden_master.cpp" "CMakeFiles/unit_converter_tests.dir/tests/test_golden_master.cpp.obj" "gcc" "CMakeFiles/unit_converter_tests.dir/tests/test_golden_master.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

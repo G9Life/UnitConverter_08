@@ -578,6 +578,126 @@ src/UnitConverter.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\UnitConverter.dir\build.make CMakeFiles/UnitConverter.dir/src/UnitConverter.cpp.s
 .PHONY : src/UnitConverter.cpp.s
 
+src/boundary/InputParser.obj: src/boundary/InputParser.cpp.obj
+.PHONY : src/boundary/InputParser.obj
+
+# target to build an object file
+src/boundary/InputParser.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\unit_converter_core.dir\build.make CMakeFiles/unit_converter_core.dir/src/boundary/InputParser.cpp.obj
+.PHONY : src/boundary/InputParser.cpp.obj
+
+src/boundary/InputParser.i: src/boundary/InputParser.cpp.i
+.PHONY : src/boundary/InputParser.i
+
+# target to preprocess a source file
+src/boundary/InputParser.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\unit_converter_core.dir\build.make CMakeFiles/unit_converter_core.dir/src/boundary/InputParser.cpp.i
+.PHONY : src/boundary/InputParser.cpp.i
+
+src/boundary/InputParser.s: src/boundary/InputParser.cpp.s
+.PHONY : src/boundary/InputParser.s
+
+# target to generate assembly for a file
+src/boundary/InputParser.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\unit_converter_core.dir\build.make CMakeFiles/unit_converter_core.dir/src/boundary/InputParser.cpp.s
+.PHONY : src/boundary/InputParser.cpp.s
+
+src/boundary/OutputFormatter.obj: src/boundary/OutputFormatter.cpp.obj
+.PHONY : src/boundary/OutputFormatter.obj
+
+# target to build an object file
+src/boundary/OutputFormatter.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\unit_converter_core.dir\build.make CMakeFiles/unit_converter_core.dir/src/boundary/OutputFormatter.cpp.obj
+.PHONY : src/boundary/OutputFormatter.cpp.obj
+
+src/boundary/OutputFormatter.i: src/boundary/OutputFormatter.cpp.i
+.PHONY : src/boundary/OutputFormatter.i
+
+# target to preprocess a source file
+src/boundary/OutputFormatter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\unit_converter_core.dir\build.make CMakeFiles/unit_converter_core.dir/src/boundary/OutputFormatter.cpp.i
+.PHONY : src/boundary/OutputFormatter.cpp.i
+
+src/boundary/OutputFormatter.s: src/boundary/OutputFormatter.cpp.s
+.PHONY : src/boundary/OutputFormatter.s
+
+# target to generate assembly for a file
+src/boundary/OutputFormatter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\unit_converter_core.dir\build.make CMakeFiles/unit_converter_core.dir/src/boundary/OutputFormatter.cpp.s
+.PHONY : src/boundary/OutputFormatter.cpp.s
+
+src/data/ConfigLoader.obj: src/data/ConfigLoader.cpp.obj
+.PHONY : src/data/ConfigLoader.obj
+
+# target to build an object file
+src/data/ConfigLoader.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\unit_converter_core.dir\build.make CMakeFiles/unit_converter_core.dir/src/data/ConfigLoader.cpp.obj
+.PHONY : src/data/ConfigLoader.cpp.obj
+
+src/data/ConfigLoader.i: src/data/ConfigLoader.cpp.i
+.PHONY : src/data/ConfigLoader.i
+
+# target to preprocess a source file
+src/data/ConfigLoader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\unit_converter_core.dir\build.make CMakeFiles/unit_converter_core.dir/src/data/ConfigLoader.cpp.i
+.PHONY : src/data/ConfigLoader.cpp.i
+
+src/data/ConfigLoader.s: src/data/ConfigLoader.cpp.s
+.PHONY : src/data/ConfigLoader.s
+
+# target to generate assembly for a file
+src/data/ConfigLoader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\unit_converter_core.dir\build.make CMakeFiles/unit_converter_core.dir/src/data/ConfigLoader.cpp.s
+.PHONY : src/data/ConfigLoader.cpp.s
+
+src/domain/Converter.obj: src/domain/Converter.cpp.obj
+.PHONY : src/domain/Converter.obj
+
+# target to build an object file
+src/domain/Converter.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\unit_converter_core.dir\build.make CMakeFiles/unit_converter_core.dir/src/domain/Converter.cpp.obj
+.PHONY : src/domain/Converter.cpp.obj
+
+src/domain/Converter.i: src/domain/Converter.cpp.i
+.PHONY : src/domain/Converter.i
+
+# target to preprocess a source file
+src/domain/Converter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\unit_converter_core.dir\build.make CMakeFiles/unit_converter_core.dir/src/domain/Converter.cpp.i
+.PHONY : src/domain/Converter.cpp.i
+
+src/domain/Converter.s: src/domain/Converter.cpp.s
+.PHONY : src/domain/Converter.s
+
+# target to generate assembly for a file
+src/domain/Converter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\unit_converter_core.dir\build.make CMakeFiles/unit_converter_core.dir/src/domain/Converter.cpp.s
+.PHONY : src/domain/Converter.cpp.s
+
+src/domain/UnitRegistry.obj: src/domain/UnitRegistry.cpp.obj
+.PHONY : src/domain/UnitRegistry.obj
+
+# target to build an object file
+src/domain/UnitRegistry.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\unit_converter_core.dir\build.make CMakeFiles/unit_converter_core.dir/src/domain/UnitRegistry.cpp.obj
+.PHONY : src/domain/UnitRegistry.cpp.obj
+
+src/domain/UnitRegistry.i: src/domain/UnitRegistry.cpp.i
+.PHONY : src/domain/UnitRegistry.i
+
+# target to preprocess a source file
+src/domain/UnitRegistry.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\unit_converter_core.dir\build.make CMakeFiles/unit_converter_core.dir/src/domain/UnitRegistry.cpp.i
+.PHONY : src/domain/UnitRegistry.cpp.i
+
+src/domain/UnitRegistry.s: src/domain/UnitRegistry.cpp.s
+.PHONY : src/domain/UnitRegistry.s
+
+# target to generate assembly for a file
+src/domain/UnitRegistry.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\unit_converter_core.dir\build.make CMakeFiles/unit_converter_core.dir/src/domain/UnitRegistry.cpp.s
+.PHONY : src/domain/UnitRegistry.cpp.s
+
 tests/boundary_tests.obj: tests/boundary_tests.cpp.obj
 .PHONY : tests/boundary_tests.obj
 
@@ -650,29 +770,29 @@ tests/domain_tests.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\unit_converter_tests.dir\build.make CMakeFiles/unit_converter_tests.dir/tests/domain_tests.cpp.s
 .PHONY : tests/domain_tests.cpp.s
 
-tests/red_phase_stubs.obj: tests/red_phase_stubs.cpp.obj
-.PHONY : tests/red_phase_stubs.obj
+tests/test_golden_master.obj: tests/test_golden_master.cpp.obj
+.PHONY : tests/test_golden_master.obj
 
 # target to build an object file
-tests/red_phase_stubs.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\unit_converter_core.dir\build.make CMakeFiles/unit_converter_core.dir/tests/red_phase_stubs.cpp.obj
-.PHONY : tests/red_phase_stubs.cpp.obj
+tests/test_golden_master.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\unit_converter_tests.dir\build.make CMakeFiles/unit_converter_tests.dir/tests/test_golden_master.cpp.obj
+.PHONY : tests/test_golden_master.cpp.obj
 
-tests/red_phase_stubs.i: tests/red_phase_stubs.cpp.i
-.PHONY : tests/red_phase_stubs.i
+tests/test_golden_master.i: tests/test_golden_master.cpp.i
+.PHONY : tests/test_golden_master.i
 
 # target to preprocess a source file
-tests/red_phase_stubs.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\unit_converter_core.dir\build.make CMakeFiles/unit_converter_core.dir/tests/red_phase_stubs.cpp.i
-.PHONY : tests/red_phase_stubs.cpp.i
+tests/test_golden_master.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\unit_converter_tests.dir\build.make CMakeFiles/unit_converter_tests.dir/tests/test_golden_master.cpp.i
+.PHONY : tests/test_golden_master.cpp.i
 
-tests/red_phase_stubs.s: tests/red_phase_stubs.cpp.s
-.PHONY : tests/red_phase_stubs.s
+tests/test_golden_master.s: tests/test_golden_master.cpp.s
+.PHONY : tests/test_golden_master.s
 
 # target to generate assembly for a file
-tests/red_phase_stubs.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\unit_converter_core.dir\build.make CMakeFiles/unit_converter_core.dir/tests/red_phase_stubs.cpp.s
-.PHONY : tests/red_phase_stubs.cpp.s
+tests/test_golden_master.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\unit_converter_tests.dir\build.make CMakeFiles/unit_converter_tests.dir/tests/test_golden_master.cpp.s
+.PHONY : tests/test_golden_master.cpp.s
 
 # Help Target
 help:
@@ -719,6 +839,21 @@ help:
 	@echo ... src/UnitConverter.obj
 	@echo ... src/UnitConverter.i
 	@echo ... src/UnitConverter.s
+	@echo ... src/boundary/InputParser.obj
+	@echo ... src/boundary/InputParser.i
+	@echo ... src/boundary/InputParser.s
+	@echo ... src/boundary/OutputFormatter.obj
+	@echo ... src/boundary/OutputFormatter.i
+	@echo ... src/boundary/OutputFormatter.s
+	@echo ... src/data/ConfigLoader.obj
+	@echo ... src/data/ConfigLoader.i
+	@echo ... src/data/ConfigLoader.s
+	@echo ... src/domain/Converter.obj
+	@echo ... src/domain/Converter.i
+	@echo ... src/domain/Converter.s
+	@echo ... src/domain/UnitRegistry.obj
+	@echo ... src/domain/UnitRegistry.i
+	@echo ... src/domain/UnitRegistry.s
 	@echo ... tests/boundary_tests.obj
 	@echo ... tests/boundary_tests.i
 	@echo ... tests/boundary_tests.s
@@ -728,9 +863,9 @@ help:
 	@echo ... tests/domain_tests.obj
 	@echo ... tests/domain_tests.i
 	@echo ... tests/domain_tests.s
-	@echo ... tests/red_phase_stubs.obj
-	@echo ... tests/red_phase_stubs.i
-	@echo ... tests/red_phase_stubs.s
+	@echo ... tests/test_golden_master.obj
+	@echo ... tests/test_golden_master.i
+	@echo ... tests/test_golden_master.s
 .PHONY : help
 
 

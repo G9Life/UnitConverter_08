@@ -71,32 +71,100 @@ include CMakeFiles/unit_converter_core.dir/flags.make
 CMakeFiles/unit_converter_core.dir/codegen:
 .PHONY : CMakeFiles/unit_converter_core.dir/codegen
 
-CMakeFiles/unit_converter_core.dir/tests/red_phase_stubs.cpp.obj: CMakeFiles/unit_converter_core.dir/flags.make
-CMakeFiles/unit_converter_core.dir/tests/red_phase_stubs.cpp.obj: CMakeFiles/unit_converter_core.dir/includes_CXX.rsp
-CMakeFiles/unit_converter_core.dir/tests/red_phase_stubs.cpp.obj: C:/DEV/UnitConverter_08/tests/red_phase_stubs.cpp
-CMakeFiles/unit_converter_core.dir/tests/red_phase_stubs.cpp.obj: CMakeFiles/unit_converter_core.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\DEV\UnitConverter_08\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/unit_converter_core.dir/tests/red_phase_stubs.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/unit_converter_core.dir/tests/red_phase_stubs.cpp.obj -MF CMakeFiles\unit_converter_core.dir\tests\red_phase_stubs.cpp.obj.d -o CMakeFiles\unit_converter_core.dir\tests\red_phase_stubs.cpp.obj -c C:\DEV\UnitConverter_08\tests\red_phase_stubs.cpp
+CMakeFiles/unit_converter_core.dir/src/domain/UnitRegistry.cpp.obj: CMakeFiles/unit_converter_core.dir/flags.make
+CMakeFiles/unit_converter_core.dir/src/domain/UnitRegistry.cpp.obj: CMakeFiles/unit_converter_core.dir/includes_CXX.rsp
+CMakeFiles/unit_converter_core.dir/src/domain/UnitRegistry.cpp.obj: C:/DEV/UnitConverter_08/src/domain/UnitRegistry.cpp
+CMakeFiles/unit_converter_core.dir/src/domain/UnitRegistry.cpp.obj: CMakeFiles/unit_converter_core.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\DEV\UnitConverter_08\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/unit_converter_core.dir/src/domain/UnitRegistry.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/unit_converter_core.dir/src/domain/UnitRegistry.cpp.obj -MF CMakeFiles\unit_converter_core.dir\src\domain\UnitRegistry.cpp.obj.d -o CMakeFiles\unit_converter_core.dir\src\domain\UnitRegistry.cpp.obj -c C:\DEV\UnitConverter_08\src\domain\UnitRegistry.cpp
 
-CMakeFiles/unit_converter_core.dir/tests/red_phase_stubs.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/unit_converter_core.dir/tests/red_phase_stubs.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\DEV\UnitConverter_08\tests\red_phase_stubs.cpp > CMakeFiles\unit_converter_core.dir\tests\red_phase_stubs.cpp.i
+CMakeFiles/unit_converter_core.dir/src/domain/UnitRegistry.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/unit_converter_core.dir/src/domain/UnitRegistry.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\DEV\UnitConverter_08\src\domain\UnitRegistry.cpp > CMakeFiles\unit_converter_core.dir\src\domain\UnitRegistry.cpp.i
 
-CMakeFiles/unit_converter_core.dir/tests/red_phase_stubs.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/unit_converter_core.dir/tests/red_phase_stubs.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\DEV\UnitConverter_08\tests\red_phase_stubs.cpp -o CMakeFiles\unit_converter_core.dir\tests\red_phase_stubs.cpp.s
+CMakeFiles/unit_converter_core.dir/src/domain/UnitRegistry.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/unit_converter_core.dir/src/domain/UnitRegistry.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\DEV\UnitConverter_08\src\domain\UnitRegistry.cpp -o CMakeFiles\unit_converter_core.dir\src\domain\UnitRegistry.cpp.s
+
+CMakeFiles/unit_converter_core.dir/src/domain/Converter.cpp.obj: CMakeFiles/unit_converter_core.dir/flags.make
+CMakeFiles/unit_converter_core.dir/src/domain/Converter.cpp.obj: CMakeFiles/unit_converter_core.dir/includes_CXX.rsp
+CMakeFiles/unit_converter_core.dir/src/domain/Converter.cpp.obj: C:/DEV/UnitConverter_08/src/domain/Converter.cpp
+CMakeFiles/unit_converter_core.dir/src/domain/Converter.cpp.obj: CMakeFiles/unit_converter_core.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\DEV\UnitConverter_08\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/unit_converter_core.dir/src/domain/Converter.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/unit_converter_core.dir/src/domain/Converter.cpp.obj -MF CMakeFiles\unit_converter_core.dir\src\domain\Converter.cpp.obj.d -o CMakeFiles\unit_converter_core.dir\src\domain\Converter.cpp.obj -c C:\DEV\UnitConverter_08\src\domain\Converter.cpp
+
+CMakeFiles/unit_converter_core.dir/src/domain/Converter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/unit_converter_core.dir/src/domain/Converter.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\DEV\UnitConverter_08\src\domain\Converter.cpp > CMakeFiles\unit_converter_core.dir\src\domain\Converter.cpp.i
+
+CMakeFiles/unit_converter_core.dir/src/domain/Converter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/unit_converter_core.dir/src/domain/Converter.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\DEV\UnitConverter_08\src\domain\Converter.cpp -o CMakeFiles\unit_converter_core.dir\src\domain\Converter.cpp.s
+
+CMakeFiles/unit_converter_core.dir/src/boundary/InputParser.cpp.obj: CMakeFiles/unit_converter_core.dir/flags.make
+CMakeFiles/unit_converter_core.dir/src/boundary/InputParser.cpp.obj: CMakeFiles/unit_converter_core.dir/includes_CXX.rsp
+CMakeFiles/unit_converter_core.dir/src/boundary/InputParser.cpp.obj: C:/DEV/UnitConverter_08/src/boundary/InputParser.cpp
+CMakeFiles/unit_converter_core.dir/src/boundary/InputParser.cpp.obj: CMakeFiles/unit_converter_core.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\DEV\UnitConverter_08\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/unit_converter_core.dir/src/boundary/InputParser.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/unit_converter_core.dir/src/boundary/InputParser.cpp.obj -MF CMakeFiles\unit_converter_core.dir\src\boundary\InputParser.cpp.obj.d -o CMakeFiles\unit_converter_core.dir\src\boundary\InputParser.cpp.obj -c C:\DEV\UnitConverter_08\src\boundary\InputParser.cpp
+
+CMakeFiles/unit_converter_core.dir/src/boundary/InputParser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/unit_converter_core.dir/src/boundary/InputParser.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\DEV\UnitConverter_08\src\boundary\InputParser.cpp > CMakeFiles\unit_converter_core.dir\src\boundary\InputParser.cpp.i
+
+CMakeFiles/unit_converter_core.dir/src/boundary/InputParser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/unit_converter_core.dir/src/boundary/InputParser.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\DEV\UnitConverter_08\src\boundary\InputParser.cpp -o CMakeFiles\unit_converter_core.dir\src\boundary\InputParser.cpp.s
+
+CMakeFiles/unit_converter_core.dir/src/boundary/OutputFormatter.cpp.obj: CMakeFiles/unit_converter_core.dir/flags.make
+CMakeFiles/unit_converter_core.dir/src/boundary/OutputFormatter.cpp.obj: CMakeFiles/unit_converter_core.dir/includes_CXX.rsp
+CMakeFiles/unit_converter_core.dir/src/boundary/OutputFormatter.cpp.obj: C:/DEV/UnitConverter_08/src/boundary/OutputFormatter.cpp
+CMakeFiles/unit_converter_core.dir/src/boundary/OutputFormatter.cpp.obj: CMakeFiles/unit_converter_core.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\DEV\UnitConverter_08\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/unit_converter_core.dir/src/boundary/OutputFormatter.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/unit_converter_core.dir/src/boundary/OutputFormatter.cpp.obj -MF CMakeFiles\unit_converter_core.dir\src\boundary\OutputFormatter.cpp.obj.d -o CMakeFiles\unit_converter_core.dir\src\boundary\OutputFormatter.cpp.obj -c C:\DEV\UnitConverter_08\src\boundary\OutputFormatter.cpp
+
+CMakeFiles/unit_converter_core.dir/src/boundary/OutputFormatter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/unit_converter_core.dir/src/boundary/OutputFormatter.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\DEV\UnitConverter_08\src\boundary\OutputFormatter.cpp > CMakeFiles\unit_converter_core.dir\src\boundary\OutputFormatter.cpp.i
+
+CMakeFiles/unit_converter_core.dir/src/boundary/OutputFormatter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/unit_converter_core.dir/src/boundary/OutputFormatter.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\DEV\UnitConverter_08\src\boundary\OutputFormatter.cpp -o CMakeFiles\unit_converter_core.dir\src\boundary\OutputFormatter.cpp.s
+
+CMakeFiles/unit_converter_core.dir/src/data/ConfigLoader.cpp.obj: CMakeFiles/unit_converter_core.dir/flags.make
+CMakeFiles/unit_converter_core.dir/src/data/ConfigLoader.cpp.obj: CMakeFiles/unit_converter_core.dir/includes_CXX.rsp
+CMakeFiles/unit_converter_core.dir/src/data/ConfigLoader.cpp.obj: C:/DEV/UnitConverter_08/src/data/ConfigLoader.cpp
+CMakeFiles/unit_converter_core.dir/src/data/ConfigLoader.cpp.obj: CMakeFiles/unit_converter_core.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\DEV\UnitConverter_08\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/unit_converter_core.dir/src/data/ConfigLoader.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/unit_converter_core.dir/src/data/ConfigLoader.cpp.obj -MF CMakeFiles\unit_converter_core.dir\src\data\ConfigLoader.cpp.obj.d -o CMakeFiles\unit_converter_core.dir\src\data\ConfigLoader.cpp.obj -c C:\DEV\UnitConverter_08\src\data\ConfigLoader.cpp
+
+CMakeFiles/unit_converter_core.dir/src/data/ConfigLoader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/unit_converter_core.dir/src/data/ConfigLoader.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\DEV\UnitConverter_08\src\data\ConfigLoader.cpp > CMakeFiles\unit_converter_core.dir\src\data\ConfigLoader.cpp.i
+
+CMakeFiles/unit_converter_core.dir/src/data/ConfigLoader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/unit_converter_core.dir/src/data/ConfigLoader.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\DEV\UnitConverter_08\src\data\ConfigLoader.cpp -o CMakeFiles\unit_converter_core.dir\src\data\ConfigLoader.cpp.s
 
 # Object files for target unit_converter_core
 unit_converter_core_OBJECTS = \
-"CMakeFiles/unit_converter_core.dir/tests/red_phase_stubs.cpp.obj"
+"CMakeFiles/unit_converter_core.dir/src/domain/UnitRegistry.cpp.obj" \
+"CMakeFiles/unit_converter_core.dir/src/domain/Converter.cpp.obj" \
+"CMakeFiles/unit_converter_core.dir/src/boundary/InputParser.cpp.obj" \
+"CMakeFiles/unit_converter_core.dir/src/boundary/OutputFormatter.cpp.obj" \
+"CMakeFiles/unit_converter_core.dir/src/data/ConfigLoader.cpp.obj"
 
 # External object files for target unit_converter_core
 unit_converter_core_EXTERNAL_OBJECTS =
 
-libunit_converter_core.a: CMakeFiles/unit_converter_core.dir/tests/red_phase_stubs.cpp.obj
+libunit_converter_core.a: CMakeFiles/unit_converter_core.dir/src/domain/UnitRegistry.cpp.obj
+libunit_converter_core.a: CMakeFiles/unit_converter_core.dir/src/domain/Converter.cpp.obj
+libunit_converter_core.a: CMakeFiles/unit_converter_core.dir/src/boundary/InputParser.cpp.obj
+libunit_converter_core.a: CMakeFiles/unit_converter_core.dir/src/boundary/OutputFormatter.cpp.obj
+libunit_converter_core.a: CMakeFiles/unit_converter_core.dir/src/data/ConfigLoader.cpp.obj
 libunit_converter_core.a: CMakeFiles/unit_converter_core.dir/build.make
 libunit_converter_core.a: CMakeFiles/unit_converter_core.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\DEV\UnitConverter_08\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libunit_converter_core.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\DEV\UnitConverter_08\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library libunit_converter_core.a"
 	$(CMAKE_COMMAND) -P CMakeFiles\unit_converter_core.dir\cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\unit_converter_core.dir\link.txt --verbose=$(VERBOSE)
 

@@ -10,10 +10,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/4.3.1/CMakeSystem.cmake"
   "CMakeLists.txt"
   "catch2-populate-prefix/tmp/catch2-populate-mkdirs.cmake"
-  "C:/mingw64/share/cmake-4.3/Modules/CMakeDetermineSystem.cmake"
   "C:/mingw64/share/cmake-4.3/Modules/CMakeGenericSystem.cmake"
   "C:/mingw64/share/cmake-4.3/Modules/CMakeInitializeConfigs.cmake"
-  "C:/mingw64/share/cmake-4.3/Modules/CMakeSystem.cmake.in"
   "C:/mingw64/share/cmake-4.3/Modules/CMakeSystemSpecificInformation.cmake"
   "C:/mingw64/share/cmake-4.3/Modules/CMakeSystemSpecificInitialize.cmake"
   "C:/mingw64/share/cmake-4.3/Modules/ExternalProject.cmake"
@@ -38,7 +36,6 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
-  "CMakeFiles/4.3.1/CMakeSystem.cmake"
   "catch2-populate-prefix/tmp/catch2-populate-mkdirs.cmake"
   "catch2-populate-prefix/tmp/catch2-populate-gitclone.cmake"
   "catch2-populate-prefix/src/catch2-populate-stamp/catch2-populate-gitinfo.txt"

@@ -1,9 +1,33 @@
 [
 {
   "directory": "C:/DEV/UnitConverter_08/build",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/unit_converter_core.dir/includes_CXX.rsp -g -std=c++17 -o CMakeFiles\\unit_converter_core.dir\\tests\\red_phase_stubs.cpp.obj -c C:\\DEV\\UnitConverter_08\\tests\\red_phase_stubs.cpp",
-  "file": "C:/DEV/UnitConverter_08/tests/red_phase_stubs.cpp",
-  "output": "CMakeFiles/unit_converter_core.dir/tests/red_phase_stubs.cpp.obj"
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/unit_converter_core.dir/includes_CXX.rsp -g -std=c++17 -o CMakeFiles\\unit_converter_core.dir\\src\\domain\\UnitRegistry.cpp.obj -c C:\\DEV\\UnitConverter_08\\src\\domain\\UnitRegistry.cpp",
+  "file": "C:/DEV/UnitConverter_08/src/domain/UnitRegistry.cpp",
+  "output": "CMakeFiles/unit_converter_core.dir/src/domain/UnitRegistry.cpp.obj"
+},
+{
+  "directory": "C:/DEV/UnitConverter_08/build",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/unit_converter_core.dir/includes_CXX.rsp -g -std=c++17 -o CMakeFiles\\unit_converter_core.dir\\src\\domain\\Converter.cpp.obj -c C:\\DEV\\UnitConverter_08\\src\\domain\\Converter.cpp",
+  "file": "C:/DEV/UnitConverter_08/src/domain/Converter.cpp",
+  "output": "CMakeFiles/unit_converter_core.dir/src/domain/Converter.cpp.obj"
+},
+{
+  "directory": "C:/DEV/UnitConverter_08/build",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/unit_converter_core.dir/includes_CXX.rsp -g -std=c++17 -o CMakeFiles\\unit_converter_core.dir\\src\\boundary\\InputParser.cpp.obj -c C:\\DEV\\UnitConverter_08\\src\\boundary\\InputParser.cpp",
+  "file": "C:/DEV/UnitConverter_08/src/boundary/InputParser.cpp",
+  "output": "CMakeFiles/unit_converter_core.dir/src/boundary/InputParser.cpp.obj"
+},
+{
+  "directory": "C:/DEV/UnitConverter_08/build",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/unit_converter_core.dir/includes_CXX.rsp -g -std=c++17 -o CMakeFiles\\unit_converter_core.dir\\src\\boundary\\OutputFormatter.cpp.obj -c C:\\DEV\\UnitConverter_08\\src\\boundary\\OutputFormatter.cpp",
+  "file": "C:/DEV/UnitConverter_08/src/boundary/OutputFormatter.cpp",
+  "output": "CMakeFiles/unit_converter_core.dir/src/boundary/OutputFormatter.cpp.obj"
+},
+{
+  "directory": "C:/DEV/UnitConverter_08/build",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/unit_converter_core.dir/includes_CXX.rsp -g -std=c++17 -o CMakeFiles\\unit_converter_core.dir\\src\\data\\ConfigLoader.cpp.obj -c C:\\DEV\\UnitConverter_08\\src\\data\\ConfigLoader.cpp",
+  "file": "C:/DEV/UnitConverter_08/src/data/ConfigLoader.cpp",
+  "output": "CMakeFiles/unit_converter_core.dir/src/data/ConfigLoader.cpp.obj"
 },
 {
   "directory": "C:/DEV/UnitConverter_08/build",
@@ -13,21 +37,27 @@
 },
 {
   "directory": "C:/DEV/UnitConverter_08/build",
-  "command": "C:\\mingw64\\bin\\g++.exe -DTEST_FIXTURE_DIR=\\\"C:/DEV/UnitConverter_08/tests/fixtures\\\" @CMakeFiles/unit_converter_tests.dir/includes_CXX.rsp -g -std=c++17 -o CMakeFiles\\unit_converter_tests.dir\\tests\\domain_tests.cpp.obj -c C:\\DEV\\UnitConverter_08\\tests\\domain_tests.cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe -DGOLDEN_MASTER_EXPECTED=\\\"C:/DEV/UnitConverter_08/tests/golden_master_expected.txt\\\" -DTEST_FIXTURE_DIR=\\\"C:/DEV/UnitConverter_08/tests/fixtures\\\" -DUNIT_CONVERTER_EXE=\\\"C:/DEV/UnitConverter_08/build/UnitConverter.exe\\\" @CMakeFiles/unit_converter_tests.dir/includes_CXX.rsp -g -std=c++17 -o CMakeFiles\\unit_converter_tests.dir\\tests\\domain_tests.cpp.obj -c C:\\DEV\\UnitConverter_08\\tests\\domain_tests.cpp",
   "file": "C:/DEV/UnitConverter_08/tests/domain_tests.cpp",
   "output": "CMakeFiles/unit_converter_tests.dir/tests/domain_tests.cpp.obj"
 },
 {
   "directory": "C:/DEV/UnitConverter_08/build",
-  "command": "C:\\mingw64\\bin\\g++.exe -DTEST_FIXTURE_DIR=\\\"C:/DEV/UnitConverter_08/tests/fixtures\\\" @CMakeFiles/unit_converter_tests.dir/includes_CXX.rsp -g -std=c++17 -o CMakeFiles\\unit_converter_tests.dir\\tests\\boundary_tests.cpp.obj -c C:\\DEV\\UnitConverter_08\\tests\\boundary_tests.cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe -DGOLDEN_MASTER_EXPECTED=\\\"C:/DEV/UnitConverter_08/tests/golden_master_expected.txt\\\" -DTEST_FIXTURE_DIR=\\\"C:/DEV/UnitConverter_08/tests/fixtures\\\" -DUNIT_CONVERTER_EXE=\\\"C:/DEV/UnitConverter_08/build/UnitConverter.exe\\\" @CMakeFiles/unit_converter_tests.dir/includes_CXX.rsp -g -std=c++17 -o CMakeFiles\\unit_converter_tests.dir\\tests\\boundary_tests.cpp.obj -c C:\\DEV\\UnitConverter_08\\tests\\boundary_tests.cpp",
   "file": "C:/DEV/UnitConverter_08/tests/boundary_tests.cpp",
   "output": "CMakeFiles/unit_converter_tests.dir/tests/boundary_tests.cpp.obj"
 },
 {
   "directory": "C:/DEV/UnitConverter_08/build",
-  "command": "C:\\mingw64\\bin\\g++.exe -DTEST_FIXTURE_DIR=\\\"C:/DEV/UnitConverter_08/tests/fixtures\\\" @CMakeFiles/unit_converter_tests.dir/includes_CXX.rsp -g -std=c++17 -o CMakeFiles\\unit_converter_tests.dir\\tests\\data_tests.cpp.obj -c C:\\DEV\\UnitConverter_08\\tests\\data_tests.cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe -DGOLDEN_MASTER_EXPECTED=\\\"C:/DEV/UnitConverter_08/tests/golden_master_expected.txt\\\" -DTEST_FIXTURE_DIR=\\\"C:/DEV/UnitConverter_08/tests/fixtures\\\" -DUNIT_CONVERTER_EXE=\\\"C:/DEV/UnitConverter_08/build/UnitConverter.exe\\\" @CMakeFiles/unit_converter_tests.dir/includes_CXX.rsp -g -std=c++17 -o CMakeFiles\\unit_converter_tests.dir\\tests\\data_tests.cpp.obj -c C:\\DEV\\UnitConverter_08\\tests\\data_tests.cpp",
   "file": "C:/DEV/UnitConverter_08/tests/data_tests.cpp",
   "output": "CMakeFiles/unit_converter_tests.dir/tests/data_tests.cpp.obj"
+},
+{
+  "directory": "C:/DEV/UnitConverter_08/build",
+  "command": "C:\\mingw64\\bin\\g++.exe -DGOLDEN_MASTER_EXPECTED=\\\"C:/DEV/UnitConverter_08/tests/golden_master_expected.txt\\\" -DTEST_FIXTURE_DIR=\\\"C:/DEV/UnitConverter_08/tests/fixtures\\\" -DUNIT_CONVERTER_EXE=\\\"C:/DEV/UnitConverter_08/build/UnitConverter.exe\\\" @CMakeFiles/unit_converter_tests.dir/includes_CXX.rsp -g -std=c++17 -o CMakeFiles\\unit_converter_tests.dir\\tests\\test_golden_master.cpp.obj -c C:\\DEV\\UnitConverter_08\\tests\\test_golden_master.cpp",
+  "file": "C:/DEV/UnitConverter_08/tests/test_golden_master.cpp",
+  "output": "CMakeFiles/unit_converter_tests.dir/tests/test_golden_master.cpp.obj"
 },
 {
   "directory": "C:/DEV/UnitConverter_08/build/_deps/catch2-build/src",

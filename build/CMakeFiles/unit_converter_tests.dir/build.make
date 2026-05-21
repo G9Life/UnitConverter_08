@@ -116,11 +116,27 @@ CMakeFiles/unit_converter_tests.dir/tests/data_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/unit_converter_tests.dir/tests/data_tests.cpp.s"
 	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\DEV\UnitConverter_08\tests\data_tests.cpp -o CMakeFiles\unit_converter_tests.dir\tests\data_tests.cpp.s
 
+CMakeFiles/unit_converter_tests.dir/tests/test_golden_master.cpp.obj: CMakeFiles/unit_converter_tests.dir/flags.make
+CMakeFiles/unit_converter_tests.dir/tests/test_golden_master.cpp.obj: CMakeFiles/unit_converter_tests.dir/includes_CXX.rsp
+CMakeFiles/unit_converter_tests.dir/tests/test_golden_master.cpp.obj: C:/DEV/UnitConverter_08/tests/test_golden_master.cpp
+CMakeFiles/unit_converter_tests.dir/tests/test_golden_master.cpp.obj: CMakeFiles/unit_converter_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\DEV\UnitConverter_08\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/unit_converter_tests.dir/tests/test_golden_master.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/unit_converter_tests.dir/tests/test_golden_master.cpp.obj -MF CMakeFiles\unit_converter_tests.dir\tests\test_golden_master.cpp.obj.d -o CMakeFiles\unit_converter_tests.dir\tests\test_golden_master.cpp.obj -c C:\DEV\UnitConverter_08\tests\test_golden_master.cpp
+
+CMakeFiles/unit_converter_tests.dir/tests/test_golden_master.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/unit_converter_tests.dir/tests/test_golden_master.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\DEV\UnitConverter_08\tests\test_golden_master.cpp > CMakeFiles\unit_converter_tests.dir\tests\test_golden_master.cpp.i
+
+CMakeFiles/unit_converter_tests.dir/tests/test_golden_master.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/unit_converter_tests.dir/tests/test_golden_master.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\DEV\UnitConverter_08\tests\test_golden_master.cpp -o CMakeFiles\unit_converter_tests.dir\tests\test_golden_master.cpp.s
+
 # Object files for target unit_converter_tests
 unit_converter_tests_OBJECTS = \
 "CMakeFiles/unit_converter_tests.dir/tests/domain_tests.cpp.obj" \
 "CMakeFiles/unit_converter_tests.dir/tests/boundary_tests.cpp.obj" \
-"CMakeFiles/unit_converter_tests.dir/tests/data_tests.cpp.obj"
+"CMakeFiles/unit_converter_tests.dir/tests/data_tests.cpp.obj" \
+"CMakeFiles/unit_converter_tests.dir/tests/test_golden_master.cpp.obj"
 
 # External object files for target unit_converter_tests
 unit_converter_tests_EXTERNAL_OBJECTS =
@@ -128,6 +144,7 @@ unit_converter_tests_EXTERNAL_OBJECTS =
 unit_converter_tests.exe: CMakeFiles/unit_converter_tests.dir/tests/domain_tests.cpp.obj
 unit_converter_tests.exe: CMakeFiles/unit_converter_tests.dir/tests/boundary_tests.cpp.obj
 unit_converter_tests.exe: CMakeFiles/unit_converter_tests.dir/tests/data_tests.cpp.obj
+unit_converter_tests.exe: CMakeFiles/unit_converter_tests.dir/tests/test_golden_master.cpp.obj
 unit_converter_tests.exe: CMakeFiles/unit_converter_tests.dir/build.make
 unit_converter_tests.exe: libunit_converter_core.a
 unit_converter_tests.exe: _deps/catch2-build/src/libCatch2Maind.a
@@ -135,7 +152,7 @@ unit_converter_tests.exe: _deps/catch2-build/src/libCatch2d.a
 unit_converter_tests.exe: CMakeFiles/unit_converter_tests.dir/linkLibs.rsp
 unit_converter_tests.exe: CMakeFiles/unit_converter_tests.dir/objects1.rsp
 unit_converter_tests.exe: CMakeFiles/unit_converter_tests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\DEV\UnitConverter_08\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable unit_converter_tests.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\DEV\UnitConverter_08\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable unit_converter_tests.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\unit_converter_tests.dir\link.txt --verbose=$(VERBOSE)
 	C:\mingw64\bin\cmake.exe -D TEST_TARGET=unit_converter_tests -D TEST_EXECUTABLE=C:/DEV/UnitConverter_08/build/unit_converter_tests.exe -D TEST_EXECUTOR= -D TEST_WORKING_DIR=C:/DEV/UnitConverter_08/build -D TEST_SPEC= -D TEST_EXTRA_ARGS= -D TEST_PROPERTIES= -D TEST_PREFIX= -D TEST_SUFFIX= -D TEST_LIST=unit_converter_tests_TESTS -D TEST_REPORTER= -D TEST_OUTPUT_DIR= -D TEST_OUTPUT_PREFIX= -D TEST_OUTPUT_SUFFIX= -D TEST_DL_PATHS= -D CTEST_FILE=C:/DEV/UnitConverter_08/build/unit_converter_tests-b12d07c_tests.cmake -P C:/DEV/UnitConverter_08/build/_deps/catch2-src/extras/CatchAddTests.cmake
 
