@@ -44,12 +44,36 @@ cmake_ninja_workdir = C$:/DEV/UnitConverter_08/build/
 
 build cmake_object_order_depends_target_unit_converter_core: phony || .
 
-build CMakeFiles/unit_converter_core.dir/tests/red_phase_stubs.cpp.obj: CXX_COMPILER__unit_converter_core_unscanned_ C$:/DEV/UnitConverter_08/tests/red_phase_stubs.cpp || cmake_object_order_depends_target_unit_converter_core
-  DEP_FILE = CMakeFiles\unit_converter_core.dir\tests\red_phase_stubs.cpp.obj.d
+build CMakeFiles/unit_converter_core.dir/src/domain/UnitRegistry.cpp.obj: CXX_COMPILER__unit_converter_core_unscanned_ C$:/DEV/UnitConverter_08/src/domain/UnitRegistry.cpp || cmake_object_order_depends_target_unit_converter_core
+  DEP_FILE = CMakeFiles\unit_converter_core.dir\src\domain\UnitRegistry.cpp.obj.d
   FLAGS = -std=c++17
   INCLUDES = -IC:/DEV/UnitConverter_08/include
   OBJECT_DIR = CMakeFiles\unit_converter_core.dir
-  OBJECT_FILE_DIR = CMakeFiles\unit_converter_core.dir\tests
+  OBJECT_FILE_DIR = CMakeFiles\unit_converter_core.dir\src\domain
+  TARGET_SUPPORT_DIR = CMakeFiles\unit_converter_core.dir
+
+build CMakeFiles/unit_converter_core.dir/src/domain/Converter.cpp.obj: CXX_COMPILER__unit_converter_core_unscanned_ C$:/DEV/UnitConverter_08/src/domain/Converter.cpp || cmake_object_order_depends_target_unit_converter_core
+  DEP_FILE = CMakeFiles\unit_converter_core.dir\src\domain\Converter.cpp.obj.d
+  FLAGS = -std=c++17
+  INCLUDES = -IC:/DEV/UnitConverter_08/include
+  OBJECT_DIR = CMakeFiles\unit_converter_core.dir
+  OBJECT_FILE_DIR = CMakeFiles\unit_converter_core.dir\src\domain
+  TARGET_SUPPORT_DIR = CMakeFiles\unit_converter_core.dir
+
+build CMakeFiles/unit_converter_core.dir/src/boundary/InputParser.cpp.obj: CXX_COMPILER__unit_converter_core_unscanned_ C$:/DEV/UnitConverter_08/src/boundary/InputParser.cpp || cmake_object_order_depends_target_unit_converter_core
+  DEP_FILE = CMakeFiles\unit_converter_core.dir\src\boundary\InputParser.cpp.obj.d
+  FLAGS = -std=c++17
+  INCLUDES = -IC:/DEV/UnitConverter_08/include
+  OBJECT_DIR = CMakeFiles\unit_converter_core.dir
+  OBJECT_FILE_DIR = CMakeFiles\unit_converter_core.dir\src\boundary
+  TARGET_SUPPORT_DIR = CMakeFiles\unit_converter_core.dir
+
+build CMakeFiles/unit_converter_core.dir/src/data/ConfigLoader.cpp.obj: CXX_COMPILER__unit_converter_core_unscanned_ C$:/DEV/UnitConverter_08/src/data/ConfigLoader.cpp || cmake_object_order_depends_target_unit_converter_core
+  DEP_FILE = CMakeFiles\unit_converter_core.dir\src\data\ConfigLoader.cpp.obj.d
+  FLAGS = -std=c++17
+  INCLUDES = -IC:/DEV/UnitConverter_08/include
+  OBJECT_DIR = CMakeFiles\unit_converter_core.dir
+  OBJECT_FILE_DIR = CMakeFiles\unit_converter_core.dir\src\data
   TARGET_SUPPORT_DIR = CMakeFiles\unit_converter_core.dir
 
 
@@ -60,7 +84,7 @@ build CMakeFiles/unit_converter_core.dir/tests/red_phase_stubs.cpp.obj: CXX_COMP
 #############################################
 # Link the static library libunit_converter_core.a
 
-build libunit_converter_core.a: CXX_STATIC_LIBRARY_LINKER__unit_converter_core_ CMakeFiles/unit_converter_core.dir/tests/red_phase_stubs.cpp.obj
+build libunit_converter_core.a: CXX_STATIC_LIBRARY_LINKER__unit_converter_core_ CMakeFiles/unit_converter_core.dir/src/domain/UnitRegistry.cpp.obj CMakeFiles/unit_converter_core.dir/src/domain/Converter.cpp.obj CMakeFiles/unit_converter_core.dir/src/boundary/InputParser.cpp.obj CMakeFiles/unit_converter_core.dir/src/data/ConfigLoader.cpp.obj
   OBJECT_DIR = CMakeFiles\unit_converter_core.dir
   POST_BUILD = cd .
   PRE_LINK = cd .

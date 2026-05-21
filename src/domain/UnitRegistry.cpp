@@ -24,7 +24,7 @@ bool UnitRegistry::hasUnit(const std::string& unit) const {
 double UnitRegistry::factorFor(const std::string& unit) const {
     const auto it = factors_.find(unit);
     if (it == factors_.end()) {
-        throw std::invalid_argument("Unknown unit: " + unit);
+        throw std::invalid_argument("ERR-INPUT-002 Unknown unit: " + unit);
     }
     return it->second;
 }

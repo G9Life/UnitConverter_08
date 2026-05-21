@@ -32,17 +32,17 @@ bool isValidUnitName(const std::string& unit) {
 ParsedInput InputParser::parse(const std::string& line) {
     const std::size_t colonPos = line.find(':');
     if (colonPos == std::string::npos || line.find(':', colonPos + 1) != std::string::npos) {
-        throw std::invalid_argument("Invalid format. Use unit:value (ex: meter:2.5)");
+        throw std::invalid_argument("ERR-INPUT-001 Invalid format. Use unit:value (ex: meter:2.5)");
     }
 
     const std::string unit = trim(line.substr(0, colonPos));
     const std::string valueToken = trim(line.substr(colonPos + 1));
 
     if (!isValidUnitName(unit)) {
-        throw std::invalid_argument("Invalid unit name: " + unit);
+        throw std::invalid_argument("ERR-INPUT-005 Invalid unit name: " + unit);
     }
     if (valueToken.empty()) {
-        throw std::invalid_argument("Invalid number: " + valueToken);
+        throw std::invalid_argument("ERR-INPUT-004 Invalid number: " + valueToken);
     }
 
     std::size_t consumed = 0;
@@ -50,13 +50,13 @@ ParsedInput InputParser::parse(const std::string& line) {
     try {
         value = std::stod(valueToken, &consumed);
     } catch (...) {
-        throw std::invalid_argument("Invalid number: " + valueToken);
+        throw std::invalid_argument("ERR-INPUT-004 Invalid number: " + valueToken);
     }
     if (consumed != valueToken.size()) {
-        throw std::invalid_argument("Invalid number: " + valueToken);
+        throw std::invalid_argument("ERR-INPUT-004 Invalid number: " + valueToken);
     }
     if (!std::isfinite(value) || value <= 0.0) {
-        throw std::invalid_argument("Value must be positive: " + valueToken);
+        throw std::invalid_argument("ERR-INPUT-003 Value must be positive: " + valueToken);
     }
 
     return {unit, value};
