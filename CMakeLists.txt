@@ -5,6 +5,10 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
+# RED phase (default): link tests against stubs in tests/red_phase_stubs.cpp only.
+# GREEN phase: cmake -S . -B build -DUNIT_CONVERTER_RED_PHASE=OFF
+option(UNIT_CONVERTER_RED_PHASE "TDD RED: stub core (tests fail until GREEN src/)" ON)
+
 include(FetchContent)
 FetchContent_Declare(
     Catch2
@@ -13,19 +17,23 @@ FetchContent_Declare(
 )
 FetchContent_MakeAvailable(Catch2)
 
-add_library(unit_converter_core
-    src/domain/UnitRegistry.cpp
-    src/domain/Converter.cpp
-    src/boundary/InputParser.cpp
-    src/data/ConfigLoader.cpp
-)
+if(UNIT_CONVERTER_RED_PHASE)
+    add_library(unit_converter_core tests/red_phase_stubs.cpp)
+else()
+    add_library(unit_converter_core
+        src/domain/UnitRegistry.cpp
+        src/domain/Converter.cpp
+        src/boundary/InputParser.cpp
+        src/data/ConfigLoader.cpp
+    )
+endif()
 
 target_include_directories(unit_converter_core
     PUBLIC
         ${CMAKE_CURRENT_SOURCE_DIR}/include
 )
 
-add_executable(UnitConverter UnitConverter.cpp)
+add_executable(UnitConverter src/UnitConverter.cpp)
 target_link_libraries(UnitConverter PRIVATE unit_converter_core)
 
 enable_testing()

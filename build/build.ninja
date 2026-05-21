@@ -44,44 +44,12 @@ cmake_ninja_workdir = C$:/DEV/UnitConverter_08/build/
 
 build cmake_object_order_depends_target_unit_converter_core: phony || .
 
-build CMakeFiles/unit_converter_core.dir/src/domain/UnitRegistry.cpp.obj: CXX_COMPILER__unit_converter_core_unscanned_ C$:/DEV/UnitConverter_08/src/domain/UnitRegistry.cpp || cmake_object_order_depends_target_unit_converter_core
-  DEP_FILE = CMakeFiles\unit_converter_core.dir\src\domain\UnitRegistry.cpp.obj.d
+build CMakeFiles/unit_converter_core.dir/tests/red_phase_stubs.cpp.obj: CXX_COMPILER__unit_converter_core_unscanned_ C$:/DEV/UnitConverter_08/tests/red_phase_stubs.cpp || cmake_object_order_depends_target_unit_converter_core
+  DEP_FILE = CMakeFiles\unit_converter_core.dir\tests\red_phase_stubs.cpp.obj.d
   FLAGS = -std=c++17
   INCLUDES = -IC:/DEV/UnitConverter_08/include
   OBJECT_DIR = CMakeFiles\unit_converter_core.dir
-  OBJECT_FILE_DIR = CMakeFiles\unit_converter_core.dir\src\domain
-  TARGET_COMPILE_PDB = CMakeFiles\unit_converter_core.dir\unit_converter_core.pdb
-  TARGET_PDB = libunit_converter_core.pdb
-  TARGET_SUPPORT_DIR = CMakeFiles\unit_converter_core.dir
-
-build CMakeFiles/unit_converter_core.dir/src/domain/Converter.cpp.obj: CXX_COMPILER__unit_converter_core_unscanned_ C$:/DEV/UnitConverter_08/src/domain/Converter.cpp || cmake_object_order_depends_target_unit_converter_core
-  DEP_FILE = CMakeFiles\unit_converter_core.dir\src\domain\Converter.cpp.obj.d
-  FLAGS = -std=c++17
-  INCLUDES = -IC:/DEV/UnitConverter_08/include
-  OBJECT_DIR = CMakeFiles\unit_converter_core.dir
-  OBJECT_FILE_DIR = CMakeFiles\unit_converter_core.dir\src\domain
-  TARGET_COMPILE_PDB = CMakeFiles\unit_converter_core.dir\unit_converter_core.pdb
-  TARGET_PDB = libunit_converter_core.pdb
-  TARGET_SUPPORT_DIR = CMakeFiles\unit_converter_core.dir
-
-build CMakeFiles/unit_converter_core.dir/src/boundary/InputParser.cpp.obj: CXX_COMPILER__unit_converter_core_unscanned_ C$:/DEV/UnitConverter_08/src/boundary/InputParser.cpp || cmake_object_order_depends_target_unit_converter_core
-  DEP_FILE = CMakeFiles\unit_converter_core.dir\src\boundary\InputParser.cpp.obj.d
-  FLAGS = -std=c++17
-  INCLUDES = -IC:/DEV/UnitConverter_08/include
-  OBJECT_DIR = CMakeFiles\unit_converter_core.dir
-  OBJECT_FILE_DIR = CMakeFiles\unit_converter_core.dir\src\boundary
-  TARGET_COMPILE_PDB = CMakeFiles\unit_converter_core.dir\unit_converter_core.pdb
-  TARGET_PDB = libunit_converter_core.pdb
-  TARGET_SUPPORT_DIR = CMakeFiles\unit_converter_core.dir
-
-build CMakeFiles/unit_converter_core.dir/src/data/ConfigLoader.cpp.obj: CXX_COMPILER__unit_converter_core_unscanned_ C$:/DEV/UnitConverter_08/src/data/ConfigLoader.cpp || cmake_object_order_depends_target_unit_converter_core
-  DEP_FILE = CMakeFiles\unit_converter_core.dir\src\data\ConfigLoader.cpp.obj.d
-  FLAGS = -std=c++17
-  INCLUDES = -IC:/DEV/UnitConverter_08/include
-  OBJECT_DIR = CMakeFiles\unit_converter_core.dir
-  OBJECT_FILE_DIR = CMakeFiles\unit_converter_core.dir\src\data
-  TARGET_COMPILE_PDB = CMakeFiles\unit_converter_core.dir\unit_converter_core.pdb
-  TARGET_PDB = libunit_converter_core.pdb
+  OBJECT_FILE_DIR = CMakeFiles\unit_converter_core.dir\tests
   TARGET_SUPPORT_DIR = CMakeFiles\unit_converter_core.dir
 
 
@@ -92,13 +60,12 @@ build CMakeFiles/unit_converter_core.dir/src/data/ConfigLoader.cpp.obj: CXX_COMP
 #############################################
 # Link the static library libunit_converter_core.a
 
-build libunit_converter_core.a: CXX_STATIC_LIBRARY_LINKER__unit_converter_core_ CMakeFiles/unit_converter_core.dir/src/domain/UnitRegistry.cpp.obj CMakeFiles/unit_converter_core.dir/src/domain/Converter.cpp.obj CMakeFiles/unit_converter_core.dir/src/boundary/InputParser.cpp.obj CMakeFiles/unit_converter_core.dir/src/data/ConfigLoader.cpp.obj
+build libunit_converter_core.a: CXX_STATIC_LIBRARY_LINKER__unit_converter_core_ CMakeFiles/unit_converter_core.dir/tests/red_phase_stubs.cpp.obj
   OBJECT_DIR = CMakeFiles\unit_converter_core.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\unit_converter_core.dir\unit_converter_core.pdb
   TARGET_FILE = libunit_converter_core.a
-  TARGET_PDB = libunit_converter_core.pdb
+  TARGET_PDB = unit_converter_core.a.dbg
   TARGET_SUPPORT_DIR = CMakeFiles\unit_converter_core.dir
 
 # =============================================================================
@@ -110,14 +77,12 @@ build libunit_converter_core.a: CXX_STATIC_LIBRARY_LINKER__unit_converter_core_ 
 
 build cmake_object_order_depends_target_UnitConverter: phony || cmake_object_order_depends_target_unit_converter_core
 
-build CMakeFiles/UnitConverter.dir/UnitConverter.cpp.obj: CXX_COMPILER__UnitConverter_unscanned_ C$:/DEV/UnitConverter_08/UnitConverter.cpp || cmake_object_order_depends_target_UnitConverter
-  DEP_FILE = CMakeFiles\UnitConverter.dir\UnitConverter.cpp.obj.d
+build CMakeFiles/UnitConverter.dir/src/UnitConverter.cpp.obj: CXX_COMPILER__UnitConverter_unscanned_ C$:/DEV/UnitConverter_08/src/UnitConverter.cpp || cmake_object_order_depends_target_UnitConverter
+  DEP_FILE = CMakeFiles\UnitConverter.dir\src\UnitConverter.cpp.obj.d
   FLAGS = -std=c++17
   INCLUDES = -IC:/DEV/UnitConverter_08/include
   OBJECT_DIR = CMakeFiles\UnitConverter.dir
-  OBJECT_FILE_DIR = CMakeFiles\UnitConverter.dir
-  TARGET_COMPILE_PDB = CMakeFiles\UnitConverter.dir\
-  TARGET_PDB = UnitConverter.pdb
+  OBJECT_FILE_DIR = CMakeFiles\UnitConverter.dir\src
   TARGET_SUPPORT_DIR = CMakeFiles\UnitConverter.dir
 
 
@@ -128,15 +93,14 @@ build CMakeFiles/UnitConverter.dir/UnitConverter.cpp.obj: CXX_COMPILER__UnitConv
 #############################################
 # Link the executable UnitConverter.exe
 
-build UnitConverter.exe: CXX_EXECUTABLE_LINKER__UnitConverter_ CMakeFiles/UnitConverter.dir/UnitConverter.cpp.obj | libunit_converter_core.a || libunit_converter_core.a
+build UnitConverter.exe: CXX_EXECUTABLE_LINKER__UnitConverter_ CMakeFiles/UnitConverter.dir/src/UnitConverter.cpp.obj | libunit_converter_core.a || libunit_converter_core.a
   LINK_LIBRARIES = libunit_converter_core.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\UnitConverter.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\UnitConverter.dir\
   TARGET_FILE = UnitConverter.exe
   TARGET_IMPLIB = libUnitConverter.dll.a
-  TARGET_PDB = UnitConverter.pdb
+  TARGET_PDB = UnitConverter.exe.dbg
   TARGET_SUPPORT_DIR = CMakeFiles\UnitConverter.dir
 
 # =============================================================================
@@ -155,8 +119,6 @@ build CMakeFiles/unit_converter_tests.dir/tests/domain_tests.cpp.obj: CXX_COMPIL
   INCLUDES = -IC:/DEV/UnitConverter_08/include -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = CMakeFiles\unit_converter_tests.dir
   OBJECT_FILE_DIR = CMakeFiles\unit_converter_tests.dir\tests
-  TARGET_COMPILE_PDB = CMakeFiles\unit_converter_tests.dir\
-  TARGET_PDB = unit_converter_tests.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\unit_converter_tests.dir
 
 build CMakeFiles/unit_converter_tests.dir/tests/boundary_tests.cpp.obj: CXX_COMPILER__unit_converter_tests_unscanned_ C$:/DEV/UnitConverter_08/tests/boundary_tests.cpp || cmake_object_order_depends_target_unit_converter_tests
@@ -166,8 +128,6 @@ build CMakeFiles/unit_converter_tests.dir/tests/boundary_tests.cpp.obj: CXX_COMP
   INCLUDES = -IC:/DEV/UnitConverter_08/include -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = CMakeFiles\unit_converter_tests.dir
   OBJECT_FILE_DIR = CMakeFiles\unit_converter_tests.dir\tests
-  TARGET_COMPILE_PDB = CMakeFiles\unit_converter_tests.dir\
-  TARGET_PDB = unit_converter_tests.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\unit_converter_tests.dir
 
 build CMakeFiles/unit_converter_tests.dir/tests/data_tests.cpp.obj: CXX_COMPILER__unit_converter_tests_unscanned_ C$:/DEV/UnitConverter_08/tests/data_tests.cpp || cmake_object_order_depends_target_unit_converter_tests
@@ -177,8 +137,6 @@ build CMakeFiles/unit_converter_tests.dir/tests/data_tests.cpp.obj: CXX_COMPILER
   INCLUDES = -IC:/DEV/UnitConverter_08/include -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = CMakeFiles\unit_converter_tests.dir
   OBJECT_FILE_DIR = CMakeFiles\unit_converter_tests.dir\tests
-  TARGET_COMPILE_PDB = CMakeFiles\unit_converter_tests.dir\
-  TARGET_PDB = unit_converter_tests.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\unit_converter_tests.dir
 
 
@@ -195,10 +153,9 @@ build unit_converter_tests.exe unit_converter_tests-b12d07c_tests.cmake | ${cmak
   POST_BUILD = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\DEV\UnitConverter_08\build && C:\mingw64\bin\cmake.exe -D TEST_TARGET=unit_converter_tests -D TEST_EXECUTABLE=C:/DEV/UnitConverter_08/build/unit_converter_tests.exe -D TEST_EXECUTOR= -D TEST_WORKING_DIR=C:/DEV/UnitConverter_08/build -D TEST_SPEC= -D TEST_EXTRA_ARGS= -D TEST_PROPERTIES= -D TEST_PREFIX= -D TEST_SUFFIX= -D TEST_LIST=unit_converter_tests_TESTS -D TEST_REPORTER= -D TEST_OUTPUT_DIR= -D TEST_OUTPUT_PREFIX= -D TEST_OUTPUT_SUFFIX= -D TEST_DL_PATHS= -D CTEST_FILE=C:/DEV/UnitConverter_08/build/unit_converter_tests-b12d07c_tests.cmake -P C:/DEV/UnitConverter_08/build/_deps/catch2-src/extras/CatchAddTests.cmake"
   PRE_LINK = cd .
   RESTAT = 1
-  TARGET_COMPILE_PDB = CMakeFiles\unit_converter_tests.dir\
   TARGET_FILE = unit_converter_tests.exe
   TARGET_IMPLIB = libunit_converter_tests.dll.a
-  TARGET_PDB = unit_converter_tests.pdb
+  TARGET_PDB = unit_converter_tests.exe.dbg
   TARGET_SUPPORT_DIR = CMakeFiles\unit_converter_tests.dir
 
 
@@ -688,8 +645,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/benchmark/catch_chrono
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2\benchmark
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/benchmark/detail/catch_analyse.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/benchmark/detail/catch_analyse.cpp || cmake_object_order_depends_target_Catch2
@@ -698,8 +653,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/benchmark/detail/catch
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2\benchmark\detail
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/benchmark/detail/catch_benchmark_function.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/benchmark/detail/catch_benchmark_function.cpp || cmake_object_order_depends_target_Catch2
@@ -708,8 +661,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/benchmark/detail/catch
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2\benchmark\detail
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/benchmark/detail/catch_run_for_at_least.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/benchmark/detail/catch_run_for_at_least.cpp || cmake_object_order_depends_target_Catch2
@@ -718,8 +669,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/benchmark/detail/catch
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2\benchmark\detail
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/benchmark/detail/catch_stats.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/benchmark/detail/catch_stats.cpp || cmake_object_order_depends_target_Catch2
@@ -728,8 +677,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/benchmark/detail/catch
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2\benchmark\detail
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/generators/catch_generator_exception.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/generators/catch_generator_exception.cpp || cmake_object_order_depends_target_Catch2
@@ -738,8 +685,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/generators/catch_gener
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2\generators
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/generators/catch_generators.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/generators/catch_generators.cpp || cmake_object_order_depends_target_Catch2
@@ -748,8 +693,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/generators/catch_gener
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2\generators
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/generators/catch_generators_random.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/generators/catch_generators_random.cpp || cmake_object_order_depends_target_Catch2
@@ -758,8 +701,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/generators/catch_gener
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2\generators
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_automake.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_automake.cpp || cmake_object_order_depends_target_Catch2
@@ -768,8 +709,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_report
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2\reporters
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_common_base.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_common_base.cpp || cmake_object_order_depends_target_Catch2
@@ -778,8 +717,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_report
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2\reporters
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_compact.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_compact.cpp || cmake_object_order_depends_target_Catch2
@@ -788,8 +725,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_report
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2\reporters
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_console.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_console.cpp || cmake_object_order_depends_target_Catch2
@@ -798,8 +733,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_report
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2\reporters
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_cumulative_base.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_cumulative_base.cpp || cmake_object_order_depends_target_Catch2
@@ -808,8 +741,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_report
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2\reporters
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_event_listener.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_event_listener.cpp || cmake_object_order_depends_target_Catch2
@@ -818,8 +749,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_report
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2\reporters
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_helpers.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_helpers.cpp || cmake_object_order_depends_target_Catch2
@@ -828,8 +757,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_report
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2\reporters
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_json.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_json.cpp || cmake_object_order_depends_target_Catch2
@@ -838,8 +765,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_report
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2\reporters
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_junit.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_junit.cpp || cmake_object_order_depends_target_Catch2
@@ -848,8 +773,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_report
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2\reporters
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_multi.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_multi.cpp || cmake_object_order_depends_target_Catch2
@@ -858,8 +781,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_report
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2\reporters
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_registrars.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_registrars.cpp || cmake_object_order_depends_target_Catch2
@@ -868,8 +789,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_report
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2\reporters
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_sonarqube.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_sonarqube.cpp || cmake_object_order_depends_target_Catch2
@@ -878,8 +797,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_report
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2\reporters
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_streaming_base.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_streaming_base.cpp || cmake_object_order_depends_target_Catch2
@@ -888,8 +805,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_report
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2\reporters
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_tap.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_tap.cpp || cmake_object_order_depends_target_Catch2
@@ -898,8 +813,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_report
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2\reporters
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_teamcity.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_teamcity.cpp || cmake_object_order_depends_target_Catch2
@@ -908,8 +821,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_report
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2\reporters
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_xml.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_xml.cpp || cmake_object_order_depends_target_Catch2
@@ -918,8 +829,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_report
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2\reporters
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_capture.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/interfaces/catch_interfaces_capture.cpp || cmake_object_order_depends_target_Catch2
@@ -928,8 +837,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_inter
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2\interfaces
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_config.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/interfaces/catch_interfaces_config.cpp || cmake_object_order_depends_target_Catch2
@@ -938,8 +845,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_inter
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2\interfaces
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_exception.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/interfaces/catch_interfaces_exception.cpp || cmake_object_order_depends_target_Catch2
@@ -948,8 +853,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_inter
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2\interfaces
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_generatortracker.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/interfaces/catch_interfaces_generatortracker.cpp || cmake_object_order_depends_target_Catch2
@@ -958,8 +861,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_inter
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2\interfaces
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_registry_hub.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/interfaces/catch_interfaces_registry_hub.cpp || cmake_object_order_depends_target_Catch2
@@ -968,8 +869,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_inter
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2\interfaces
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_reporter.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/interfaces/catch_interfaces_reporter.cpp || cmake_object_order_depends_target_Catch2
@@ -978,8 +877,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_inter
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2\interfaces
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_reporter_factory.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/interfaces/catch_interfaces_reporter_factory.cpp || cmake_object_order_depends_target_Catch2
@@ -988,8 +885,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_inter
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2\interfaces
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_testcase.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/interfaces/catch_interfaces_testcase.cpp || cmake_object_order_depends_target_Catch2
@@ -998,8 +893,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_inter
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2\interfaces
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_approx.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/catch_approx.cpp || cmake_object_order_depends_target_Catch2
@@ -1008,8 +901,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_approx.cpp.obj: 
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_assertion_result.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/catch_assertion_result.cpp || cmake_object_order_depends_target_Catch2
@@ -1018,8 +909,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_assertion_result
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_config.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/catch_config.cpp || cmake_object_order_depends_target_Catch2
@@ -1028,8 +917,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_config.cpp.obj: 
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_get_random_seed.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/catch_get_random_seed.cpp || cmake_object_order_depends_target_Catch2
@@ -1038,8 +925,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_get_random_seed.
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_message.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/catch_message.cpp || cmake_object_order_depends_target_Catch2
@@ -1048,8 +933,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_message.cpp.obj:
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_registry_hub.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/catch_registry_hub.cpp || cmake_object_order_depends_target_Catch2
@@ -1058,8 +941,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_registry_hub.cpp
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_session.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/catch_session.cpp || cmake_object_order_depends_target_Catch2
@@ -1068,8 +949,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_session.cpp.obj:
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_tag_alias_autoregistrar.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/catch_tag_alias_autoregistrar.cpp || cmake_object_order_depends_target_Catch2
@@ -1078,8 +957,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_tag_alias_autore
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_test_case_info.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/catch_test_case_info.cpp || cmake_object_order_depends_target_Catch2
@@ -1088,8 +965,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_test_case_info.c
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_test_spec.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/catch_test_spec.cpp || cmake_object_order_depends_target_Catch2
@@ -1098,8 +973,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_test_spec.cpp.ob
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_timer.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/catch_timer.cpp || cmake_object_order_depends_target_Catch2
@@ -1108,8 +981,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_timer.cpp.obj: C
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_tostring.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/catch_tostring.cpp || cmake_object_order_depends_target_Catch2
@@ -1118,8 +989,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_tostring.cpp.obj
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_totals.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/catch_totals.cpp || cmake_object_order_depends_target_Catch2
@@ -1128,8 +997,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_totals.cpp.obj: 
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_translate_exception.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/catch_translate_exception.cpp || cmake_object_order_depends_target_Catch2
@@ -1138,8 +1005,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_translate_except
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_version.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/catch_version.cpp || cmake_object_order_depends_target_Catch2
@@ -1148,8 +1013,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_version.cpp.obj:
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_assertion_handler.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/internal/catch_assertion_handler.cpp || cmake_object_order_depends_target_Catch2
@@ -1158,8 +1021,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_asserti
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2\internal
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_case_insensitive_comparisons.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/internal/catch_case_insensitive_comparisons.cpp || cmake_object_order_depends_target_Catch2
@@ -1168,8 +1029,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_case_in
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2\internal
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_clara.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/internal/catch_clara.cpp || cmake_object_order_depends_target_Catch2
@@ -1178,8 +1037,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_clara.c
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2\internal
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_commandline.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/internal/catch_commandline.cpp || cmake_object_order_depends_target_Catch2
@@ -1188,8 +1045,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_command
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2\internal
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_console_colour.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/internal/catch_console_colour.cpp || cmake_object_order_depends_target_Catch2
@@ -1198,8 +1053,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_console
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2\internal
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_context.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/internal/catch_context.cpp || cmake_object_order_depends_target_Catch2
@@ -1208,8 +1061,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_context
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2\internal
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_debug_console.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/internal/catch_debug_console.cpp || cmake_object_order_depends_target_Catch2
@@ -1218,8 +1069,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_debug_c
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2\internal
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_debugger.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/internal/catch_debugger.cpp || cmake_object_order_depends_target_Catch2
@@ -1228,8 +1077,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_debugge
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2\internal
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_decomposer.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/internal/catch_decomposer.cpp || cmake_object_order_depends_target_Catch2
@@ -1238,8 +1085,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_decompo
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2\internal
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_enforce.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/internal/catch_enforce.cpp || cmake_object_order_depends_target_Catch2
@@ -1248,8 +1093,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_enforce
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2\internal
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_enum_values_registry.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/internal/catch_enum_values_registry.cpp || cmake_object_order_depends_target_Catch2
@@ -1258,8 +1101,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_enum_va
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2\internal
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_errno_guard.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/internal/catch_errno_guard.cpp || cmake_object_order_depends_target_Catch2
@@ -1268,8 +1109,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_errno_g
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2\internal
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_exception_translator_registry.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/internal/catch_exception_translator_registry.cpp || cmake_object_order_depends_target_Catch2
@@ -1278,8 +1117,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_excepti
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2\internal
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_fatal_condition_handler.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/internal/catch_fatal_condition_handler.cpp || cmake_object_order_depends_target_Catch2
@@ -1288,8 +1125,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_fatal_c
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2\internal
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_floating_point_helpers.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/internal/catch_floating_point_helpers.cpp || cmake_object_order_depends_target_Catch2
@@ -1298,8 +1133,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_floatin
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2\internal
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_getenv.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/internal/catch_getenv.cpp || cmake_object_order_depends_target_Catch2
@@ -1308,8 +1141,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_getenv.
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2\internal
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_istream.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/internal/catch_istream.cpp || cmake_object_order_depends_target_Catch2
@@ -1318,8 +1149,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_istream
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2\internal
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_jsonwriter.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/internal/catch_jsonwriter.cpp || cmake_object_order_depends_target_Catch2
@@ -1328,8 +1157,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_jsonwri
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2\internal
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_lazy_expr.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/internal/catch_lazy_expr.cpp || cmake_object_order_depends_target_Catch2
@@ -1338,8 +1165,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_lazy_ex
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2\internal
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_leak_detector.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/internal/catch_leak_detector.cpp || cmake_object_order_depends_target_Catch2
@@ -1348,8 +1173,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_leak_de
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2\internal
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_list.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/internal/catch_list.cpp || cmake_object_order_depends_target_Catch2
@@ -1358,8 +1181,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_list.cp
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2\internal
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_message_info.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/internal/catch_message_info.cpp || cmake_object_order_depends_target_Catch2
@@ -1368,8 +1189,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_message
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2\internal
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_output_redirect.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/internal/catch_output_redirect.cpp || cmake_object_order_depends_target_Catch2
@@ -1378,8 +1197,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_output_
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2\internal
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_parse_numbers.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/internal/catch_parse_numbers.cpp || cmake_object_order_depends_target_Catch2
@@ -1388,8 +1205,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_parse_n
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2\internal
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_polyfills.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/internal/catch_polyfills.cpp || cmake_object_order_depends_target_Catch2
@@ -1398,8 +1213,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_polyfil
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2\internal
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_random_number_generator.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/internal/catch_random_number_generator.cpp || cmake_object_order_depends_target_Catch2
@@ -1408,8 +1221,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_random_
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2\internal
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_random_seed_generation.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/internal/catch_random_seed_generation.cpp || cmake_object_order_depends_target_Catch2
@@ -1418,8 +1229,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_random_
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2\internal
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_reporter_registry.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/internal/catch_reporter_registry.cpp || cmake_object_order_depends_target_Catch2
@@ -1428,8 +1237,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_reporte
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2\internal
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_reporter_spec_parser.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/internal/catch_reporter_spec_parser.cpp || cmake_object_order_depends_target_Catch2
@@ -1438,8 +1245,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_reporte
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2\internal
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_result_type.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/internal/catch_result_type.cpp || cmake_object_order_depends_target_Catch2
@@ -1448,8 +1253,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_result_
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2\internal
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_reusable_string_stream.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/internal/catch_reusable_string_stream.cpp || cmake_object_order_depends_target_Catch2
@@ -1458,8 +1261,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_reusabl
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2\internal
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_run_context.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/internal/catch_run_context.cpp || cmake_object_order_depends_target_Catch2
@@ -1468,8 +1269,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_run_con
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2\internal
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_section.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/internal/catch_section.cpp || cmake_object_order_depends_target_Catch2
@@ -1478,8 +1277,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_section
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2\internal
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_singletons.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/internal/catch_singletons.cpp || cmake_object_order_depends_target_Catch2
@@ -1488,8 +1285,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_singlet
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2\internal
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_source_line_info.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/internal/catch_source_line_info.cpp || cmake_object_order_depends_target_Catch2
@@ -1498,8 +1293,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_source_
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2\internal
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_startup_exception_registry.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/internal/catch_startup_exception_registry.cpp || cmake_object_order_depends_target_Catch2
@@ -1508,8 +1301,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_startup
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2\internal
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_stdstreams.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/internal/catch_stdstreams.cpp || cmake_object_order_depends_target_Catch2
@@ -1518,8 +1309,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_stdstre
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2\internal
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_string_manip.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/internal/catch_string_manip.cpp || cmake_object_order_depends_target_Catch2
@@ -1528,8 +1317,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_string_
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2\internal
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_stringref.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/internal/catch_stringref.cpp || cmake_object_order_depends_target_Catch2
@@ -1538,8 +1325,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_stringr
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2\internal
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_tag_alias_registry.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/internal/catch_tag_alias_registry.cpp || cmake_object_order_depends_target_Catch2
@@ -1548,8 +1333,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_tag_ali
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2\internal
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_case_info_hasher.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/internal/catch_test_case_info_hasher.cpp || cmake_object_order_depends_target_Catch2
@@ -1558,8 +1341,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_ca
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2\internal
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_case_registry_impl.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/internal/catch_test_case_registry_impl.cpp || cmake_object_order_depends_target_Catch2
@@ -1568,8 +1349,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_ca
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2\internal
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_case_tracker.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/internal/catch_test_case_tracker.cpp || cmake_object_order_depends_target_Catch2
@@ -1578,8 +1357,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_ca
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2\internal
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_failure_exception.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/internal/catch_test_failure_exception.cpp || cmake_object_order_depends_target_Catch2
@@ -1588,8 +1365,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_fa
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2\internal
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_registry.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/internal/catch_test_registry.cpp || cmake_object_order_depends_target_Catch2
@@ -1598,8 +1373,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_re
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2\internal
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_spec_parser.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/internal/catch_test_spec_parser.cpp || cmake_object_order_depends_target_Catch2
@@ -1608,8 +1381,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_sp
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2\internal
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_textflow.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/internal/catch_textflow.cpp || cmake_object_order_depends_target_Catch2
@@ -1618,8 +1389,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_textflo
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2\internal
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_uncaught_exceptions.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/internal/catch_uncaught_exceptions.cpp || cmake_object_order_depends_target_Catch2
@@ -1628,8 +1397,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_uncaugh
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2\internal
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_wildcard_pattern.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/internal/catch_wildcard_pattern.cpp || cmake_object_order_depends_target_Catch2
@@ -1638,8 +1405,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_wildcar
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2\internal
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_xmlwriter.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/internal/catch_xmlwriter.cpp || cmake_object_order_depends_target_Catch2
@@ -1648,8 +1413,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_xmlwrit
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2\internal
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/matchers/catch_matchers.cpp || cmake_object_order_depends_target_Catch2
@@ -1658,8 +1421,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matcher
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2\matchers
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_container_properties.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/matchers/catch_matchers_container_properties.cpp || cmake_object_order_depends_target_Catch2
@@ -1668,8 +1429,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matcher
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2\matchers
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_exception.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/matchers/catch_matchers_exception.cpp || cmake_object_order_depends_target_Catch2
@@ -1678,8 +1437,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matcher
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2\matchers
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_floating_point.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/matchers/catch_matchers_floating_point.cpp || cmake_object_order_depends_target_Catch2
@@ -1688,8 +1445,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matcher
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2\matchers
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_predicate.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/matchers/catch_matchers_predicate.cpp || cmake_object_order_depends_target_Catch2
@@ -1698,8 +1453,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matcher
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2\matchers
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_quantifiers.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/matchers/catch_matchers_quantifiers.cpp || cmake_object_order_depends_target_Catch2
@@ -1708,8 +1461,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matcher
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2\matchers
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_string.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/matchers/catch_matchers_string.cpp || cmake_object_order_depends_target_Catch2
@@ -1718,8 +1469,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matcher
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2\matchers
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_templated.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/matchers/catch_matchers_templated.cpp || cmake_object_order_depends_target_Catch2
@@ -1728,8 +1477,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matcher
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2\matchers
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/internal/catch_matchers_impl.cpp.obj: CXX_COMPILER__Catch2_unscanned_ C$:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/matchers/internal/catch_matchers_impl.cpp || cmake_object_order_depends_target_Catch2
@@ -1738,8 +1485,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/internal/catc
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir\catch2\matchers\internal
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
 
 
@@ -1754,9 +1499,8 @@ build _deps/catch2-build/src/libCatch2.a: CXX_STATIC_LIBRARY_LINKER__Catch2_ _de
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2.dir\Catch2.pdb
   TARGET_FILE = _deps\catch2-build\src\libCatch2.a
-  TARGET_PDB = _deps\catch2-build\src\libCatch2.pdb
+  TARGET_PDB = Catch2.a.dbg
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2.dir
   RSP_FILE = CMakeFiles\Catch2.rsp
 
@@ -1775,8 +1519,6 @@ build _deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/catch2/internal/catch
   INCLUDES = -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2WithMain.dir
   OBJECT_FILE_DIR = _deps\catch2-build\src\CMakeFiles\Catch2WithMain.dir\catch2\internal
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2WithMain.dir\Catch2WithMain.pdb
-  TARGET_PDB = _deps\catch2-build\src\libCatch2Main.pdb
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2WithMain.dir
 
 
@@ -1791,9 +1533,8 @@ build _deps/catch2-build/src/libCatch2Main.a: CXX_STATIC_LIBRARY_LINKER__Catch2W
   OBJECT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2WithMain.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = _deps\catch2-build\src\CMakeFiles\Catch2WithMain.dir\Catch2WithMain.pdb
   TARGET_FILE = _deps\catch2-build\src\libCatch2Main.a
-  TARGET_PDB = _deps\catch2-build\src\libCatch2Main.pdb
+  TARGET_PDB = Catch2Main.a.dbg
   TARGET_SUPPORT_DIR = _deps\catch2-build\src\CMakeFiles\Catch2WithMain.dir
 
 
@@ -1879,14 +1620,14 @@ build _deps/catch2-build/src/all: phony _deps/catch2-build/src/libCatch2.a _deps
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja C$:/DEV/UnitConverter_08/build/cmake_install.cmake C$:/DEV/UnitConverter_08/build/_deps/catch2-build/cmake_install.cmake C$:/DEV/UnitConverter_08/build/_deps/catch2-build/src/cmake_install.cmake C$:/DEV/UnitConverter_08/build/CTestTestfile.cmake: RERUN_CMAKE | C$:/DEV/UnitConverter_08/CMakeLists.txt C$:/mingw64/share/cmake-4.3/Modules/CMakeCXXCompiler.cmake.in C$:/mingw64/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp C$:/mingw64/share/cmake-4.3/Modules/CMakeCXXInformation.cmake C$:/mingw64/share/cmake-4.3/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake C$:/mingw64/share/cmake-4.3/Modules/CMakeCommonLanguageInclude.cmake C$:/mingw64/share/cmake-4.3/Modules/CMakeCompilerIdDetection.cmake C$:/mingw64/share/cmake-4.3/Modules/CMakeDependentOption.cmake C$:/mingw64/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake C$:/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompiler.cmake C$:/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake C$:/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake C$:/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerSupport.cmake C$:/mingw64/share/cmake-4.3/Modules/CMakeDetermineRCCompiler.cmake C$:/mingw64/share/cmake-4.3/Modules/CMakeDetermineSystem.cmake C$:/mingw64/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake C$:/mingw64/share/cmake-4.3/Modules/CMakeGenericSystem.cmake C$:/mingw64/share/cmake-4.3/Modules/CMakeInitializeConfigs.cmake C$:/mingw64/share/cmake-4.3/Modules/CMakeLanguageInformation.cmake C$:/mingw64/share/cmake-4.3/Modules/CMakeNinjaFindMake.cmake C$:/mingw64/share/cmake-4.3/Modules/CMakePackageConfigHelpers.cmake C$:/mingw64/share/cmake-4.3/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/mingw64/share/cmake-4.3/Modules/CMakeParseImplicitLinkInfo.cmake C$:/mingw64/share/cmake-4.3/Modules/CMakeParseLibraryArchitecture.cmake C$:/mingw64/share/cmake-4.3/Modules/CMakeRCCompiler.cmake.in C$:/mingw64/share/cmake-4.3/Modules/CMakeRCInformation.cmake C$:/mingw64/share/cmake-4.3/Modules/CMakeSystem.cmake.in C$:/mingw64/share/cmake-4.3/Modules/CMakeSystemSpecificInformation.cmake C$:/mingw64/share/cmake-4.3/Modules/CMakeSystemSpecificInitialize.cmake C$:/mingw64/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake C$:/mingw64/share/cmake-4.3/Modules/CMakeTestCompilerCommon.cmake C$:/mingw64/share/cmake-4.3/Modules/CMakeTestRCCompiler.cmake C$:/mingw64/share/cmake-4.3/Modules/CTest.cmake C$:/mingw64/share/cmake-4.3/Modules/CTestTargets.cmake C$:/mingw64/share/cmake-4.3/Modules/CTestUseLaunchers.cmake C$:/mingw64/share/cmake-4.3/Modules/CheckCXXCompilerFlag.cmake C$:/mingw64/share/cmake-4.3/Modules/CheckCXXSourceCompiles.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/CrayClang-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/Diab-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/GNU-CXX-CXXImportStd.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/GNU-CXX.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/GNU-FindBinUtils.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/GNU.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/OrangeC-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/Renesas-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/TI-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/TIClang-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.3/Modules/DartConfiguration.tcl.in C$:/mingw64/share/cmake-4.3/Modules/ExternalProject/shared_internal_commands.cmake C$:/mingw64/share/cmake-4.3/Modules/FetchContent.cmake C$:/mingw64/share/cmake-4.3/Modules/FetchContent/CMakeLists.cmake.in C$:/mingw64/share/cmake-4.3/Modules/FindGit.cmake C$:/mingw64/share/cmake-4.3/Modules/FindPackageHandleStandardArgs.cmake C$:/mingw64/share/cmake-4.3/Modules/FindPackageMessage.cmake C$:/mingw64/share/cmake-4.3/Modules/GNUInstallDirs.cmake C$:/mingw64/share/cmake-4.3/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/mingw64/share/cmake-4.3/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/mingw64/share/cmake-4.3/Modules/Internal/CMakeDetermineLinkerId.cmake C$:/mingw64/share/cmake-4.3/Modules/Internal/CMakeInspectCXXLinker.cmake C$:/mingw64/share/cmake-4.3/Modules/Internal/CheckCompilerFlag.cmake C$:/mingw64/share/cmake-4.3/Modules/Internal/CheckFlagCommonConfig.cmake C$:/mingw64/share/cmake-4.3/Modules/Internal/CheckSourceCompiles.cmake C$:/mingw64/share/cmake-4.3/Modules/Internal/FeatureTesting.cmake C$:/mingw64/share/cmake-4.3/Modules/Platform/Linker/GNU.cmake C$:/mingw64/share/cmake-4.3/Modules/Platform/Linker/Windows-CXX.cmake C$:/mingw64/share/cmake-4.3/Modules/Platform/Linker/Windows-GNU-CXX.cmake C$:/mingw64/share/cmake-4.3/Modules/Platform/Linker/Windows-GNU.cmake C$:/mingw64/share/cmake-4.3/Modules/Platform/Windows-Determine-CXX.cmake C$:/mingw64/share/cmake-4.3/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/mingw64/share/cmake-4.3/Modules/Platform/Windows-GNU-CXX.cmake C$:/mingw64/share/cmake-4.3/Modules/Platform/Windows-GNU.cmake C$:/mingw64/share/cmake-4.3/Modules/Platform/Windows-Initialize.cmake C$:/mingw64/share/cmake-4.3/Modules/Platform/Windows-windres.cmake C$:/mingw64/share/cmake-4.3/Modules/Platform/Windows.cmake C$:/mingw64/share/cmake-4.3/Modules/Platform/WindowsPaths.cmake C$:/mingw64/share/cmake-4.3/Modules/WriteBasicConfigVersionFile.cmake C$:/mingw64/share/cmake-4.3/Templates/CTestScript.cmake.in CMakeCache.txt CMakeFiles/4.3.1/CMakeCXXCompiler.cmake CMakeFiles/4.3.1/CMakeRCCompiler.cmake CMakeFiles/4.3.1/CMakeSystem.cmake _deps/catch2-src/CMakeLists.txt _deps/catch2-src/CMake/CatchConfigOptions.cmake _deps/catch2-src/CMake/CatchMiscFunctions.cmake _deps/catch2-src/extras/Catch.cmake _deps/catch2-src/src/CMakeLists.txt _deps/catch2-src/src/catch2/catch_user_config.hpp.in
+build build.ninja C$:/DEV/UnitConverter_08/build/cmake_install.cmake C$:/DEV/UnitConverter_08/build/_deps/catch2-build/cmake_install.cmake C$:/DEV/UnitConverter_08/build/_deps/catch2-build/src/cmake_install.cmake C$:/DEV/UnitConverter_08/build/CTestTestfile.cmake: RERUN_CMAKE | C$:/DEV/UnitConverter_08/CMakeLists.txt C$:/mingw64/share/cmake-4.3/Modules/CMakeCXXInformation.cmake C$:/mingw64/share/cmake-4.3/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake C$:/mingw64/share/cmake-4.3/Modules/CMakeCommonLanguageInclude.cmake C$:/mingw64/share/cmake-4.3/Modules/CMakeDependentOption.cmake C$:/mingw64/share/cmake-4.3/Modules/CMakeGenericSystem.cmake C$:/mingw64/share/cmake-4.3/Modules/CMakeInitializeConfigs.cmake C$:/mingw64/share/cmake-4.3/Modules/CMakeLanguageInformation.cmake C$:/mingw64/share/cmake-4.3/Modules/CMakePackageConfigHelpers.cmake C$:/mingw64/share/cmake-4.3/Modules/CMakeRCInformation.cmake C$:/mingw64/share/cmake-4.3/Modules/CMakeSystemSpecificInformation.cmake C$:/mingw64/share/cmake-4.3/Modules/CMakeSystemSpecificInitialize.cmake C$:/mingw64/share/cmake-4.3/Modules/CTest.cmake C$:/mingw64/share/cmake-4.3/Modules/CTestTargets.cmake C$:/mingw64/share/cmake-4.3/Modules/CTestUseLaunchers.cmake C$:/mingw64/share/cmake-4.3/Modules/CheckCXXCompilerFlag.cmake C$:/mingw64/share/cmake-4.3/Modules/CheckCXXSourceCompiles.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/GNU-CXX.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/GNU.cmake C$:/mingw64/share/cmake-4.3/Modules/DartConfiguration.tcl.in C$:/mingw64/share/cmake-4.3/Modules/ExternalProject/shared_internal_commands.cmake C$:/mingw64/share/cmake-4.3/Modules/FetchContent.cmake C$:/mingw64/share/cmake-4.3/Modules/FetchContent/CMakeLists.cmake.in C$:/mingw64/share/cmake-4.3/Modules/FindGit.cmake C$:/mingw64/share/cmake-4.3/Modules/FindPackageHandleStandardArgs.cmake C$:/mingw64/share/cmake-4.3/Modules/FindPackageMessage.cmake C$:/mingw64/share/cmake-4.3/Modules/GNUInstallDirs.cmake C$:/mingw64/share/cmake-4.3/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/mingw64/share/cmake-4.3/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/mingw64/share/cmake-4.3/Modules/Internal/CheckCompilerFlag.cmake C$:/mingw64/share/cmake-4.3/Modules/Internal/CheckFlagCommonConfig.cmake C$:/mingw64/share/cmake-4.3/Modules/Internal/CheckSourceCompiles.cmake C$:/mingw64/share/cmake-4.3/Modules/Platform/Linker/GNU.cmake C$:/mingw64/share/cmake-4.3/Modules/Platform/Linker/Windows-CXX.cmake C$:/mingw64/share/cmake-4.3/Modules/Platform/Linker/Windows-GNU-CXX.cmake C$:/mingw64/share/cmake-4.3/Modules/Platform/Linker/Windows-GNU.cmake C$:/mingw64/share/cmake-4.3/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/mingw64/share/cmake-4.3/Modules/Platform/Windows-GNU-CXX.cmake C$:/mingw64/share/cmake-4.3/Modules/Platform/Windows-GNU.cmake C$:/mingw64/share/cmake-4.3/Modules/Platform/Windows-Initialize.cmake C$:/mingw64/share/cmake-4.3/Modules/Platform/Windows-windres.cmake C$:/mingw64/share/cmake-4.3/Modules/Platform/Windows.cmake C$:/mingw64/share/cmake-4.3/Modules/Platform/WindowsPaths.cmake C$:/mingw64/share/cmake-4.3/Modules/WriteBasicConfigVersionFile.cmake C$:/mingw64/share/cmake-4.3/Templates/CTestScript.cmake.in CMakeCache.txt CMakeFiles/4.3.1/CMakeCXXCompiler.cmake CMakeFiles/4.3.1/CMakeRCCompiler.cmake CMakeFiles/4.3.1/CMakeSystem.cmake _deps/catch2-src/CMakeLists.txt _deps/catch2-src/CMake/CatchConfigOptions.cmake _deps/catch2-src/CMake/CatchMiscFunctions.cmake _deps/catch2-src/extras/Catch.cmake _deps/catch2-src/src/CMakeLists.txt _deps/catch2-src/src/catch2/catch_user_config.hpp.in
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/DEV/UnitConverter_08/CMakeLists.txt C$:/mingw64/share/cmake-4.3/Modules/CMakeCXXCompiler.cmake.in C$:/mingw64/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp C$:/mingw64/share/cmake-4.3/Modules/CMakeCXXInformation.cmake C$:/mingw64/share/cmake-4.3/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake C$:/mingw64/share/cmake-4.3/Modules/CMakeCommonLanguageInclude.cmake C$:/mingw64/share/cmake-4.3/Modules/CMakeCompilerIdDetection.cmake C$:/mingw64/share/cmake-4.3/Modules/CMakeDependentOption.cmake C$:/mingw64/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake C$:/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompiler.cmake C$:/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake C$:/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake C$:/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerSupport.cmake C$:/mingw64/share/cmake-4.3/Modules/CMakeDetermineRCCompiler.cmake C$:/mingw64/share/cmake-4.3/Modules/CMakeDetermineSystem.cmake C$:/mingw64/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake C$:/mingw64/share/cmake-4.3/Modules/CMakeGenericSystem.cmake C$:/mingw64/share/cmake-4.3/Modules/CMakeInitializeConfigs.cmake C$:/mingw64/share/cmake-4.3/Modules/CMakeLanguageInformation.cmake C$:/mingw64/share/cmake-4.3/Modules/CMakeNinjaFindMake.cmake C$:/mingw64/share/cmake-4.3/Modules/CMakePackageConfigHelpers.cmake C$:/mingw64/share/cmake-4.3/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/mingw64/share/cmake-4.3/Modules/CMakeParseImplicitLinkInfo.cmake C$:/mingw64/share/cmake-4.3/Modules/CMakeParseLibraryArchitecture.cmake C$:/mingw64/share/cmake-4.3/Modules/CMakeRCCompiler.cmake.in C$:/mingw64/share/cmake-4.3/Modules/CMakeRCInformation.cmake C$:/mingw64/share/cmake-4.3/Modules/CMakeSystem.cmake.in C$:/mingw64/share/cmake-4.3/Modules/CMakeSystemSpecificInformation.cmake C$:/mingw64/share/cmake-4.3/Modules/CMakeSystemSpecificInitialize.cmake C$:/mingw64/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake C$:/mingw64/share/cmake-4.3/Modules/CMakeTestCompilerCommon.cmake C$:/mingw64/share/cmake-4.3/Modules/CMakeTestRCCompiler.cmake C$:/mingw64/share/cmake-4.3/Modules/CTest.cmake C$:/mingw64/share/cmake-4.3/Modules/CTestTargets.cmake C$:/mingw64/share/cmake-4.3/Modules/CTestUseLaunchers.cmake C$:/mingw64/share/cmake-4.3/Modules/CheckCXXCompilerFlag.cmake C$:/mingw64/share/cmake-4.3/Modules/CheckCXXSourceCompiles.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/CrayClang-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/Diab-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/GNU-CXX-CXXImportStd.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/GNU-CXX.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/GNU-FindBinUtils.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/GNU.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/OrangeC-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/Renesas-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/TI-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/TIClang-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.3/Modules/DartConfiguration.tcl.in C$:/mingw64/share/cmake-4.3/Modules/ExternalProject/shared_internal_commands.cmake C$:/mingw64/share/cmake-4.3/Modules/FetchContent.cmake C$:/mingw64/share/cmake-4.3/Modules/FetchContent/CMakeLists.cmake.in C$:/mingw64/share/cmake-4.3/Modules/FindGit.cmake C$:/mingw64/share/cmake-4.3/Modules/FindPackageHandleStandardArgs.cmake C$:/mingw64/share/cmake-4.3/Modules/FindPackageMessage.cmake C$:/mingw64/share/cmake-4.3/Modules/GNUInstallDirs.cmake C$:/mingw64/share/cmake-4.3/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/mingw64/share/cmake-4.3/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/mingw64/share/cmake-4.3/Modules/Internal/CMakeDetermineLinkerId.cmake C$:/mingw64/share/cmake-4.3/Modules/Internal/CMakeInspectCXXLinker.cmake C$:/mingw64/share/cmake-4.3/Modules/Internal/CheckCompilerFlag.cmake C$:/mingw64/share/cmake-4.3/Modules/Internal/CheckFlagCommonConfig.cmake C$:/mingw64/share/cmake-4.3/Modules/Internal/CheckSourceCompiles.cmake C$:/mingw64/share/cmake-4.3/Modules/Internal/FeatureTesting.cmake C$:/mingw64/share/cmake-4.3/Modules/Platform/Linker/GNU.cmake C$:/mingw64/share/cmake-4.3/Modules/Platform/Linker/Windows-CXX.cmake C$:/mingw64/share/cmake-4.3/Modules/Platform/Linker/Windows-GNU-CXX.cmake C$:/mingw64/share/cmake-4.3/Modules/Platform/Linker/Windows-GNU.cmake C$:/mingw64/share/cmake-4.3/Modules/Platform/Windows-Determine-CXX.cmake C$:/mingw64/share/cmake-4.3/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/mingw64/share/cmake-4.3/Modules/Platform/Windows-GNU-CXX.cmake C$:/mingw64/share/cmake-4.3/Modules/Platform/Windows-GNU.cmake C$:/mingw64/share/cmake-4.3/Modules/Platform/Windows-Initialize.cmake C$:/mingw64/share/cmake-4.3/Modules/Platform/Windows-windres.cmake C$:/mingw64/share/cmake-4.3/Modules/Platform/Windows.cmake C$:/mingw64/share/cmake-4.3/Modules/Platform/WindowsPaths.cmake C$:/mingw64/share/cmake-4.3/Modules/WriteBasicConfigVersionFile.cmake C$:/mingw64/share/cmake-4.3/Templates/CTestScript.cmake.in CMakeCache.txt CMakeFiles/4.3.1/CMakeCXXCompiler.cmake CMakeFiles/4.3.1/CMakeRCCompiler.cmake CMakeFiles/4.3.1/CMakeSystem.cmake _deps/catch2-src/CMakeLists.txt _deps/catch2-src/CMake/CatchConfigOptions.cmake _deps/catch2-src/CMake/CatchMiscFunctions.cmake _deps/catch2-src/extras/Catch.cmake _deps/catch2-src/src/CMakeLists.txt _deps/catch2-src/src/catch2/catch_user_config.hpp.in: phony
+build C$:/DEV/UnitConverter_08/CMakeLists.txt C$:/mingw64/share/cmake-4.3/Modules/CMakeCXXInformation.cmake C$:/mingw64/share/cmake-4.3/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake C$:/mingw64/share/cmake-4.3/Modules/CMakeCommonLanguageInclude.cmake C$:/mingw64/share/cmake-4.3/Modules/CMakeDependentOption.cmake C$:/mingw64/share/cmake-4.3/Modules/CMakeGenericSystem.cmake C$:/mingw64/share/cmake-4.3/Modules/CMakeInitializeConfigs.cmake C$:/mingw64/share/cmake-4.3/Modules/CMakeLanguageInformation.cmake C$:/mingw64/share/cmake-4.3/Modules/CMakePackageConfigHelpers.cmake C$:/mingw64/share/cmake-4.3/Modules/CMakeRCInformation.cmake C$:/mingw64/share/cmake-4.3/Modules/CMakeSystemSpecificInformation.cmake C$:/mingw64/share/cmake-4.3/Modules/CMakeSystemSpecificInitialize.cmake C$:/mingw64/share/cmake-4.3/Modules/CTest.cmake C$:/mingw64/share/cmake-4.3/Modules/CTestTargets.cmake C$:/mingw64/share/cmake-4.3/Modules/CTestUseLaunchers.cmake C$:/mingw64/share/cmake-4.3/Modules/CheckCXXCompilerFlag.cmake C$:/mingw64/share/cmake-4.3/Modules/CheckCXXSourceCompiles.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/GNU-CXX.cmake C$:/mingw64/share/cmake-4.3/Modules/Compiler/GNU.cmake C$:/mingw64/share/cmake-4.3/Modules/DartConfiguration.tcl.in C$:/mingw64/share/cmake-4.3/Modules/ExternalProject/shared_internal_commands.cmake C$:/mingw64/share/cmake-4.3/Modules/FetchContent.cmake C$:/mingw64/share/cmake-4.3/Modules/FetchContent/CMakeLists.cmake.in C$:/mingw64/share/cmake-4.3/Modules/FindGit.cmake C$:/mingw64/share/cmake-4.3/Modules/FindPackageHandleStandardArgs.cmake C$:/mingw64/share/cmake-4.3/Modules/FindPackageMessage.cmake C$:/mingw64/share/cmake-4.3/Modules/GNUInstallDirs.cmake C$:/mingw64/share/cmake-4.3/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/mingw64/share/cmake-4.3/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/mingw64/share/cmake-4.3/Modules/Internal/CheckCompilerFlag.cmake C$:/mingw64/share/cmake-4.3/Modules/Internal/CheckFlagCommonConfig.cmake C$:/mingw64/share/cmake-4.3/Modules/Internal/CheckSourceCompiles.cmake C$:/mingw64/share/cmake-4.3/Modules/Platform/Linker/GNU.cmake C$:/mingw64/share/cmake-4.3/Modules/Platform/Linker/Windows-CXX.cmake C$:/mingw64/share/cmake-4.3/Modules/Platform/Linker/Windows-GNU-CXX.cmake C$:/mingw64/share/cmake-4.3/Modules/Platform/Linker/Windows-GNU.cmake C$:/mingw64/share/cmake-4.3/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/mingw64/share/cmake-4.3/Modules/Platform/Windows-GNU-CXX.cmake C$:/mingw64/share/cmake-4.3/Modules/Platform/Windows-GNU.cmake C$:/mingw64/share/cmake-4.3/Modules/Platform/Windows-Initialize.cmake C$:/mingw64/share/cmake-4.3/Modules/Platform/Windows-windres.cmake C$:/mingw64/share/cmake-4.3/Modules/Platform/Windows.cmake C$:/mingw64/share/cmake-4.3/Modules/Platform/WindowsPaths.cmake C$:/mingw64/share/cmake-4.3/Modules/WriteBasicConfigVersionFile.cmake C$:/mingw64/share/cmake-4.3/Templates/CTestScript.cmake.in CMakeCache.txt CMakeFiles/4.3.1/CMakeCXXCompiler.cmake CMakeFiles/4.3.1/CMakeRCCompiler.cmake CMakeFiles/4.3.1/CMakeSystem.cmake _deps/catch2-src/CMakeLists.txt _deps/catch2-src/CMake/CatchConfigOptions.cmake _deps/catch2-src/CMake/CatchMiscFunctions.cmake _deps/catch2-src/extras/Catch.cmake _deps/catch2-src/src/CMakeLists.txt _deps/catch2-src/src/catch2/catch_user_config.hpp.in: phony
 
 
 #############################################

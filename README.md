@@ -181,8 +181,8 @@ RED 단계는 아래 조건을 만족하면 완료입니다.
 - [ ] 전체 TOTAL: 90%+
 
 ### 결함 목록 연결
-- [ ] defect_list.md 생성 및 발견 결함 기록
-- [ ] 모든 결함 수정 후 회귀 테스트 통과 확인
+- [x] [docs/defect_list.md](docs/defect_list.md) 생성 및 발견 결함 기록 (DEF-001~018, 2026-05-21 RED 44 failed 기준)
+- [ ] 모든 결함 수정 후 회귀 테스트 통과 확인 (DEF-001 Fixed · DEF-004~017 RED Open — GREEN `-DUNIT_CONVERTER_RED_PHASE=OFF` 후 해소 예정)
 
 ---
 
