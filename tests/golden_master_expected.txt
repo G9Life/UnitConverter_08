@@ -1,0 +1,17 @@
+[meter:2.5]
+2.5000 meter = 8.2021 feet
+2.5000 meter = 2.5000 meter
+2.5000 meter = 2.7340 yard
+---
+[feet:1.0]
+1.0000 feet = 1.0000 feet
+1.0000 feet = 0.3048 meter
+1.0000 feet = 0.3333 yard
+---
+[yard:1.0]
+1.0000 yard = 3.0000 feet
+1.0000 yard = 0.9144 meter
+1.0000 yard = 1.0000 yard
+---
+[meter:0.0]
+---

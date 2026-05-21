@@ -44,10 +44,22 @@ add_executable(unit_converter_tests
     tests/data_tests.cpp
 )
 
+if(NOT UNIT_CONVERTER_RED_PHASE)
+    target_sources(unit_converter_tests PRIVATE tests/golden_master_tests.cpp)
+endif()
+
 target_compile_definitions(unit_converter_tests
     PRIVATE
         TEST_FIXTURE_DIR="${CMAKE_CURRENT_SOURCE_DIR}/tests/fixtures"
 )
+
+if(NOT UNIT_CONVERTER_RED_PHASE)
+    target_compile_definitions(unit_converter_tests
+        PRIVATE
+            UNIT_CONVERTER_EXE="$<TARGET_FILE:UnitConverter>"
+            GOLDEN_MASTER_EXPECTED="${CMAKE_CURRENT_SOURCE_DIR}/tests/golden_master_expected.txt"
+    )
+endif()
 
 target_link_libraries(unit_converter_tests
     PRIVATE

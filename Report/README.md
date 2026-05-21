@@ -10,5 +10,6 @@
 | [03_RED_Fail_CATCH2_Test_Suite_Report.md](03_RED_Fail_CATCH2_Test_Suite_Report.md) | RED 전용 Catch2 45건·44 failed 실행 결과 (RPT-RED-002) |
 | [04_RED_Defect_List_Report.md](04_RED_Defect_List_Report.md) | 결함 목록·QA 분석 DEF-001~018 (RPT-DEF-001) |
 | [05_GREEN_CATCH2_Test_Suite_Report.md](05_GREEN_CATCH2_Test_Suite_Report.md) | GREEN 구현·Catch2 45건 전량 PASS (RPT-GREEN-001) |
+| [06_Golden_Master_Regression_Report.md](06_Golden_Master_Regression_Report.md) | Golden Master stdout 회귀·approve 패턴 (RPT-GM-001) |
 | `coverage_baseline/` | (생성 예정) UnitConverter.cpp lcov HTML |
 | `coverage_v1/` | (생성 예정) Domain·Boundary lcov HTML |
