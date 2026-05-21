@@ -45,7 +45,7 @@ add_executable(unit_converter_tests
 )
 
 if(NOT UNIT_CONVERTER_RED_PHASE)
-    target_sources(unit_converter_tests PRIVATE tests/golden_master_tests.cpp)
+    target_sources(unit_converter_tests PRIVATE tests/test_golden_master.cpp)
 endif()
 
 target_compile_definitions(unit_converter_tests
@@ -70,3 +70,11 @@ target_link_libraries(unit_converter_tests
 include(CTest)
 include(Catch)
 catch_discover_tests(unit_converter_tests)
+
+if(NOT UNIT_CONVERTER_RED_PHASE)
+    add_test(
+        NAME GoldenMaster
+        COMMAND unit_converter_tests "[golden][regression][r01]"
+    )
+    set_tests_properties(GoldenMaster PROPERTIES LABELS "golden;regression;r01")
+endif()

@@ -44,4 +44,9 @@ test_register_cubit_to_feet_via_meter 2 0.222813
 test_register_inch_small_ratio 2 0.231649
 test_register_has_unit_after_registration 4 0.116513
 Golden Master stdout regression 2 1.94187
+GoldenMaster 2 1.76915
+UnitConverter_meter_2_5 2 0.785486
+UnitConverter_feet_1_0 2 0.623092
+UnitConverter_yard_1_0 2 0.590849
+UnitConverter_meter_0_0 2 0.593252
 ---

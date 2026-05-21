@@ -163,9 +163,9 @@ build CMakeFiles/unit_converter_tests.dir/tests/data_tests.cpp.obj: CXX_COMPILER
   OBJECT_FILE_DIR = CMakeFiles\unit_converter_tests.dir\tests
   TARGET_SUPPORT_DIR = CMakeFiles\unit_converter_tests.dir
 
-build CMakeFiles/unit_converter_tests.dir/tests/golden_master_tests.cpp.obj: CXX_COMPILER__unit_converter_tests_unscanned_ C$:/DEV/UnitConverter_08/tests/golden_master_tests.cpp || cmake_object_order_depends_target_unit_converter_tests
+build CMakeFiles/unit_converter_tests.dir/tests/test_golden_master.cpp.obj: CXX_COMPILER__unit_converter_tests_unscanned_ C$:/DEV/UnitConverter_08/tests/test_golden_master.cpp || cmake_object_order_depends_target_unit_converter_tests
   DEFINES = -DGOLDEN_MASTER_EXPECTED=\"C:/DEV/UnitConverter_08/tests/golden_master_expected.txt\" -DTEST_FIXTURE_DIR=\"C:/DEV/UnitConverter_08/tests/fixtures\" -DUNIT_CONVERTER_EXE=\"C:/DEV/UnitConverter_08/build/UnitConverter.exe\"
-  DEP_FILE = CMakeFiles\unit_converter_tests.dir\tests\golden_master_tests.cpp.obj.d
+  DEP_FILE = CMakeFiles\unit_converter_tests.dir\tests\test_golden_master.cpp.obj.d
   FLAGS = -std=c++17
   INCLUDES = -IC:/DEV/UnitConverter_08/include -IC:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/.. -IC:/DEV/UnitConverter_08/build/_deps/catch2-build/generated-includes
   OBJECT_DIR = CMakeFiles\unit_converter_tests.dir
@@ -180,7 +180,7 @@ build CMakeFiles/unit_converter_tests.dir/tests/golden_master_tests.cpp.obj: CXX
 #############################################
 # Link the executable unit_converter_tests.exe
 
-build unit_converter_tests.exe unit_converter_tests-b12d07c_tests.cmake | ${cmake_ninja_workdir}unit_converter_tests-b12d07c_tests.cmake: CXX_EXECUTABLE_LINKER__unit_converter_tests_ CMakeFiles/unit_converter_tests.dir/tests/domain_tests.cpp.obj CMakeFiles/unit_converter_tests.dir/tests/boundary_tests.cpp.obj CMakeFiles/unit_converter_tests.dir/tests/data_tests.cpp.obj CMakeFiles/unit_converter_tests.dir/tests/golden_master_tests.cpp.obj | libunit_converter_core.a _deps/catch2-build/src/libCatch2Main.a _deps/catch2-build/src/libCatch2.a || _deps/catch2-build/src/libCatch2.a _deps/catch2-build/src/libCatch2Main.a libunit_converter_core.a
+build unit_converter_tests.exe unit_converter_tests-b12d07c_tests.cmake | ${cmake_ninja_workdir}unit_converter_tests-b12d07c_tests.cmake: CXX_EXECUTABLE_LINKER__unit_converter_tests_ CMakeFiles/unit_converter_tests.dir/tests/domain_tests.cpp.obj CMakeFiles/unit_converter_tests.dir/tests/boundary_tests.cpp.obj CMakeFiles/unit_converter_tests.dir/tests/data_tests.cpp.obj CMakeFiles/unit_converter_tests.dir/tests/test_golden_master.cpp.obj | libunit_converter_core.a _deps/catch2-build/src/libCatch2Main.a _deps/catch2-build/src/libCatch2.a || _deps/catch2-build/src/libCatch2.a _deps/catch2-build/src/libCatch2Main.a libunit_converter_core.a
   LINK_LIBRARIES = libunit_converter_core.a  _deps/catch2-build/src/libCatch2Main.a  _deps/catch2-build/src/libCatch2.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\unit_converter_tests.dir
   POST_BUILD = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\DEV\UnitConverter_08\build && C:\mingw64\bin\cmake.exe -D TEST_TARGET=unit_converter_tests -D TEST_EXECUTABLE=C:/DEV/UnitConverter_08/build/unit_converter_tests.exe -D TEST_EXECUTOR= -D TEST_WORKING_DIR=C:/DEV/UnitConverter_08/build -D TEST_SPEC= -D TEST_EXTRA_ARGS= -D TEST_PROPERTIES= -D TEST_PREFIX= -D TEST_SUFFIX= -D TEST_LIST=unit_converter_tests_TESTS -D TEST_REPORTER= -D TEST_OUTPUT_DIR= -D TEST_OUTPUT_PREFIX= -D TEST_OUTPUT_SUFFIX= -D TEST_DL_PATHS= -D CTEST_FILE=C:/DEV/UnitConverter_08/build/unit_converter_tests-b12d07c_tests.cmake -P C:/DEV/UnitConverter_08/build/_deps/catch2-src/extras/CatchAddTests.cmake"
