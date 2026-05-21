@@ -11,6 +11,7 @@
 | [04_RED_Defect_List_Report.md](04_RED_Defect_List_Report.md) | 결함 목록·QA 분석 DEF-001~018 (RPT-DEF-001) |
 | [05_GREEN_CATCH2_Test_Suite_Report.md](05_GREEN_CATCH2_Test_Suite_Report.md) | GREEN 구현·Catch2 45건 전량 PASS (RPT-GREEN-001) |
 | [06_REFACTORING_Golden_Master_Regression_Report.md](06_REFACTORING_Golden_Master_Regression_Report.md) | Golden Master REFACTORING 설계·상태 전이 (RPT-GM-001) |
-| [07_Golden_Master_Regression_Test_Report.md](07_Golden_Master_Regression_Test_Report.md) | Golden Master 구현·산출물·GM-TC-01~04 실행 결과 (RPT-GM-002) |
+| [07_REFECTORING_Golden_Master_Test_Code_Report.md](07_REFECTORING_Golden_Master_Test_Code_Report.md) | Golden Master 구현·산출물·GM-TC-01~04 실행 결과 (RPT-GM-002) |
+| [08_REFACTORING_Golden_Master_README_Checklist_Report.md](08_REFACTORING_Golden_Master_README_Checklist_Report.md) | README GM-01~09 체크리스트·진행·갭 분석 (RPT-GM-003) |
 | `coverage_baseline/` | (생성 예정) UnitConverter.cpp lcov HTML |
 | `coverage_v1/` | (생성 예정) Domain·Boundary lcov HTML |
