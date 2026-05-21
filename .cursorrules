@@ -1,0 +1,184 @@
+################################################################################
+project:
+  name: UnitConverter
+  language: C++17
+  purpose: meter 허브 기준 길이 단위 변환 CLI + 검증 가능한 계약·테스트 체계
+  audience: C++·클린 아키텍처(OCP/SRP, BCE) 학습자
+  docs_canonical:
+    - docs/PRD.md
+    - docs/TODO.md
+    - README.md
+  version_target: v1.0
+  v1_acceptance: PRD §7.1 AC-01~AC-03 + R-01 필수 테스트 GREEN
+  non_goals:
+    - GUI / Web API
+    - 비길이 차원(온도·무게 등)
+    - 워크숍 회고·설문을 코드 인수 조건으로 포함
+
+################################################################################
+code_style:
+  standard: C++17
+  naming:
+    types: PascalCase
+    functions: camelCase or snake_case (기존 파일과 일치)
+    files: snake_case 또는 도메인 접두 (UnitRegistry.cpp)
+  headers: include guard 또는 #pragma once
+  const: 비율·ε는 named constexpr; 매직 넘버 금지(3.28084는 config/테스트 단일 출처)
+  formatting: 프로젝트 CMake/clang-format 도입 시 일괄 적용; 도입 전 4-space indent 통일
+  comments: 비즈니스 규칙·ε·round4 분리 이유만; 자명한 코드 설명 금지
+
+################################################################################
+architecture:
+  pattern: BCE + Dual-Track
+  layers:
+    boundary:
+      owns: CLI 파싱, ERR prefix, round4, table/json/csv 직렬화
+      must_not: 환산 수식, Registry 비율 하드코딩
+    control:
+      owns: 유스케이스 오케스트레이션 (parse → convert → render)
+      must_not: 비율 if/else, 직접 stdout 포맷 문자열 조립( Renderer 위임)
+    entity:
+      owns: UnitRegistry, ConvertAll, LengthQuantity, 등록 불변식
+      must_not: iostream, fstream, JSON 파서, stderr
+    data:
+      owns: units.json 로드·저장, RegistrySnapshot
+      must_not: 환산 알고리즘
+  dependency_direction:
+    - Boundary → Control → Entity
+    - Data → Entity (port 구현만)
+  forbidden_edges:
+    - Entity → Boundary
+    - Entity → iostream/filesystem
+  ocp:
+    new_unit: config/units.json + 테스트만; 변환 핵심 diff 0
+    new_format: Renderer 추가; ConversionResult 불변
+  hub_unit: meter
+  ratios_default:
+    meter: 1.0
+    feet: 3.28084
+    yard: 1.09361
+  conversion_via_meter_only: true
+  display_rounding: HALF_UP 4 decimal places (Boundary only)
+  domain_epsilon: 1.0e-9
+
+################################################################################
+tdd_rules:
+  framework: Catch2 v3
+  workflow: RED → GREEN → REFACTOR
+  dual_track:
+    domain: I/O 없음; [ratio] [register] 태그; RED 먼저
+    boundary: Domain Mock; [parse] [json] [csv] [table] [boundary] 태그
+  order:
+    - Domain ratio/ConvertAll tests
+    - Data JSON load tests
+    - Boundary parse + ERR snapshot tests
+    - Integration T-I + Gherkin 3 scenarios
+  required_green_before_merge:
+    - T-D-01 ~ T-D-06
+    - T-B-05 ~ T-B-07
+    - T-I-01
+    - Gherkin happy + invalid format + unknown unit
+  contract_first: PRD §3.2·§3.3 변경 시 테스트 먼저 갱신
+  regression:
+    R-01: 필수 세트 전부 GREEN
+    R-02: 비율 변경 시 units.json + Domain tests + PRD §5.1 동시 PR
+    R-03: ERR-* prefix 변경은 스냅샷 테스트만 의도적 갱신
+    R-04: Entity I/O 금지
+    R-05: 신규 unit → ConvertAll count +1 테스트
+
+################################################################################
+testing:
+  runner: ctest (CMake) 또는 Catch2 binary
+  tags:
+    ratio: Domain 환산 정확도
+    parse: Boundary 입력
+    json: JSON 출력 계약
+    csv: CSV 출력 계약
+    table: table 출력 계약
+    boundary: exit code, stderr empty on success
+    register: 동적 단위 등록
+    data: config load fail/success
+  coverage_targets:
+    domain: { line: 95, branch: 90 }
+    boundary: { line: 85, branch: 80 }
+    data: { line: 90, branch: 85 }
+    control: { line: 80, branch: 75 }
+    overall: { line: 85 }
+  gherkin_expected_meter_2_5:
+    - "2.5 meter = 2.5 meter"
+    - "2.5 meter = 8.2021 feet"
+    - "2.5 meter = 2.7340 yard"
+  err_prefixes:
+    ERR-INPUT-001: "Invalid format. Use unit:value (ex: meter:2.5)"
+    ERR-INPUT-002: "Unknown unit: "
+    ERR-INPUT-003: "Value must be positive: "
+    ERR-INPUT-004: "Invalid number: "
+    ERR-INPUT-005: "Invalid unit name: "
+  success: { exit: 0, stderr_empty: true }
+  failure: { exit: 1, no_stdout_conversion_lines: true }
+
+################################################################################
+forbidden:
+  - Entity에서 std::cout/cerr, iostream, fstream 직접 사용
+  - feet↔yard 독립 교차 비율 상수 저장
+  - 미등록 단위에 대한 부분 변환 결과 출력
+  - ERR-INPUT-* 메시지 prefix 임의 변경(스냅샷·PRD 동시 갱신 없이)
+  - 비율 상수를 Domain/Boundary 여러 파일에 중복 하드코딩
+  - 테스트 없는 동작 변경 PR
+  - Domain 테스트에 파일/네트워크 I/O
+  - value <= 0, NaN, Inf 입력을 Domain까지 통과
+  - README/PRD round4와 다른 표시값을 테스트 없이 문서화
+  - PRD·TODO·AC 무시하고 기능만 추가
+
+################################################################################
+file_structure:
+  root:
+    - README.md
+    - CMakeLists.txt
+    - .cursorrules
+    - UnitConverter.cpp
+  docs:
+    - PRD.md
+    - TODO.md
+    - requirment.md
+  config:
+    - units.json
+  source_target:
+    src/domain/: Registry, Conversion, Quantity
+    src/boundary/: Parser, Renderers, ErrorFormatter
+    src/control/: UseCases
+    src/data/: JsonConfigReader, ConfigStore
+    src/main.cpp: 진입점만, 위임
+  tests_target:
+    tests/domain/
+    tests/boundary/
+    tests/data/
+    tests/integration/
+  legacy: UnitConverter.cpp는 리팩터 완료 후 thin main 또는 제거
+
+################################################################################
+ai_behavior:
+  read_first:
+    - docs/PRD.md
+    - docs/TODO.md
+    - README.md
+  when_implementing:
+    - 계약(PRD §3.2·§3.3)과 기존 Catch2 테스트를 먼저 확인
+    - Domain RED 테스트 추가 후 최소 구현(GREEN)
+    - Boundary는 Mock Control/Domain으로 계약만 검증
+    - 변경 범위 최소화; 요청 없는 리팩터·기능 확장 금지
+  when_documenting:
+    - round4 예시(8.2021 feet) 우선; 구식 8.2 표기 금지
+    - 비율 변경 시 units.json + tests + PRD 동시 언급
+  commit_suggest:
+    format: "<type>(<scope>): <subject>"
+    types: [feat, test, docs, refactor, fix]
+    scopes: [domain, boundary, data, control]
+  do_not:
+    - PRD/TODO Must-Have를 건너뛰고 Nice-to-Have만 구현
+    - 단일 파일 if/else 변환기로 되돌리기
+    - 생성 코드를 테스트 없이 merge 제안
+  prefer:
+    - CMake + Catch2 타깃 분리
+    - config/units.json 단일 비율 출처
+    - 새 단위는 JSON 등록 + 테스트 1건

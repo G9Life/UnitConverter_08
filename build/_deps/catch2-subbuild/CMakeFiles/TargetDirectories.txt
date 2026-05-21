@@ -1,0 +1,3 @@
+C:/DEV/UnitConverter_08/build/_deps/catch2-subbuild/CMakeFiles/catch2-populate.dir
+C:/DEV/UnitConverter_08/build/_deps/catch2-subbuild/CMakeFiles/edit_cache.dir
+C:/DEV/UnitConverter_08/build/_deps/catch2-subbuild/CMakeFiles/rebuild_cache.dir
