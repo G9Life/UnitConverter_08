@@ -1,0 +1,5 @@
+if(EXISTS "C:/DEV/UnitConverter_08/build/unit_converter_tests-b12d07c_tests.cmake")
+  include("C:/DEV/UnitConverter_08/build/unit_converter_tests-b12d07c_tests.cmake")
+else()
+  add_test(unit_converter_tests_NOT_BUILT-b12d07c unit_converter_tests_NOT_BUILT-b12d07c)
+endif()

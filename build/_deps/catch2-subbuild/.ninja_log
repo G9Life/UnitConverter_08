@@ -1,0 +1,21 @@
+# ninja log v7
+3	245	8010277431846505	catch2-populate-prefix/src/catch2-populate-stamp/catch2-populate-mkdir	cee68bf82582ff8b
+3	245	8010277431846505	C:/DEV/UnitConverter_08/build/_deps/catch2-subbuild/catch2-populate-prefix/src/catch2-populate-stamp/catch2-populate-mkdir	cee68bf82582ff8b
+247	14792	8010277577336108	catch2-populate-prefix/src/catch2-populate-stamp/catch2-populate-download	ec47bac288cd4e4d
+247	14792	8010277577336108	C:/DEV/UnitConverter_08/build/_deps/catch2-subbuild/catch2-populate-prefix/src/catch2-populate-stamp/catch2-populate-download	ec47bac288cd4e4d
+14792	18008	8010277577456929	catch2-populate-prefix/src/catch2-populate-stamp/catch2-populate-update	6d5a9fad79f22fc
+14792	18008	8010277577456929	C:/DEV/UnitConverter_08/build/_deps/catch2-subbuild/catch2-populate-prefix/src/catch2-populate-stamp/catch2-populate-update	6d5a9fad79f22fc
+18011	18213	8010277611536002	catch2-populate-prefix/src/catch2-populate-stamp/catch2-populate-patch	81ab290834220380
+18011	18213	8010277611536002	C:/DEV/UnitConverter_08/build/_deps/catch2-subbuild/catch2-populate-prefix/src/catch2-populate-stamp/catch2-populate-patch	81ab290834220380
+18214	18426	8010277613666289	catch2-populate-prefix/src/catch2-populate-stamp/catch2-populate-configure	96e8322f23f5e10e
+18214	18426	8010277613666289	C:/DEV/UnitConverter_08/build/_deps/catch2-subbuild/catch2-populate-prefix/src/catch2-populate-stamp/catch2-populate-configure	96e8322f23f5e10e
+18426	18629	8010277615696606	catch2-populate-prefix/src/catch2-populate-stamp/catch2-populate-build	c6a841e255c3233c
+18426	18629	8010277615696606	C:/DEV/UnitConverter_08/build/_deps/catch2-subbuild/catch2-populate-prefix/src/catch2-populate-stamp/catch2-populate-build	c6a841e255c3233c
+18629	18830	8010277617707316	catch2-populate-prefix/src/catch2-populate-stamp/catch2-populate-install	cb913cbea69d23ca
+18629	18830	8010277617707316	C:/DEV/UnitConverter_08/build/_deps/catch2-subbuild/catch2-populate-prefix/src/catch2-populate-stamp/catch2-populate-install	cb913cbea69d23ca
+18830	19045	8010277619871770	catch2-populate-prefix/src/catch2-populate-stamp/catch2-populate-test	db10524fcc6b4203
+18830	19045	8010277619871770	C:/DEV/UnitConverter_08/build/_deps/catch2-subbuild/catch2-populate-prefix/src/catch2-populate-stamp/catch2-populate-test	db10524fcc6b4203
+19046	19300	8010277622394991	CMakeFiles/catch2-populate-complete	ae360ec4f1f5f720
+19046	19300	8010277622394991	catch2-populate-prefix/src/catch2-populate-stamp/catch2-populate-done	ae360ec4f1f5f720
+19046	19300	8010277622394991	C:/DEV/UnitConverter_08/build/_deps/catch2-subbuild/CMakeFiles/catch2-populate-complete	ae360ec4f1f5f720
+19046	19300	8010277622394991	C:/DEV/UnitConverter_08/build/_deps/catch2-subbuild/catch2-populate-prefix/src/catch2-populate-stamp/catch2-populate-done	ae360ec4f1f5f720
