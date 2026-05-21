@@ -1,0 +1,39 @@
+Start testing: May 21 13:59 대한민국 표준시
+----------------------------------------------------------
+40/45 Testing: test_register_unit_invalid_ratio_throws
+40/45 Test: test_register_unit_invalid_ratio_throws
+Command: "C:/DEV/UnitConverter_08/build/unit_converter_tests.exe" "test_register_unit_invalid_ratio_throws"
+Directory: C:/DEV/UnitConverter_08/build
+"test_register_unit_invalid_ratio_throws" start time: May 21 13:59 대한민국 표준시
+Output:
+----------------------------------------------------------
+Filters: "test_register_unit_invalid_ratio_throws"
+Randomness seeded to: 2370535315
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+unit_converter_tests.exe is a Catch2 v3.5.4 host application.
+Run with -? for options
+
+-------------------------------------------------------------------------------
+test_register_unit_invalid_ratio_throws
+-------------------------------------------------------------------------------
+C:\DEV\UnitConverter_08\tests\domain_tests.cpp:155
+...............................................................................
+
+C:\DEV\UnitConverter_08\tests\domain_tests.cpp:160: FAILED:
+  REQUIRE_THROWS_AS( registry.registerUnit("bad", 0.0), std::invalid_argument )
+because no exception was thrown where one was expected:
+
+===============================================================================
+test cases: 1 | 1 failed
+assertions: 1 | 1 failed
+
+<end of output>
+Test time =   0.52 sec
+----------------------------------------------------------
+Test Failed.
+"test_register_unit_invalid_ratio_throws" end time: May 21 13:59 대한민국 표준시
+"test_register_unit_invalid_ratio_throws" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: May 21 13:59 대한민국 표준시

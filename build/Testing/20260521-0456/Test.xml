@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Win32-mingw32-make"
+	BuildStamp="20260521-0456-Experimental"
+	Name="SJ-BookPro2"
+	Generator="ctest-4.3.1"
+	CompilerName="C:/mingw64/bin/g++.exe"
+	CompilerVersion="15.2.0"
+	OSName="Windows"
+	Hostname="SJ-BookPro2"
+	OSRelease="10.0.26200"
+	OSVersion="Windows 10"
+	OSPlatform="AMD64"
+	Is64Bits="1"
+	VendorString=""
+	VendorID="Unknown Manufacturer"
+	FamilyID="0"
+	ModelID="0"
+	ModelName=""
+	ProcessorCacheSize="0"
+	NumberOfLogicalCPU="16"
+	NumberOfPhysicalCPU="12"
+	TotalVirtualMemory="2048"
+	TotalPhysicalMemory="32394"
+	LogicalProcessorsPerPhysical="1"
+	ProcessorClockFrequency="2100.000000"
+	>
+	<Testing>
+		<StartDateTime>May 21 13:59 [NON-UTF-8-BYTE-0xB4][NON-UTF-8-BYTE-0xEB][NON-UTF-8-BYTE-0xC7]ѹα[NON-UTF-8-BYTE-0xB9] ǥ[NON-UTF-8-BYTE-0xC1]ؽ[NON-UTF-8-BYTE-0xC3]</StartDateTime>
+		<StartTestTime>1779339565</StartTestTime>
+		<TestList>
+			<Test>./test_register_unit_invalid_ratio_throws</Test>
+		</TestList>
+		<Test Status="failed">
+			<Name>test_register_unit_invalid_ratio_throws</Name>
+			<Path>.</Path>
+			<FullName>./test_register_unit_invalid_ratio_throws</FullName>
+			<FullCommandLine>C:\DEV\UnitConverter_08\build\unit_converter_tests.exe "test_register_unit_invalid_ratio_throws"</FullCommandLine>
+			<StartTestTime>1779339565.633610</StartTestTime>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.520553</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>C:\DEV\UnitConverter_08\build\unit_converter_tests.exe "test_register_unit_invalid_ratio_throws"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJytk9FLwzAQxt/zVxx92mCWbrUqAZGxdTgQxM7pS6Fk6W0NdEnJpdsE8W+3rc4HnxT6QSB8B7mP310WqnRoiYPnkFxmcaeoMbJaK5cpfRClyjMrnDKZK6w5kscSoXOz10gEhJhjDs5wmITXQRRG4Thi7KNfsS6MNPqAts3WJiUfTwiKQMBMOFlM4BD6kX8JhSEHoqpKJdvU2mdJreGoXAEXd7A1FkzV+sTYRb9ifyTYe98ZT+fxS7puGs5+IAU3accpbWYllP6GJquKj6OI+f2K/TvDVcBhMV0+xHPOAJL4ab1M4uz5Pnl8XWXT1QC+ONo3/wy0fXrgbUTujSDwg+EIyOWcnwkLu6v3qB0M2QalqAlBG8CTxG7ccBQEHf/mWqBFMBo7E08VSoc5Z+y2X3ULAVIQNv9rDO/N2QpVYs4EUUOo3cJfBfYJGLAXEw==</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>May 21 13:59 [NON-UTF-8-BYTE-0xB4][NON-UTF-8-BYTE-0xEB][NON-UTF-8-BYTE-0xC7]ѹα[NON-UTF-8-BYTE-0xB9] ǥ[NON-UTF-8-BYTE-0xC1]ؽ[NON-UTF-8-BYTE-0xC3]</EndDateTime>
+		<EndTestTime>1779339566</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

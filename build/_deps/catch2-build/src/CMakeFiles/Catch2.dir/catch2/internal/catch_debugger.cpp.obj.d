@@ -1,0 +1,34 @@
+_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_debugger.cpp.obj: \
+ C:\DEV\UnitConverter_08\build\_deps\catch2-src\src\catch2\internal\catch_debugger.cpp \
+ C:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/internal/catch_debugger.hpp \
+ C:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/internal/catch_platform.hpp \
+ C:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/internal/catch_errno_guard.hpp \
+ C:/DEV/UnitConverter_08/build/_deps/catch2-src/src/catch2/internal/catch_stdstreams.hpp \
+ C:/mingw64/include/c++/15.2.0/iosfwd \
+ C:/mingw64/include/c++/15.2.0/bits/requires_hosted.h \
+ C:/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/c++config.h \
+ C:/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/os_defines.h \
+ C:/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/cpu_defines.h \
+ C:/mingw64/include/c++/15.2.0/pstl/pstl_config.h \
+ C:/mingw64/include/c++/15.2.0/bits/stringfwd.h \
+ C:/mingw64/include/c++/15.2.0/bits/memoryfwd.h \
+ C:/mingw64/include/c++/15.2.0/bits/postypes.h \
+ C:/mingw64/include/c++/15.2.0/cwchar \
+ C:/mingw64/x86_64-w64-mingw32/include/wchar.h \
+ C:/mingw64/x86_64-w64-mingw32/include/corecrt.h \
+ C:/mingw64/x86_64-w64-mingw32/include/_mingw.h \
+ C:/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h \
+ C:/mingw64/x86_64-w64-mingw32/include/_mingw_secapi.h \
+ C:/mingw64/x86_64-w64-mingw32/include/vadefs.h \
+ C:/mingw64/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
+ C:/mingw64/x86_64-w64-mingw32/include/corecrt_wconio.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
+ C:/mingw64/x86_64-w64-mingw32/include/stddef.h \
+ C:/mingw64/x86_64-w64-mingw32/include/crtdefs.h \
+ C:/mingw64/x86_64-w64-mingw32/include/sec_api/wconio_s.h \
+ C:/mingw64/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+ C:/mingw64/x86_64-w64-mingw32/include/corecrt_wctype.h \
+ C:/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h \
+ C:/mingw64/x86_64-w64-mingw32/include/_mingw_stat64.h \
+ C:/mingw64/x86_64-w64-mingw32/include/swprintf.inl \
+ C:/mingw64/x86_64-w64-mingw32/include/sec_api/wchar_s.h

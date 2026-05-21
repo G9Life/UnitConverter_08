@@ -1,0 +1,2 @@
+C:\mingw64\bin\ar.exe qc libunit_converter_core.a CMakeFiles/unit_converter_core.dir/tests/red_phase_stubs.cpp.obj
+C:\mingw64\bin\ranlib.exe libunit_converter_core.a
