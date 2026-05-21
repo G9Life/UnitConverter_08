@@ -1,0 +1,1639 @@
+Start testing: May 21 11:24 대한민국 표준시
+----------------------------------------------------------
+1/45 Testing: test_config_json_valid_loads_ratios
+1/45 Test: test_config_json_valid_loads_ratios
+Command: "C:/DEV/UnitConverter_08/build/unit_converter_tests.exe" "test_config_json_valid_loads_ratios"
+Directory: C:/DEV/UnitConverter_08/build
+"test_config_json_valid_loads_ratios" start time: May 21 11:24 대한민국 표준시
+Output:
+----------------------------------------------------------
+Filters: "test_config_json_valid_loads_ratios"
+Randomness seeded to: 2810661903
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+unit_converter_tests.exe is a Catch2 v3.5.4 host application.
+Run with -? for options
+
+-------------------------------------------------------------------------------
+test_config_json_valid_loads_ratios
+-------------------------------------------------------------------------------
+C:/DEV/UnitConverter_08/tests/data_tests.cpp:28
+...............................................................................
+
+C:/DEV/UnitConverter_08/tests/data_tests.cpp:33: FAILED:
+  REQUIRE( result.success )
+with expansion:
+  false
+
+===============================================================================
+test cases: 1 | 1 failed
+assertions: 1 | 1 failed
+
+<end of output>
+Test time =   0.52 sec
+----------------------------------------------------------
+Test Failed.
+"test_config_json_valid_loads_ratios" end time: May 21 11:24 대한민국 표준시
+"test_config_json_valid_loads_ratios" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/45 Testing: test_config_json_valid_convert_meter_to_yard
+2/45 Test: test_config_json_valid_convert_meter_to_yard
+Command: "C:/DEV/UnitConverter_08/build/unit_converter_tests.exe" "test_config_json_valid_convert_meter_to_yard"
+Directory: C:/DEV/UnitConverter_08/build
+"test_config_json_valid_convert_meter_to_yard" start time: May 21 11:24 대한민국 표준시
+Output:
+----------------------------------------------------------
+Filters: "test_config_json_valid_convert_meter_to_yard"
+Randomness seeded to: 3816987916
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+unit_converter_tests.exe is a Catch2 v3.5.4 host application.
+Run with -? for options
+
+-------------------------------------------------------------------------------
+test_config_json_valid_convert_meter_to_yard
+-------------------------------------------------------------------------------
+C:/DEV/UnitConverter_08/tests/data_tests.cpp:39
+...............................................................................
+
+C:/DEV/UnitConverter_08/tests/data_tests.cpp:44: FAILED:
+  REQUIRE( result.success )
+with expansion:
+  false
+
+===============================================================================
+test cases: 1 | 1 failed
+assertions: 1 | 1 failed
+
+<end of output>
+Test time =   0.48 sec
+----------------------------------------------------------
+Test Failed.
+"test_config_json_valid_convert_meter_to_yard" end time: May 21 11:24 대한민국 표준시
+"test_config_json_valid_convert_meter_to_yard" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/45 Testing: test_config_json_missing_file_fails_data001
+3/45 Test: test_config_json_missing_file_fails_data001
+Command: "C:/DEV/UnitConverter_08/build/unit_converter_tests.exe" "test_config_json_missing_file_fails_data001"
+Directory: C:/DEV/UnitConverter_08/build
+"test_config_json_missing_file_fails_data001" start time: May 21 11:24 대한민국 표준시
+Output:
+----------------------------------------------------------
+Filters: "test_config_json_missing_file_fails_data001"
+Randomness seeded to: 3462229737
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+unit_converter_tests.exe is a Catch2 v3.5.4 host application.
+Run with -? for options
+
+-------------------------------------------------------------------------------
+test_config_json_missing_file_fails_data001
+-------------------------------------------------------------------------------
+C:/DEV/UnitConverter_08/tests/data_tests.cpp:49
+...............................................................................
+
+C:/DEV/UnitConverter_08/tests/data_tests.cpp:56: FAILED:
+  REQUIRE( result.registry.hasUnit("feet") )
+with expansion:
+  false
+
+===============================================================================
+test cases: 1 | 1 failed
+assertions: 3 | 2 passed | 1 failed
+
+<end of output>
+Test time =   0.48 sec
+----------------------------------------------------------
+Test Failed.
+"test_config_json_missing_file_fails_data001" end time: May 21 11:24 대한민국 표준시
+"test_config_json_missing_file_fails_data001" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/45 Testing: test_config_json_invalid_schema_fails_data002
+4/45 Test: test_config_json_invalid_schema_fails_data002
+Command: "C:/DEV/UnitConverter_08/build/unit_converter_tests.exe" "test_config_json_invalid_schema_fails_data002"
+Directory: C:/DEV/UnitConverter_08/build
+"test_config_json_invalid_schema_fails_data002" start time: May 21 11:24 대한민국 표준시
+Output:
+----------------------------------------------------------
+Filters: "test_config_json_invalid_schema_fails_data002"
+Randomness seeded to: 498839238
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+unit_converter_tests.exe is a Catch2 v3.5.4 host application.
+Run with -? for options
+
+-------------------------------------------------------------------------------
+test_config_json_invalid_schema_fails_data002
+-------------------------------------------------------------------------------
+C:/DEV/UnitConverter_08/tests/data_tests.cpp:60
+...............................................................................
+
+C:/DEV/UnitConverter_08/tests/data_tests.cpp:66: FAILED:
+  REQUIRE( result.errorCode == "ERR-DATA-002" )
+with expansion:
+  "ERR-DATA-001" == "ERR-DATA-002"
+
+===============================================================================
+test cases: 1 | 1 failed
+assertions: 2 | 1 passed | 1 failed
+
+<end of output>
+Test time =   0.48 sec
+----------------------------------------------------------
+Test Failed.
+"test_config_json_invalid_schema_fails_data002" end time: May 21 11:24 대한민국 표준시
+"test_config_json_invalid_schema_fails_data002" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/45 Testing: test_config_json_feet_to_meter_reverse_after_load
+5/45 Test: test_config_json_feet_to_meter_reverse_after_load
+Command: "C:/DEV/UnitConverter_08/build/unit_converter_tests.exe" "test_config_json_feet_to_meter_reverse_after_load"
+Directory: C:/DEV/UnitConverter_08/build
+"test_config_json_feet_to_meter_reverse_after_load" start time: May 21 11:24 대한민국 표준시
+Output:
+----------------------------------------------------------
+Filters: "test_config_json_feet_to_meter_reverse_after_load"
+Randomness seeded to: 1291466763
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+unit_converter_tests.exe is a Catch2 v3.5.4 host application.
+Run with -? for options
+
+-------------------------------------------------------------------------------
+test_config_json_feet_to_meter_reverse_after_load
+-------------------------------------------------------------------------------
+C:/DEV/UnitConverter_08/tests/data_tests.cpp:69
+...............................................................................
+
+C:/DEV/UnitConverter_08/tests/data_tests.cpp:74: FAILED:
+  REQUIRE( result.success )
+with expansion:
+  false
+
+===============================================================================
+test cases: 1 | 1 failed
+assertions: 1 | 1 failed
+
+<end of output>
+Test time =   0.48 sec
+----------------------------------------------------------
+Test Failed.
+"test_config_json_feet_to_meter_reverse_after_load" end time: May 21 11:24 대한민국 표준시
+"test_config_json_feet_to_meter_reverse_after_load" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/45 Testing: test_config_yaml_valid_loads_ratios
+6/45 Test: test_config_yaml_valid_loads_ratios
+Command: "C:/DEV/UnitConverter_08/build/unit_converter_tests.exe" "test_config_yaml_valid_loads_ratios"
+Directory: C:/DEV/UnitConverter_08/build
+"test_config_yaml_valid_loads_ratios" start time: May 21 11:24 대한민국 표준시
+Output:
+----------------------------------------------------------
+Filters: "test_config_yaml_valid_loads_ratios"
+Randomness seeded to: 429308333
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+unit_converter_tests.exe is a Catch2 v3.5.4 host application.
+Run with -? for options
+
+-------------------------------------------------------------------------------
+test_config_yaml_valid_loads_ratios
+-------------------------------------------------------------------------------
+C:/DEV/UnitConverter_08/tests/data_tests.cpp:83
+...............................................................................
+
+C:/DEV/UnitConverter_08/tests/data_tests.cpp:88: FAILED:
+  REQUIRE( result.success )
+with expansion:
+  false
+
+===============================================================================
+test cases: 1 | 1 failed
+assertions: 1 | 1 failed
+
+<end of output>
+Test time =   0.47 sec
+----------------------------------------------------------
+Test Failed.
+"test_config_yaml_valid_loads_ratios" end time: May 21 11:24 대한민국 표준시
+"test_config_yaml_valid_loads_ratios" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/45 Testing: test_config_yaml_valid_meter_to_yard
+7/45 Test: test_config_yaml_valid_meter_to_yard
+Command: "C:/DEV/UnitConverter_08/build/unit_converter_tests.exe" "test_config_yaml_valid_meter_to_yard"
+Directory: C:/DEV/UnitConverter_08/build
+"test_config_yaml_valid_meter_to_yard" start time: May 21 11:24 대한민국 표준시
+Output:
+----------------------------------------------------------
+Filters: "test_config_yaml_valid_meter_to_yard"
+Randomness seeded to: 1534893766
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+unit_converter_tests.exe is a Catch2 v3.5.4 host application.
+Run with -? for options
+
+-------------------------------------------------------------------------------
+test_config_yaml_valid_meter_to_yard
+-------------------------------------------------------------------------------
+C:/DEV/UnitConverter_08/tests/data_tests.cpp:93
+...............................................................................
+
+C:/DEV/UnitConverter_08/tests/data_tests.cpp:98: FAILED:
+  REQUIRE( result.success )
+with expansion:
+  false
+
+===============================================================================
+test cases: 1 | 1 failed
+assertions: 1 | 1 failed
+
+<end of output>
+Test time =   0.48 sec
+----------------------------------------------------------
+Test Failed.
+"test_config_yaml_valid_meter_to_yard" end time: May 21 11:24 대한민국 표준시
+"test_config_yaml_valid_meter_to_yard" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/45 Testing: test_config_yaml_missing_file_fails
+8/45 Test: test_config_yaml_missing_file_fails
+Command: "C:/DEV/UnitConverter_08/build/unit_converter_tests.exe" "test_config_yaml_missing_file_fails"
+Directory: C:/DEV/UnitConverter_08/build
+"test_config_yaml_missing_file_fails" start time: May 21 11:24 대한민국 표준시
+Output:
+----------------------------------------------------------
+Filters: "test_config_yaml_missing_file_fails"
+Randomness seeded to: 977196756
+===============================================================================
+All tests passed (2 assertions in 1 test case)
+
+<end of output>
+Test time =   0.47 sec
+----------------------------------------------------------
+Test Passed.
+"test_config_yaml_missing_file_fails" end time: May 21 11:24 대한민국 표준시
+"test_config_yaml_missing_file_fails" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/45 Testing: test_config_yaml_invalid_ratio_fails_data002
+9/45 Test: test_config_yaml_invalid_ratio_fails_data002
+Command: "C:/DEV/UnitConverter_08/build/unit_converter_tests.exe" "test_config_yaml_invalid_ratio_fails_data002"
+Directory: C:/DEV/UnitConverter_08/build
+"test_config_yaml_invalid_ratio_fails_data002" start time: May 21 11:24 대한민국 표준시
+Output:
+----------------------------------------------------------
+Filters: "test_config_yaml_invalid_ratio_fails_data002"
+Randomness seeded to: 2140363472
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+unit_converter_tests.exe is a Catch2 v3.5.4 host application.
+Run with -? for options
+
+-------------------------------------------------------------------------------
+test_config_yaml_invalid_ratio_fails_data002
+-------------------------------------------------------------------------------
+C:/DEV/UnitConverter_08/tests/data_tests.cpp:112
+...............................................................................
+
+C:/DEV/UnitConverter_08/tests/data_tests.cpp:118: FAILED:
+  REQUIRE( result.errorCode == "ERR-DATA-002" )
+with expansion:
+  "ERR-DATA-001" == "ERR-DATA-002"
+
+===============================================================================
+test cases: 1 | 1 failed
+assertions: 2 | 1 passed | 1 failed
+
+<end of output>
+Test time =   0.47 sec
+----------------------------------------------------------
+Test Failed.
+"test_config_yaml_invalid_ratio_fails_data002" end time: May 21 11:24 대한민국 표준시
+"test_config_yaml_invalid_ratio_fails_data002" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/45 Testing: test_config_yaml_load_defaults_on_failure
+10/45 Test: test_config_yaml_load_defaults_on_failure
+Command: "C:/DEV/UnitConverter_08/build/unit_converter_tests.exe" "test_config_yaml_load_defaults_on_failure"
+Directory: C:/DEV/UnitConverter_08/build
+"test_config_yaml_load_defaults_on_failure" start time: May 21 11:24 대한민국 표준시
+Output:
+----------------------------------------------------------
+Filters: "test_config_yaml_load_defaults_on_failure"
+Randomness seeded to: 1736058547
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+unit_converter_tests.exe is a Catch2 v3.5.4 host application.
+Run with -? for options
+
+-------------------------------------------------------------------------------
+test_config_yaml_load_defaults_on_failure
+-------------------------------------------------------------------------------
+C:/DEV/UnitConverter_08/tests/data_tests.cpp:121
+...............................................................................
+
+C:/DEV/UnitConverter_08/tests/data_tests.cpp:127: FAILED:
+  REQUIRE( nearlyEqual(result.registry.factorFor("feet"), 3.28084, 1e-9) )
+due to unexpected exception with message:
+  Unknown unit: feet
+
+===============================================================================
+test cases: 1 | 1 failed
+assertions: 2 | 1 passed | 1 failed
+
+<end of output>
+Test time =   0.48 sec
+----------------------------------------------------------
+Test Failed.
+"test_config_yaml_load_defaults_on_failure" end time: May 21 11:24 대한민국 표준시
+"test_config_yaml_load_defaults_on_failure" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/45 Testing: test_parse_meter_colon_value_success
+11/45 Test: test_parse_meter_colon_value_success
+Command: "C:/DEV/UnitConverter_08/build/unit_converter_tests.exe" "test_parse_meter_colon_value_success"
+Directory: C:/DEV/UnitConverter_08/build
+"test_parse_meter_colon_value_success" start time: May 21 11:24 대한민국 표준시
+Output:
+----------------------------------------------------------
+Filters: "test_parse_meter_colon_value_success"
+Randomness seeded to: 3689756195
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+unit_converter_tests.exe is a Catch2 v3.5.4 host application.
+Run with -? for options
+
+-------------------------------------------------------------------------------
+test_parse_meter_colon_value_success
+-------------------------------------------------------------------------------
+C:/DEV/UnitConverter_08/tests/boundary_tests.cpp:26
+...............................................................................
+
+C:/DEV/UnitConverter_08/tests/boundary_tests.cpp:31: FAILED:
+  REQUIRE( parsed.unit == "meter" )
+with expansion:
+  "" == "meter"
+
+===============================================================================
+test cases: 1 | 1 failed
+assertions: 1 | 1 failed
+
+<end of output>
+Test time =   0.47 sec
+----------------------------------------------------------
+Test Failed.
+"test_parse_meter_colon_value_success" end time: May 21 11:24 대한민국 표준시
+"test_parse_meter_colon_value_success" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/45 Testing: test_parse_feet_colon_value_success
+12/45 Test: test_parse_feet_colon_value_success
+Command: "C:/DEV/UnitConverter_08/build/unit_converter_tests.exe" "test_parse_feet_colon_value_success"
+Directory: C:/DEV/UnitConverter_08/build
+"test_parse_feet_colon_value_success" start time: May 21 11:24 대한민국 표준시
+Output:
+----------------------------------------------------------
+Filters: "test_parse_feet_colon_value_success"
+Randomness seeded to: 2267878039
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+unit_converter_tests.exe is a Catch2 v3.5.4 host application.
+Run with -? for options
+
+-------------------------------------------------------------------------------
+test_parse_feet_colon_value_success
+-------------------------------------------------------------------------------
+C:/DEV/UnitConverter_08/tests/boundary_tests.cpp:35
+...............................................................................
+
+C:/DEV/UnitConverter_08/tests/boundary_tests.cpp:40: FAILED:
+  REQUIRE( parsed.unit == "feet" )
+with expansion:
+  "" == "feet"
+
+===============================================================================
+test cases: 1 | 1 failed
+assertions: 1 | 1 failed
+
+<end of output>
+Test time =   0.48 sec
+----------------------------------------------------------
+Test Failed.
+"test_parse_feet_colon_value_success" end time: May 21 11:24 대한민국 표준시
+"test_parse_feet_colon_value_success" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/45 Testing: test_parse_yard_colon_value_success
+13/45 Test: test_parse_yard_colon_value_success
+Command: "C:/DEV/UnitConverter_08/build/unit_converter_tests.exe" "test_parse_yard_colon_value_success"
+Directory: C:/DEV/UnitConverter_08/build
+"test_parse_yard_colon_value_success" start time: May 21 11:24 대한민국 표준시
+Output:
+----------------------------------------------------------
+Filters: "test_parse_yard_colon_value_success"
+Randomness seeded to: 1050161159
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+unit_converter_tests.exe is a Catch2 v3.5.4 host application.
+Run with -? for options
+
+-------------------------------------------------------------------------------
+test_parse_yard_colon_value_success
+-------------------------------------------------------------------------------
+C:/DEV/UnitConverter_08/tests/boundary_tests.cpp:44
+...............................................................................
+
+C:/DEV/UnitConverter_08/tests/boundary_tests.cpp:49: FAILED:
+  REQUIRE( parsed.unit == "yard" )
+with expansion:
+  "" == "yard"
+
+===============================================================================
+test cases: 1 | 1 failed
+assertions: 1 | 1 failed
+
+<end of output>
+Test time =   0.47 sec
+----------------------------------------------------------
+Test Failed.
+"test_parse_yard_colon_value_success" end time: May 21 11:24 대한민국 표준시
+"test_parse_yard_colon_value_success" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/45 Testing: test_parse_then_meter_to_feet_chain
+14/45 Test: test_parse_then_meter_to_feet_chain
+Command: "C:/DEV/UnitConverter_08/build/unit_converter_tests.exe" "test_parse_then_meter_to_feet_chain"
+Directory: C:/DEV/UnitConverter_08/build
+"test_parse_then_meter_to_feet_chain" start time: May 21 11:24 대한민국 표준시
+Output:
+----------------------------------------------------------
+Filters: "test_parse_then_meter_to_feet_chain"
+Randomness seeded to: 1701709142
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+unit_converter_tests.exe is a Catch2 v3.5.4 host application.
+Run with -? for options
+
+-------------------------------------------------------------------------------
+test_parse_then_meter_to_feet_chain
+-------------------------------------------------------------------------------
+C:/DEV/UnitConverter_08/tests/boundary_tests.cpp:53
+...............................................................................
+
+C:/DEV/UnitConverter_08/tests/boundary_tests.cpp:60: FAILED:
+  REQUIRE( nearlyEqual(result, 8.202100, 1e-5) )
+with expansion:
+  false
+
+===============================================================================
+test cases: 1 | 1 failed
+assertions: 1 | 1 failed
+
+<end of output>
+Test time =   0.47 sec
+----------------------------------------------------------
+Test Failed.
+"test_parse_then_meter_to_feet_chain" end time: May 21 11:24 대한민국 표준시
+"test_parse_then_meter_to_feet_chain" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/45 Testing: test_parse_trim_whitespace_success
+15/45 Test: test_parse_trim_whitespace_success
+Command: "C:/DEV/UnitConverter_08/build/unit_converter_tests.exe" "test_parse_trim_whitespace_success"
+Directory: C:/DEV/UnitConverter_08/build
+"test_parse_trim_whitespace_success" start time: May 21 11:24 대한민국 표준시
+Output:
+----------------------------------------------------------
+Filters: "test_parse_trim_whitespace_success"
+Randomness seeded to: 3793234682
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+unit_converter_tests.exe is a Catch2 v3.5.4 host application.
+Run with -? for options
+
+-------------------------------------------------------------------------------
+test_parse_trim_whitespace_success
+-------------------------------------------------------------------------------
+C:/DEV/UnitConverter_08/tests/boundary_tests.cpp:63
+...............................................................................
+
+C:/DEV/UnitConverter_08/tests/boundary_tests.cpp:68: FAILED:
+  REQUIRE( parsed.unit == "meter" )
+with expansion:
+  "" == "meter"
+
+===============================================================================
+test cases: 1 | 1 failed
+assertions: 1 | 1 failed
+
+<end of output>
+Test time =   0.47 sec
+----------------------------------------------------------
+Test Failed.
+"test_parse_trim_whitespace_success" end time: May 21 11:24 대한민국 표준시
+"test_parse_trim_whitespace_success" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/45 Testing: test_parse_meter_zero_throws_positive_required
+16/45 Test: test_parse_meter_zero_throws_positive_required
+Command: "C:/DEV/UnitConverter_08/build/unit_converter_tests.exe" "test_parse_meter_zero_throws_positive_required"
+Directory: C:/DEV/UnitConverter_08/build
+"test_parse_meter_zero_throws_positive_required" start time: May 21 11:24 대한민국 표준시
+Output:
+----------------------------------------------------------
+Filters: "test_parse_meter_zero_throws_positive_required"
+Randomness seeded to: 159600344
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+unit_converter_tests.exe is a Catch2 v3.5.4 host application.
+Run with -? for options
+
+-------------------------------------------------------------------------------
+test_parse_meter_zero_throws_positive_required
+-------------------------------------------------------------------------------
+C:/DEV/UnitConverter_08/tests/boundary_tests.cpp:76
+...............................................................................
+
+C:/DEV/UnitConverter_08/tests/boundary_tests.cpp:82: FAILED:
+explicitly with message:
+  Expected std::invalid_argument for meter:0
+
+===============================================================================
+test cases: 1 | 1 failed
+assertions: 1 | 1 failed
+
+<end of output>
+Test time =   0.47 sec
+----------------------------------------------------------
+Test Failed.
+"test_parse_meter_zero_throws_positive_required" end time: May 21 11:24 대한민국 표준시
+"test_parse_meter_zero_throws_positive_required" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/45 Testing: test_parse_meter_large_value_success
+17/45 Test: test_parse_meter_large_value_success
+Command: "C:/DEV/UnitConverter_08/build/unit_converter_tests.exe" "test_parse_meter_large_value_success"
+Directory: C:/DEV/UnitConverter_08/build
+"test_parse_meter_large_value_success" start time: May 21 11:24 대한민국 표준시
+Output:
+----------------------------------------------------------
+Filters: "test_parse_meter_large_value_success"
+Randomness seeded to: 1135022407
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+unit_converter_tests.exe is a Catch2 v3.5.4 host application.
+Run with -? for options
+
+-------------------------------------------------------------------------------
+test_parse_meter_large_value_success
+-------------------------------------------------------------------------------
+C:/DEV/UnitConverter_08/tests/boundary_tests.cpp:89
+...............................................................................
+
+C:/DEV/UnitConverter_08/tests/boundary_tests.cpp:94: FAILED:
+  REQUIRE( parsed.value == 1e50 )
+with expansion:
+  0.0
+  ==
+  100000000000000007629769841091887003294964970946560.0
+
+===============================================================================
+test cases: 1 | 1 failed
+assertions: 1 | 1 failed
+
+<end of output>
+Test time =   0.48 sec
+----------------------------------------------------------
+Test Failed.
+"test_parse_meter_large_value_success" end time: May 21 11:24 대한민국 표준시
+"test_parse_meter_large_value_success" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/45 Testing: test_parse_meter_six_decimal_precision
+18/45 Test: test_parse_meter_six_decimal_precision
+Command: "C:/DEV/UnitConverter_08/build/unit_converter_tests.exe" "test_parse_meter_six_decimal_precision"
+Directory: C:/DEV/UnitConverter_08/build
+"test_parse_meter_six_decimal_precision" start time: May 21 11:24 대한민국 표준시
+Output:
+----------------------------------------------------------
+Filters: "test_parse_meter_six_decimal_precision"
+Randomness seeded to: 1264307084
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+unit_converter_tests.exe is a Catch2 v3.5.4 host application.
+Run with -? for options
+
+-------------------------------------------------------------------------------
+test_parse_meter_six_decimal_precision
+-------------------------------------------------------------------------------
+C:/DEV/UnitConverter_08/tests/boundary_tests.cpp:97
+...............................................................................
+
+C:/DEV/UnitConverter_08/tests/boundary_tests.cpp:102: FAILED:
+  REQUIRE( nearlyEqual(parsed.value, 1.123456, 1e-9) )
+with expansion:
+  false
+
+===============================================================================
+test cases: 1 | 1 failed
+assertions: 1 | 1 failed
+
+<end of output>
+Test time =   0.47 sec
+----------------------------------------------------------
+Test Failed.
+"test_parse_meter_six_decimal_precision" end time: May 21 11:24 대한민국 표준시
+"test_parse_meter_six_decimal_precision" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/45 Testing: test_parse_min_positive_value
+19/45 Test: test_parse_min_positive_value
+Command: "C:/DEV/UnitConverter_08/build/unit_converter_tests.exe" "test_parse_min_positive_value"
+Directory: C:/DEV/UnitConverter_08/build
+"test_parse_min_positive_value" start time: May 21 11:24 대한민국 표준시
+Output:
+----------------------------------------------------------
+Filters: "test_parse_min_positive_value"
+Randomness seeded to: 2503085538
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+unit_converter_tests.exe is a Catch2 v3.5.4 host application.
+Run with -? for options
+
+-------------------------------------------------------------------------------
+test_parse_min_positive_value
+-------------------------------------------------------------------------------
+C:/DEV/UnitConverter_08/tests/boundary_tests.cpp:105
+...............................................................................
+
+C:/DEV/UnitConverter_08/tests/boundary_tests.cpp:110: FAILED:
+  REQUIRE( parsed.value > 0.0 )
+with expansion:
+  0.0 > 0.0
+
+===============================================================================
+test cases: 1 | 1 failed
+assertions: 1 | 1 failed
+
+<end of output>
+Test time =   0.48 sec
+----------------------------------------------------------
+Test Failed.
+"test_parse_min_positive_value" end time: May 21 11:24 대한민국 표준시
+"test_parse_min_positive_value" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/45 Testing: test_parse_meter_infinity_throws
+20/45 Test: test_parse_meter_infinity_throws
+Command: "C:/DEV/UnitConverter_08/build/unit_converter_tests.exe" "test_parse_meter_infinity_throws"
+Directory: C:/DEV/UnitConverter_08/build
+"test_parse_meter_infinity_throws" start time: May 21 11:24 대한민국 표준시
+Output:
+----------------------------------------------------------
+Filters: "test_parse_meter_infinity_throws"
+Randomness seeded to: 1711262690
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+unit_converter_tests.exe is a Catch2 v3.5.4 host application.
+Run with -? for options
+
+-------------------------------------------------------------------------------
+test_parse_meter_infinity_throws
+-------------------------------------------------------------------------------
+C:/DEV/UnitConverter_08/tests/boundary_tests.cpp:113
+...............................................................................
+
+C:/DEV/UnitConverter_08/tests/boundary_tests.cpp:117: FAILED:
+  REQUIRE_THROWS_AS( InputParser::parse("meter:inf"), std::invalid_argument )
+because no exception was thrown where one was expected:
+
+===============================================================================
+test cases: 1 | 1 failed
+assertions: 1 | 1 failed
+
+<end of output>
+Test time =   0.48 sec
+----------------------------------------------------------
+Test Failed.
+"test_parse_meter_infinity_throws" end time: May 21 11:24 대한민국 표준시
+"test_parse_meter_infinity_throws" time elapsed: 00:00:00
+----------------------------------------------------------
+
+21/45 Testing: test_parse_invalid_format_no_colon_throws
+21/45 Test: test_parse_invalid_format_no_colon_throws
+Command: "C:/DEV/UnitConverter_08/build/unit_converter_tests.exe" "test_parse_invalid_format_no_colon_throws"
+Directory: C:/DEV/UnitConverter_08/build
+"test_parse_invalid_format_no_colon_throws" start time: May 21 11:24 대한민국 표준시
+Output:
+----------------------------------------------------------
+Filters: "test_parse_invalid_format_no_colon_throws"
+Randomness seeded to: 2850750289
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+unit_converter_tests.exe is a Catch2 v3.5.4 host application.
+Run with -? for options
+
+-------------------------------------------------------------------------------
+test_parse_invalid_format_no_colon_throws
+-------------------------------------------------------------------------------
+C:/DEV/UnitConverter_08/tests/boundary_tests.cpp:124
+...............................................................................
+
+C:/DEV/UnitConverter_08/tests/boundary_tests.cpp:130: FAILED:
+explicitly with message:
+  Expected invalid format
+
+===============================================================================
+test cases: 1 | 1 failed
+assertions: 1 | 1 failed
+
+<end of output>
+Test time =   0.48 sec
+----------------------------------------------------------
+Test Failed.
+"test_parse_invalid_format_no_colon_throws" end time: May 21 11:24 대한민국 표준시
+"test_parse_invalid_format_no_colon_throws" time elapsed: 00:00:00
+----------------------------------------------------------
+
+22/45 Testing: test_parse_meter_negative_throws
+22/45 Test: test_parse_meter_negative_throws
+Command: "C:/DEV/UnitConverter_08/build/unit_converter_tests.exe" "test_parse_meter_negative_throws"
+Directory: C:/DEV/UnitConverter_08/build
+"test_parse_meter_negative_throws" start time: May 21 11:24 대한민국 표준시
+Output:
+----------------------------------------------------------
+Filters: "test_parse_meter_negative_throws"
+Randomness seeded to: 1623623831
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+unit_converter_tests.exe is a Catch2 v3.5.4 host application.
+Run with -? for options
+
+-------------------------------------------------------------------------------
+test_parse_meter_negative_throws
+-------------------------------------------------------------------------------
+C:/DEV/UnitConverter_08/tests/boundary_tests.cpp:136
+...............................................................................
+
+C:/DEV/UnitConverter_08/tests/boundary_tests.cpp:142: FAILED:
+explicitly with message:
+  Expected negative rejection
+
+===============================================================================
+test cases: 1 | 1 failed
+assertions: 1 | 1 failed
+
+<end of output>
+Test time =   0.47 sec
+----------------------------------------------------------
+Test Failed.
+"test_parse_meter_negative_throws" end time: May 21 11:24 대한민국 표준시
+"test_parse_meter_negative_throws" time elapsed: 00:00:00
+----------------------------------------------------------
+
+23/45 Testing: test_parse_invalid_number_abc_throws
+23/45 Test: test_parse_invalid_number_abc_throws
+Command: "C:/DEV/UnitConverter_08/build/unit_converter_tests.exe" "test_parse_invalid_number_abc_throws"
+Directory: C:/DEV/UnitConverter_08/build
+"test_parse_invalid_number_abc_throws" start time: May 21 11:24 대한민국 표준시
+Output:
+----------------------------------------------------------
+Filters: "test_parse_invalid_number_abc_throws"
+Randomness seeded to: 1210361432
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+unit_converter_tests.exe is a Catch2 v3.5.4 host application.
+Run with -? for options
+
+-------------------------------------------------------------------------------
+test_parse_invalid_number_abc_throws
+-------------------------------------------------------------------------------
+C:/DEV/UnitConverter_08/tests/boundary_tests.cpp:148
+...............................................................................
+
+C:/DEV/UnitConverter_08/tests/boundary_tests.cpp:154: FAILED:
+explicitly with message:
+  Expected invalid number
+
+===============================================================================
+test cases: 1 | 1 failed
+assertions: 1 | 1 failed
+
+<end of output>
+Test time =   0.48 sec
+----------------------------------------------------------
+Test Failed.
+"test_parse_invalid_number_abc_throws" end time: May 21 11:24 대한민국 표준시
+"test_parse_invalid_number_abc_throws" time elapsed: 00:00:00
+----------------------------------------------------------
+
+24/45 Testing: test_convert_unknown_unit_parsec_throws
+24/45 Test: test_convert_unknown_unit_parsec_throws
+Command: "C:/DEV/UnitConverter_08/build/unit_converter_tests.exe" "test_convert_unknown_unit_parsec_throws"
+Directory: C:/DEV/UnitConverter_08/build
+"test_convert_unknown_unit_parsec_throws" start time: May 21 11:24 대한민국 표준시
+Output:
+----------------------------------------------------------
+Filters: "test_convert_unknown_unit_parsec_throws"
+Randomness seeded to: 2366636868
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+unit_converter_tests.exe is a Catch2 v3.5.4 host application.
+Run with -? for options
+
+-------------------------------------------------------------------------------
+test_convert_unknown_unit_parsec_throws
+-------------------------------------------------------------------------------
+C:/DEV/UnitConverter_08/tests/boundary_tests.cpp:160
+...............................................................................
+
+C:/DEV/UnitConverter_08/tests/boundary_tests.cpp:168: FAILED:
+explicitly with message:
+  Expected unknown unit
+
+===============================================================================
+test cases: 1 | 1 failed
+assertions: 1 | 1 failed
+
+<end of output>
+Test time =   0.49 sec
+----------------------------------------------------------
+Test Failed.
+"test_convert_unknown_unit_parsec_throws" end time: May 21 11:24 대한민국 표준시
+"test_convert_unknown_unit_parsec_throws" time elapsed: 00:00:00
+----------------------------------------------------------
+
+25/45 Testing: test_convert_unknown_unit_mile_throws
+25/45 Test: test_convert_unknown_unit_mile_throws
+Command: "C:/DEV/UnitConverter_08/build/unit_converter_tests.exe" "test_convert_unknown_unit_mile_throws"
+Directory: C:/DEV/UnitConverter_08/build
+"test_convert_unknown_unit_mile_throws" start time: May 21 11:24 대한민국 표준시
+Output:
+----------------------------------------------------------
+Filters: "test_convert_unknown_unit_mile_throws"
+Randomness seeded to: 607983034
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+unit_converter_tests.exe is a Catch2 v3.5.4 host application.
+Run with -? for options
+
+-------------------------------------------------------------------------------
+test_convert_unknown_unit_mile_throws
+-------------------------------------------------------------------------------
+C:/DEV/UnitConverter_08/tests/boundary_tests.cpp:175
+...............................................................................
+
+C:/DEV/UnitConverter_08/tests/boundary_tests.cpp:183: FAILED:
+explicitly with message:
+  Expected unknown unit mile
+
+===============================================================================
+test cases: 1 | 1 failed
+assertions: 1 | 1 failed
+
+<end of output>
+Test time =   0.47 sec
+----------------------------------------------------------
+Test Failed.
+"test_convert_unknown_unit_mile_throws" end time: May 21 11:24 대한민국 표준시
+"test_convert_unknown_unit_mile_throws" time elapsed: 00:00:00
+----------------------------------------------------------
+
+26/45 Testing: test_meter_to_feet_normal_returns_8_2021
+26/45 Test: test_meter_to_feet_normal_returns_8_2021
+Command: "C:/DEV/UnitConverter_08/build/unit_converter_tests.exe" "test_meter_to_feet_normal_returns_8_2021"
+Directory: C:/DEV/UnitConverter_08/build
+"test_meter_to_feet_normal_returns_8_2021" start time: May 21 11:24 대한민국 표준시
+Output:
+----------------------------------------------------------
+Filters: "test_meter_to_feet_normal_returns_8_2021"
+Randomness seeded to: 273272777
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+unit_converter_tests.exe is a Catch2 v3.5.4 host application.
+Run with -? for options
+
+-------------------------------------------------------------------------------
+test_meter_to_feet_normal_returns_8_2021
+-------------------------------------------------------------------------------
+C:/DEV/UnitConverter_08/tests/domain_tests.cpp:23
+...............................................................................
+
+C:/DEV/UnitConverter_08/tests/domain_tests.cpp:29: FAILED:
+  REQUIRE( nearlyEqual(result, 8.202100, 1e-5) )
+with expansion:
+  false
+
+===============================================================================
+test cases: 1 | 1 failed
+assertions: 1 | 1 failed
+
+<end of output>
+Test time =   0.47 sec
+----------------------------------------------------------
+Test Failed.
+"test_meter_to_feet_normal_returns_8_2021" end time: May 21 11:24 대한민국 표준시
+"test_meter_to_feet_normal_returns_8_2021" time elapsed: 00:00:00
+----------------------------------------------------------
+
+27/45 Testing: test_meter_to_yard_normal_returns_2_7340
+27/45 Test: test_meter_to_yard_normal_returns_2_7340
+Command: "C:/DEV/UnitConverter_08/build/unit_converter_tests.exe" "test_meter_to_yard_normal_returns_2_7340"
+Directory: C:/DEV/UnitConverter_08/build
+"test_meter_to_yard_normal_returns_2_7340" start time: May 21 11:24 대한민국 표준시
+Output:
+----------------------------------------------------------
+Filters: "test_meter_to_yard_normal_returns_2_7340"
+Randomness seeded to: 760622673
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+unit_converter_tests.exe is a Catch2 v3.5.4 host application.
+Run with -? for options
+
+-------------------------------------------------------------------------------
+test_meter_to_yard_normal_returns_2_7340
+-------------------------------------------------------------------------------
+C:/DEV/UnitConverter_08/tests/domain_tests.cpp:32
+...............................................................................
+
+C:/DEV/UnitConverter_08/tests/domain_tests.cpp:38: FAILED:
+  REQUIRE( nearlyEqual(result, 2.734025, 1e-5) )
+with expansion:
+  false
+
+===============================================================================
+test cases: 1 | 1 failed
+assertions: 1 | 1 failed
+
+<end of output>
+Test time =   0.48 sec
+----------------------------------------------------------
+Test Failed.
+"test_meter_to_yard_normal_returns_2_7340" end time: May 21 11:24 대한민국 표준시
+"test_meter_to_yard_normal_returns_2_7340" time elapsed: 00:00:00
+----------------------------------------------------------
+
+28/45 Testing: test_feet_to_meter_reverse_returns_0_3048
+28/45 Test: test_feet_to_meter_reverse_returns_0_3048
+Command: "C:/DEV/UnitConverter_08/build/unit_converter_tests.exe" "test_feet_to_meter_reverse_returns_0_3048"
+Directory: C:/DEV/UnitConverter_08/build
+"test_feet_to_meter_reverse_returns_0_3048" start time: May 21 11:24 대한민국 표준시
+Output:
+----------------------------------------------------------
+Filters: "test_feet_to_meter_reverse_returns_0_3048"
+Randomness seeded to: 2963547098
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+unit_converter_tests.exe is a Catch2 v3.5.4 host application.
+Run with -? for options
+
+-------------------------------------------------------------------------------
+test_feet_to_meter_reverse_returns_0_3048
+-------------------------------------------------------------------------------
+C:/DEV/UnitConverter_08/tests/domain_tests.cpp:41
+...............................................................................
+
+C:/DEV/UnitConverter_08/tests/domain_tests.cpp:47: FAILED:
+  REQUIRE( nearlyEqual(result, 0.304800, 1e-5) )
+with expansion:
+  false
+
+===============================================================================
+test cases: 1 | 1 failed
+assertions: 1 | 1 failed
+
+<end of output>
+Test time =   0.47 sec
+----------------------------------------------------------
+Test Failed.
+"test_feet_to_meter_reverse_returns_0_3048" end time: May 21 11:24 대한민국 표준시
+"test_feet_to_meter_reverse_returns_0_3048" time elapsed: 00:00:00
+----------------------------------------------------------
+
+29/45 Testing: test_meter_to_feet_one_meter_returns_3_28084
+29/45 Test: test_meter_to_feet_one_meter_returns_3_28084
+Command: "C:/DEV/UnitConverter_08/build/unit_converter_tests.exe" "test_meter_to_feet_one_meter_returns_3_28084"
+Directory: C:/DEV/UnitConverter_08/build
+"test_meter_to_feet_one_meter_returns_3_28084" start time: May 21 11:24 대한민국 표준시
+Output:
+----------------------------------------------------------
+Filters: "test_meter_to_feet_one_meter_returns_3_28084"
+Randomness seeded to: 2912231924
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+unit_converter_tests.exe is a Catch2 v3.5.4 host application.
+Run with -? for options
+
+-------------------------------------------------------------------------------
+test_meter_to_feet_one_meter_returns_3_28084
+-------------------------------------------------------------------------------
+C:/DEV/UnitConverter_08/tests/domain_tests.cpp:50
+...............................................................................
+
+C:/DEV/UnitConverter_08/tests/domain_tests.cpp:56: FAILED:
+  REQUIRE( nearlyEqual(result, 3.28084, 1e-9) )
+with expansion:
+  false
+
+===============================================================================
+test cases: 1 | 1 failed
+assertions: 1 | 1 failed
+
+<end of output>
+Test time =   0.46 sec
+----------------------------------------------------------
+Test Failed.
+"test_meter_to_feet_one_meter_returns_3_28084" end time: May 21 11:24 대한민국 표준시
+"test_meter_to_feet_one_meter_returns_3_28084" time elapsed: 00:00:00
+----------------------------------------------------------
+
+30/45 Testing: test_feet_to_yard_via_meter_hub_returns_1_09361
+30/45 Test: test_feet_to_yard_via_meter_hub_returns_1_09361
+Command: "C:/DEV/UnitConverter_08/build/unit_converter_tests.exe" "test_feet_to_yard_via_meter_hub_returns_1_09361"
+Directory: C:/DEV/UnitConverter_08/build
+"test_feet_to_yard_via_meter_hub_returns_1_09361" start time: May 21 11:24 대한민국 표준시
+Output:
+----------------------------------------------------------
+Filters: "test_feet_to_yard_via_meter_hub_returns_1_09361"
+Randomness seeded to: 716707699
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+unit_converter_tests.exe is a Catch2 v3.5.4 host application.
+Run with -? for options
+
+-------------------------------------------------------------------------------
+test_feet_to_yard_via_meter_hub_returns_1_09361
+-------------------------------------------------------------------------------
+C:/DEV/UnitConverter_08/tests/domain_tests.cpp:59
+...............................................................................
+
+C:/DEV/UnitConverter_08/tests/domain_tests.cpp:65: FAILED:
+  REQUIRE( nearlyEqual(result, 1.09361, 1e-4) )
+with expansion:
+  false
+
+===============================================================================
+test cases: 1 | 1 failed
+assertions: 1 | 1 failed
+
+<end of output>
+Test time =   0.47 sec
+----------------------------------------------------------
+Test Failed.
+"test_feet_to_yard_via_meter_hub_returns_1_09361" end time: May 21 11:24 대한민국 표준시
+"test_feet_to_yard_via_meter_hub_returns_1_09361" time elapsed: 00:00:00
+----------------------------------------------------------
+
+31/45 Testing: test_meter_to_feet_zero_value_throws
+31/45 Test: test_meter_to_feet_zero_value_throws
+Command: "C:/DEV/UnitConverter_08/build/unit_converter_tests.exe" "test_meter_to_feet_zero_value_throws"
+Directory: C:/DEV/UnitConverter_08/build
+"test_meter_to_feet_zero_value_throws" start time: May 21 11:24 대한민국 표준시
+Output:
+----------------------------------------------------------
+Filters: "test_meter_to_feet_zero_value_throws"
+Randomness seeded to: 3005768494
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+unit_converter_tests.exe is a Catch2 v3.5.4 host application.
+Run with -? for options
+
+-------------------------------------------------------------------------------
+test_meter_to_feet_zero_value_throws
+-------------------------------------------------------------------------------
+C:/DEV/UnitConverter_08/tests/domain_tests.cpp:72
+...............................................................................
+
+C:/DEV/UnitConverter_08/tests/domain_tests.cpp:77: FAILED:
+  REQUIRE_THROWS_AS( converter.convert("meter", 0.0, "feet"), std::invalid_argument )
+because no exception was thrown where one was expected:
+
+===============================================================================
+test cases: 1 | 1 failed
+assertions: 1 | 1 failed
+
+<end of output>
+Test time =   0.47 sec
+----------------------------------------------------------
+Test Failed.
+"test_meter_to_feet_zero_value_throws" end time: May 21 11:24 대한민국 표준시
+"test_meter_to_feet_zero_value_throws" time elapsed: 00:00:00
+----------------------------------------------------------
+
+32/45 Testing: test_meter_to_feet_large_value_finite
+32/45 Test: test_meter_to_feet_large_value_finite
+Command: "C:/DEV/UnitConverter_08/build/unit_converter_tests.exe" "test_meter_to_feet_large_value_finite"
+Directory: C:/DEV/UnitConverter_08/build
+"test_meter_to_feet_large_value_finite" start time: May 21 11:24 대한민국 표준시
+Output:
+----------------------------------------------------------
+Filters: "test_meter_to_feet_large_value_finite"
+Randomness seeded to: 1023888478
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+unit_converter_tests.exe is a Catch2 v3.5.4 host application.
+Run with -? for options
+
+-------------------------------------------------------------------------------
+test_meter_to_feet_large_value_finite
+-------------------------------------------------------------------------------
+C:/DEV/UnitConverter_08/tests/domain_tests.cpp:80
+...............................................................................
+
+C:/DEV/UnitConverter_08/tests/domain_tests.cpp:87: FAILED:
+  REQUIRE( nearlyEqual(result / 1e100, 3.28084, 1e-5) )
+with expansion:
+  false
+
+===============================================================================
+test cases: 1 | 1 failed
+assertions: 2 | 1 passed | 1 failed
+
+<end of output>
+Test time =   0.47 sec
+----------------------------------------------------------
+Test Failed.
+"test_meter_to_feet_large_value_finite" end time: May 21 11:24 대한민국 표준시
+"test_meter_to_feet_large_value_finite" time elapsed: 00:00:00
+----------------------------------------------------------
+
+33/45 Testing: test_meter_to_feet_six_decimal_precision
+33/45 Test: test_meter_to_feet_six_decimal_precision
+Command: "C:/DEV/UnitConverter_08/build/unit_converter_tests.exe" "test_meter_to_feet_six_decimal_precision"
+Directory: C:/DEV/UnitConverter_08/build
+"test_meter_to_feet_six_decimal_precision" start time: May 21 11:24 대한민국 표준시
+Output:
+----------------------------------------------------------
+Filters: "test_meter_to_feet_six_decimal_precision"
+Randomness seeded to: 1569180974
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+unit_converter_tests.exe is a Catch2 v3.5.4 host application.
+Run with -? for options
+
+-------------------------------------------------------------------------------
+test_meter_to_feet_six_decimal_precision
+-------------------------------------------------------------------------------
+C:/DEV/UnitConverter_08/tests/domain_tests.cpp:90
+...............................................................................
+
+C:/DEV/UnitConverter_08/tests/domain_tests.cpp:97: FAILED:
+  REQUIRE( nearlyEqual(result, expected, 1e-6) )
+with expansion:
+  false
+
+===============================================================================
+test cases: 1 | 1 failed
+assertions: 1 | 1 failed
+
+<end of output>
+Test time =   0.47 sec
+----------------------------------------------------------
+Test Failed.
+"test_meter_to_feet_six_decimal_precision" end time: May 21 11:24 대한민국 표준시
+"test_meter_to_feet_six_decimal_precision" time elapsed: 00:00:00
+----------------------------------------------------------
+
+34/45 Testing: test_meter_to_feet_min_positive_value
+34/45 Test: test_meter_to_feet_min_positive_value
+Command: "C:/DEV/UnitConverter_08/build/unit_converter_tests.exe" "test_meter_to_feet_min_positive_value"
+Directory: C:/DEV/UnitConverter_08/build
+"test_meter_to_feet_min_positive_value" start time: May 21 11:24 대한민국 표준시
+Output:
+----------------------------------------------------------
+Filters: "test_meter_to_feet_min_positive_value"
+Randomness seeded to: 1741366282
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+unit_converter_tests.exe is a Catch2 v3.5.4 host application.
+Run with -? for options
+
+-------------------------------------------------------------------------------
+test_meter_to_feet_min_positive_value
+-------------------------------------------------------------------------------
+C:/DEV/UnitConverter_08/tests/domain_tests.cpp:100
+...............................................................................
+
+C:/DEV/UnitConverter_08/tests/domain_tests.cpp:106: FAILED:
+  REQUIRE( result > 0.0 )
+with expansion:
+  0.0 > 0.0
+
+===============================================================================
+test cases: 1 | 1 failed
+assertions: 1 | 1 failed
+
+<end of output>
+Test time =   0.47 sec
+----------------------------------------------------------
+Test Failed.
+"test_meter_to_feet_min_positive_value" end time: May 21 11:24 대한민국 표준시
+"test_meter_to_feet_min_positive_value" time elapsed: 00:00:00
+----------------------------------------------------------
+
+35/45 Testing: test_meter_to_feet_nan_value_throws
+35/45 Test: test_meter_to_feet_nan_value_throws
+Command: "C:/DEV/UnitConverter_08/build/unit_converter_tests.exe" "test_meter_to_feet_nan_value_throws"
+Directory: C:/DEV/UnitConverter_08/build
+"test_meter_to_feet_nan_value_throws" start time: May 21 11:24 대한민국 표준시
+Output:
+----------------------------------------------------------
+Filters: "test_meter_to_feet_nan_value_throws"
+Randomness seeded to: 3912143131
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+unit_converter_tests.exe is a Catch2 v3.5.4 host application.
+Run with -? for options
+
+-------------------------------------------------------------------------------
+test_meter_to_feet_nan_value_throws
+-------------------------------------------------------------------------------
+C:/DEV/UnitConverter_08/tests/domain_tests.cpp:110
+...............................................................................
+
+C:/DEV/UnitConverter_08/tests/domain_tests.cpp:115: FAILED:
+  REQUIRE_THROWS_AS( converter.convert("meter", __builtin_nanf(""), "feet"), std::invalid_argument )
+because no exception was thrown where one was expected:
+
+===============================================================================
+test cases: 1 | 1 failed
+assertions: 1 | 1 failed
+
+<end of output>
+Test time =   0.47 sec
+----------------------------------------------------------
+Test Failed.
+"test_meter_to_feet_nan_value_throws" end time: May 21 11:24 대한민국 표준시
+"test_meter_to_feet_nan_value_throws" time elapsed: 00:00:00
+----------------------------------------------------------
+
+36/45 Testing: test_convert_negative_value_throws
+36/45 Test: test_convert_negative_value_throws
+Command: "C:/DEV/UnitConverter_08/build/unit_converter_tests.exe" "test_convert_negative_value_throws"
+Directory: C:/DEV/UnitConverter_08/build
+"test_convert_negative_value_throws" start time: May 21 11:24 대한민국 표준시
+Output:
+----------------------------------------------------------
+Filters: "test_convert_negative_value_throws"
+Randomness seeded to: 1442790610
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+unit_converter_tests.exe is a Catch2 v3.5.4 host application.
+Run with -? for options
+
+-------------------------------------------------------------------------------
+test_convert_negative_value_throws
+-------------------------------------------------------------------------------
+C:/DEV/UnitConverter_08/tests/domain_tests.cpp:122
+...............................................................................
+
+C:/DEV/UnitConverter_08/tests/domain_tests.cpp:127: FAILED:
+  REQUIRE_THROWS_AS( converter.convert("meter", -1.0, "feet"), std::invalid_argument )
+because no exception was thrown where one was expected:
+
+===============================================================================
+test cases: 1 | 1 failed
+assertions: 1 | 1 failed
+
+<end of output>
+Test time =   0.48 sec
+----------------------------------------------------------
+Test Failed.
+"test_convert_negative_value_throws" end time: May 21 11:24 대한민국 표준시
+"test_convert_negative_value_throws" time elapsed: 00:00:00
+----------------------------------------------------------
+
+37/45 Testing: test_convert_unknown_source_unit_throws
+37/45 Test: test_convert_unknown_source_unit_throws
+Command: "C:/DEV/UnitConverter_08/build/unit_converter_tests.exe" "test_convert_unknown_source_unit_throws"
+Directory: C:/DEV/UnitConverter_08/build
+"test_convert_unknown_source_unit_throws" start time: May 21 11:24 대한민국 표준시
+Output:
+----------------------------------------------------------
+Filters: "test_convert_unknown_source_unit_throws"
+Randomness seeded to: 812051409
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+unit_converter_tests.exe is a Catch2 v3.5.4 host application.
+Run with -? for options
+
+-------------------------------------------------------------------------------
+test_convert_unknown_source_unit_throws
+-------------------------------------------------------------------------------
+C:/DEV/UnitConverter_08/tests/domain_tests.cpp:130
+...............................................................................
+
+C:/DEV/UnitConverter_08/tests/domain_tests.cpp:135: FAILED:
+  REQUIRE_THROWS_AS( converter.convert("parsec", 1.0, "feet"), std::invalid_argument )
+because no exception was thrown where one was expected:
+
+===============================================================================
+test cases: 1 | 1 failed
+assertions: 1 | 1 failed
+
+<end of output>
+Test time =   0.49 sec
+----------------------------------------------------------
+Test Failed.
+"test_convert_unknown_source_unit_throws" end time: May 21 11:24 대한민국 표준시
+"test_convert_unknown_source_unit_throws" time elapsed: 00:00:00
+----------------------------------------------------------
+
+38/45 Testing: test_convert_unknown_target_unit_throws
+38/45 Test: test_convert_unknown_target_unit_throws
+Command: "C:/DEV/UnitConverter_08/build/unit_converter_tests.exe" "test_convert_unknown_target_unit_throws"
+Directory: C:/DEV/UnitConverter_08/build
+"test_convert_unknown_target_unit_throws" start time: May 21 11:24 대한민국 표준시
+Output:
+----------------------------------------------------------
+Filters: "test_convert_unknown_target_unit_throws"
+Randomness seeded to: 3765868497
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+unit_converter_tests.exe is a Catch2 v3.5.4 host application.
+Run with -? for options
+
+-------------------------------------------------------------------------------
+test_convert_unknown_target_unit_throws
+-------------------------------------------------------------------------------
+C:/DEV/UnitConverter_08/tests/domain_tests.cpp:138
+...............................................................................
+
+C:/DEV/UnitConverter_08/tests/domain_tests.cpp:143: FAILED:
+  REQUIRE_THROWS_AS( converter.convert("meter", 1.0, "mile"), std::invalid_argument )
+because no exception was thrown where one was expected:
+
+===============================================================================
+test cases: 1 | 1 failed
+assertions: 1 | 1 failed
+
+<end of output>
+Test time =   0.48 sec
+----------------------------------------------------------
+Test Failed.
+"test_convert_unknown_target_unit_throws" end time: May 21 11:24 대한민국 표준시
+"test_convert_unknown_target_unit_throws" time elapsed: 00:00:00
+----------------------------------------------------------
+
+39/45 Testing: test_register_unit_duplicate_throws
+39/45 Test: test_register_unit_duplicate_throws
+Command: "C:/DEV/UnitConverter_08/build/unit_converter_tests.exe" "test_register_unit_duplicate_throws"
+Directory: C:/DEV/UnitConverter_08/build
+"test_register_unit_duplicate_throws" start time: May 21 11:24 대한민국 표준시
+Output:
+----------------------------------------------------------
+Filters: "test_register_unit_duplicate_throws"
+Randomness seeded to: 764588055
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+unit_converter_tests.exe is a Catch2 v3.5.4 host application.
+Run with -? for options
+
+-------------------------------------------------------------------------------
+test_register_unit_duplicate_throws
+-------------------------------------------------------------------------------
+C:/DEV/UnitConverter_08/tests/domain_tests.cpp:146
+...............................................................................
+
+C:/DEV/UnitConverter_08/tests/domain_tests.cpp:152: FAILED:
+  REQUIRE_THROWS_AS( registry.registerUnit("cubit", 0.4572), std::invalid_argument )
+because no exception was thrown where one was expected:
+
+===============================================================================
+test cases: 1 | 1 failed
+assertions: 1 | 1 failed
+
+<end of output>
+Test time =   0.50 sec
+----------------------------------------------------------
+Test Failed.
+"test_register_unit_duplicate_throws" end time: May 21 11:24 대한민국 표준시
+"test_register_unit_duplicate_throws" time elapsed: 00:00:00
+----------------------------------------------------------
+
+40/45 Testing: test_register_unit_invalid_ratio_throws
+40/45 Test: test_register_unit_invalid_ratio_throws
+Command: "C:/DEV/UnitConverter_08/build/unit_converter_tests.exe" "test_register_unit_invalid_ratio_throws"
+Directory: C:/DEV/UnitConverter_08/build
+"test_register_unit_invalid_ratio_throws" start time: May 21 11:24 대한민국 표준시
+Output:
+----------------------------------------------------------
+Filters: "test_register_unit_invalid_ratio_throws"
+Randomness seeded to: 4210854960
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+unit_converter_tests.exe is a Catch2 v3.5.4 host application.
+Run with -? for options
+
+-------------------------------------------------------------------------------
+test_register_unit_invalid_ratio_throws
+-------------------------------------------------------------------------------
+C:/DEV/UnitConverter_08/tests/domain_tests.cpp:155
+...............................................................................
+
+C:/DEV/UnitConverter_08/tests/domain_tests.cpp:160: FAILED:
+  REQUIRE_THROWS_AS( registry.registerUnit("bad", 0.0), std::invalid_argument )
+because no exception was thrown where one was expected:
+
+===============================================================================
+test cases: 1 | 1 failed
+assertions: 1 | 1 failed
+
+<end of output>
+Test time =   0.50 sec
+----------------------------------------------------------
+Test Failed.
+"test_register_unit_invalid_ratio_throws" end time: May 21 11:24 대한민국 표준시
+"test_register_unit_invalid_ratio_throws" time elapsed: 00:00:00
+----------------------------------------------------------
+
+41/45 Testing: test_register_cubit_then_convert_to_meter
+41/45 Test: test_register_cubit_then_convert_to_meter
+Command: "C:/DEV/UnitConverter_08/build/unit_converter_tests.exe" "test_register_cubit_then_convert_to_meter"
+Directory: C:/DEV/UnitConverter_08/build
+"test_register_cubit_then_convert_to_meter" start time: May 21 11:24 대한민국 표준시
+Output:
+----------------------------------------------------------
+Filters: "test_register_cubit_then_convert_to_meter"
+Randomness seeded to: 3570086164
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+unit_converter_tests.exe is a Catch2 v3.5.4 host application.
+Run with -? for options
+
+-------------------------------------------------------------------------------
+test_register_cubit_then_convert_to_meter
+-------------------------------------------------------------------------------
+C:/DEV/UnitConverter_08/tests/domain_tests.cpp:167
+...............................................................................
+
+C:/DEV/UnitConverter_08/tests/domain_tests.cpp:175: FAILED:
+  REQUIRE( nearlyEqual(result, 0.457200, 1e-5) )
+with expansion:
+  false
+
+===============================================================================
+test cases: 1 | 1 failed
+assertions: 1 | 1 failed
+
+<end of output>
+Test time =   0.49 sec
+----------------------------------------------------------
+Test Failed.
+"test_register_cubit_then_convert_to_meter" end time: May 21 11:24 대한민국 표준시
+"test_register_cubit_then_convert_to_meter" time elapsed: 00:00:00
+----------------------------------------------------------
+
+42/45 Testing: test_register_cubit_convert_all_count_four
+42/45 Test: test_register_cubit_convert_all_count_four
+Command: "C:/DEV/UnitConverter_08/build/unit_converter_tests.exe" "test_register_cubit_convert_all_count_four"
+Directory: C:/DEV/UnitConverter_08/build
+"test_register_cubit_convert_all_count_four" start time: May 21 11:24 대한민국 표준시
+Output:
+----------------------------------------------------------
+Filters: "test_register_cubit_convert_all_count_four"
+Randomness seeded to: 4129927745
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+unit_converter_tests.exe is a Catch2 v3.5.4 host application.
+Run with -? for options
+
+-------------------------------------------------------------------------------
+test_register_cubit_convert_all_count_four
+-------------------------------------------------------------------------------
+C:/DEV/UnitConverter_08/tests/domain_tests.cpp:178
+...............................................................................
+
+C:/DEV/UnitConverter_08/tests/domain_tests.cpp:186: FAILED:
+  REQUIRE( results.size() == 4 )
+with expansion:
+  0 == 4
+
+===============================================================================
+test cases: 1 | 1 failed
+assertions: 1 | 1 failed
+
+<end of output>
+Test time =   0.47 sec
+----------------------------------------------------------
+Test Failed.
+"test_register_cubit_convert_all_count_four" end time: May 21 11:24 대한민국 표준시
+"test_register_cubit_convert_all_count_four" time elapsed: 00:00:00
+----------------------------------------------------------
+
+43/45 Testing: test_register_cubit_to_feet_via_meter
+43/45 Test: test_register_cubit_to_feet_via_meter
+Command: "C:/DEV/UnitConverter_08/build/unit_converter_tests.exe" "test_register_cubit_to_feet_via_meter"
+Directory: C:/DEV/UnitConverter_08/build
+"test_register_cubit_to_feet_via_meter" start time: May 21 11:24 대한민국 표준시
+Output:
+----------------------------------------------------------
+Filters: "test_register_cubit_to_feet_via_meter"
+Randomness seeded to: 3258367460
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+unit_converter_tests.exe is a Catch2 v3.5.4 host application.
+Run with -? for options
+
+-------------------------------------------------------------------------------
+test_register_cubit_to_feet_via_meter
+-------------------------------------------------------------------------------
+C:/DEV/UnitConverter_08/tests/domain_tests.cpp:189
+...............................................................................
+
+C:/DEV/UnitConverter_08/tests/domain_tests.cpp:197: FAILED:
+  REQUIRE( nearlyEqual(result, 0.4572 * 3.28084, 1e-5) )
+with expansion:
+  false
+
+===============================================================================
+test cases: 1 | 1 failed
+assertions: 1 | 1 failed
+
+<end of output>
+Test time =   0.48 sec
+----------------------------------------------------------
+Test Failed.
+"test_register_cubit_to_feet_via_meter" end time: May 21 11:24 대한민국 표준시
+"test_register_cubit_to_feet_via_meter" time elapsed: 00:00:00
+----------------------------------------------------------
+
+44/45 Testing: test_register_inch_small_ratio
+44/45 Test: test_register_inch_small_ratio
+Command: "C:/DEV/UnitConverter_08/build/unit_converter_tests.exe" "test_register_inch_small_ratio"
+Directory: C:/DEV/UnitConverter_08/build
+"test_register_inch_small_ratio" start time: May 21 11:24 대한민국 표준시
+Output:
+----------------------------------------------------------
+Filters: "test_register_inch_small_ratio"
+Randomness seeded to: 3667250191
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+unit_converter_tests.exe is a Catch2 v3.5.4 host application.
+Run with -? for options
+
+-------------------------------------------------------------------------------
+test_register_inch_small_ratio
+-------------------------------------------------------------------------------
+C:/DEV/UnitConverter_08/tests/domain_tests.cpp:200
+...............................................................................
+
+C:/DEV/UnitConverter_08/tests/domain_tests.cpp:208: FAILED:
+  REQUIRE( nearlyEqual(result, 2.540000, 1e-5) )
+with expansion:
+  false
+
+===============================================================================
+test cases: 1 | 1 failed
+assertions: 1 | 1 failed
+
+<end of output>
+Test time =   0.47 sec
+----------------------------------------------------------
+Test Failed.
+"test_register_inch_small_ratio" end time: May 21 11:24 대한민국 표준시
+"test_register_inch_small_ratio" time elapsed: 00:00:00
+----------------------------------------------------------
+
+45/45 Testing: test_register_has_unit_after_registration
+45/45 Test: test_register_has_unit_after_registration
+Command: "C:/DEV/UnitConverter_08/build/unit_converter_tests.exe" "test_register_has_unit_after_registration"
+Directory: C:/DEV/UnitConverter_08/build
+"test_register_has_unit_after_registration" start time: May 21 11:24 대한민국 표준시
+Output:
+----------------------------------------------------------
+Filters: "test_register_has_unit_after_registration"
+Randomness seeded to: 56074510
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+unit_converter_tests.exe is a Catch2 v3.5.4 host application.
+Run with -? for options
+
+-------------------------------------------------------------------------------
+test_register_has_unit_after_registration
+-------------------------------------------------------------------------------
+C:/DEV/UnitConverter_08/tests/domain_tests.cpp:211
+...............................................................................
+
+C:/DEV/UnitConverter_08/tests/domain_tests.cpp:217: FAILED:
+  REQUIRE( registry.hasUnit("cubit") )
+with expansion:
+  false
+
+===============================================================================
+test cases: 1 | 1 failed
+assertions: 1 | 1 failed
+
+<end of output>
+Test time =   0.50 sec
+----------------------------------------------------------
+Test Failed.
+"test_register_has_unit_after_registration" end time: May 21 11:24 대한민국 표준시
+"test_register_has_unit_after_registration" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: May 21 11:24 대한민국 표준시
